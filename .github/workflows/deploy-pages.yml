@@ -30,13 +30,15 @@ jobs:
 
       - name: Preparar somente os arquivos públicos do site
         run: |
-          mkdir -p _site/dados
+          mkdir -p _site/assets _site/dados
           cp ondevotoagora/index.html _site/index.html
           cp ondevotoagora/app.js _site/app.js
           cp ondevotoagora/csv-utils.mjs _site/csv-utils.mjs
           cp ondevotoagora/styles.css _site/styles.css
+          cp ondevotoagora/assets/logo-ondevotoagora.png _site/assets/logo-ondevotoagora.png
           cp ondevotoagora/dados/meta.json _site/dados/meta.json
           cp ondevotoagora/dados/secoes.csv _site/dados/secoes.csv
+          cp ondevotoagora/CNAME _site/CNAME
 
       - name: Enviar arquivos para o Pages
         uses: actions/upload-pages-artifact@v4
