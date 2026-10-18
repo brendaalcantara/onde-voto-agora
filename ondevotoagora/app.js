@@ -27,6 +27,7 @@ let currentPage = 1;
 function setDataStatus(message, state = "") {
   ui.dataStatus.className = `data-status${state ? ` data-status--${state}` : ""}`;
   ui.dataStatus.textContent = message;
+  ui.dataStatus.hidden = false;
 }
 
 function setResultStatus(message, state = "") {
@@ -171,7 +172,6 @@ async function loadData() {
     for (const field of [ui.city, ui.section, ui.localOld]) field.disabled = false;
     ui.searchButton.disabled = false;
     ui.clearButton.disabled = false;
-    setDataStatus("Consulta pronta neste aparelho.", "success");
     setResultStatus("Selecione o estado e, se quiser, preencha outros campos.");
   } catch (error) {
     const detail = error instanceof Error ? error.message : "Erro desconhecido.";

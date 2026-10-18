@@ -183,7 +183,6 @@ h1 {
   border-radius: 0 7px 7px 0;
 }
 .data-status--error, .result-status--error { color: #6d251f; background: #fff0ed; border-left-color: #9c352b; }
-.data-status--success { color: #12452f; background: #e8f3ec; border-left-color: var(--good); }
 .result-status--warning { color: #6e4b0d; background: #fff6dc; border-left-color: #bc822b; }
 .result-status--success { color: #12452f; background: #e8f3ec; border-left-color: var(--good); }
 .results { margin-top: 1.35rem; }
@@ -215,7 +214,6 @@ h1 {
 .pagination { display: grid; grid-template-columns: 1fr; gap: 0.65rem; margin-top: 1rem; text-align: center; }
 .pagination span { align-self: center; font-weight: 700; }
 .official-help { margin-top: 1rem; }
-.privacy-note { color: #344d5e; font-size: 1rem; }
 .site-footer { color: #fff; background: var(--navy-dark); }
 .site-footer a { color: #fff; }
 .footer-inner { display: grid; gap: 0.35rem; padding-block: 1rem; }
