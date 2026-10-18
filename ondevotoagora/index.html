@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#12304a">
+    <meta name="description" content="Consulte mudanças de seção eleitoral entre o primeiro e o segundo turno. Busca simples, sem cadastro e sem dados pessoais.">
+    <title>OndeVotoAgora — consulte mudanças no local de votação</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#consulta">Pular para a busca</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="OndeVotoAgora, início">
+          <span class="brand-mark" aria-hidden="true">V</span>
+          <span>OndeVotoAgora</span>
+        </a>
+        <span class="edition">Eleições 2026</span>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Informação para o 2º turno</p>
+        <h1 id="page-title">Seu local de votação mudou?</h1>
+        <p class="intro-copy">Pesquise se uma seção eleitoral aparece na lista de mudanças do primeiro para o segundo turno.</p>
+      </section>
+
+      <section class="data-notice" aria-labelledby="data-notice-title">
+        <h2 id="data-notice-title">Dados da consulta</h2>
+        <p id="coverage-note">Carregando as informações da base…</p>
+        <p class="source-line">Fonte: <a href="https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/home" target="_blank" rel="noopener noreferrer">Tribunal Superior Eleitoral (TSE)</a>.</p>
+      </section>
+
+      <section class="search-panel" id="consulta" aria-labelledby="search-title">
+        <div class="panel-heading">
+          <p class="eyebrow">Busca gratuita · sem cadastro</p>
+          <h2 id="search-title">Encontre uma mudança</h2>
+          <p>Preencha um ou mais campos. Você pode buscar pelo local antigo ou por parte do nome da cidade.</p>
+        </div>
+
+        <form id="lookup-form" novalidate>
+          <div class="fields">
+            <div class="field">
+              <label for="estado">Estado</label>
+              <select id="estado" name="estado" autocomplete="address-level1" disabled>
+                <option value="">Carregando estados…</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cidade">Cidade</label>
+              <input id="cidade" name="cidade" type="text" autocomplete="address-level2" maxlength="100" placeholder="Ex.: Feira de Santana" disabled>
+            </div>
+            <div class="field">
+              <label for="secao">Seção eleitoral</label>
+              <input id="secao" name="secao" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="Ex.: 0084" disabled>
+              <span class="field-help">Os zeros no começo são opcionais.</span>
+            </div>
+            <div class="field">
+              <label for="local-antigo">Nome do local antigo</label>
+              <input id="local-antigo" name="local-antigo" type="text" maxlength="160" autocomplete="off" placeholder="Digite uma parte do nome" disabled>
+            </div>
+            <div class="field">
+              <label for="eleitorado">Eleitorado</label>
+              <input id="eleitorado" name="eleitorado" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="Quantidade de eleitores" disabled>
+              <span class="field-help">Número de eleitores da seção.</span>
+            </div>
+          </div>
+
+          <p class="form-help">Estado, cidade, seção, local antigo e eleitorado são filtros opcionais. Os nomes aceitam letras maiúsculas, minúsculas e acentos.</p>
+          <div class="form-actions">
+            <button class="button button-primary" id="search-button" type="submit" disabled>Buscar mudanças</button>
+            <button class="button button-secondary" id="clear-button" type="reset" disabled>Limpar busca</button>
+          </div>
+        </form>
+
+        <p class="data-status" id="data-status" role="status" aria-live="polite">Carregando os dados…</p>
+        <section class="results" aria-labelledby="results-title">
+          <h2 id="results-title">Resultado</h2>
+          <p class="result-status" id="result-status" role="status" aria-live="polite">A busca ficará disponível assim que os dados forem carregados.</p>
+          <ol class="result-list" id="result-list"></ol>
+          <nav class="pagination" id="pagination" aria-label="Páginas de resultados" hidden>
+            <button class="button button-secondary" id="previous-page" type="button">Resultados anteriores</button>
+            <span id="page-status"></span>
+            <button class="button button-secondary" id="next-page" type="button">Próximos resultados</button>
+          </nav>
+        </section>
+      </section>
+
+      <section class="official-help" aria-labelledby="official-title">
+        <h2 id="official-title">Confirme antes de sair para votar</h2>
+        <p>Esta página usa uma cópia dos dados e pode não mostrar todas as mudanças. Se não encontrar sua seção, isso não confirma que o local permaneceu igual.</p>
+        <a class="button button-official" href="https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral" target="_blank" rel="noopener noreferrer">Consultar no Autoatendimento Eleitoral do TSE</a>
+        <p class="privacy-note">A busca funciona no seu aparelho. Não pedimos CPF, título de eleitor, nome, login nem localização.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>OndeVotoAgora é uma iniciativa independente. Não é mantida pelo TSE.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "geradoEm": "2026-10-18T12:54:22.803Z",
+  "fonteOficialAtual": {
+    "arquivo": "dados/fonte-oficial.csv",
+    "encontrada": false,
+    "sha256": null,
+    "linhas": null,
+    "validacao": null,
+    "procedencia": null,
+    "errosProcedencia": []
+  },
+  "baseLocal": {
+    "arquivo": "dados/secoes.csv",
+    "sha256": "3a6562976ffcd599d96a101b9ae3f5b2527db9f95aaed4805b19ae24b5f56f17",
+    "linhasDeclaradas": 4288,
+    "validacao": {
+      "linhasAnalisadas": 4288,
+      "registrosLidos": 4288,
+      "erros": [],
+      "duplicatas": []
+    }
+  },
+  "comparacao": {
+    "reconciliada": false,
+    "status": "bloqueada_fonte_oficial_atual_ausente",
+    "quantidadeFaltanteNaBase": null,
+    "registrosNovosNaFonteFaltantesNaBase": null,
+    "quantidadeAusenteDaFonteAtual": null,
+    "quantidadeAlterada": null,
+    "registrosAusentesDaFonteAtual": null,
+    "registrosAlterados": null
+  },
+  "aprovado": false,
+  "erros": [
+    "Fonte oficial atual ausente: dados/fonte-oficial.csv. Não é possível identificar inclusões, alterações ou ausências em relação à lista atual."
+  ]
+}
