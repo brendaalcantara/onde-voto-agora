@@ -1,4 +1,4 @@
-import { filterRecords, normalizeNumber, validateCsv } from "./csv-utils.mjs";
+import { filterRecords, validateCsv } from "./csv-utils.mjs";
 
 const NUMBER_FORMAT = new Intl.NumberFormat("pt-BR");
 const PAGE_SIZE = 20;
@@ -7,7 +7,6 @@ const ui = {
   clearButton: document.querySelector("#clear-button"),
   coverageNote: document.querySelector("#coverage-note"),
   dataStatus: document.querySelector("#data-status"),
-  electorate: document.querySelector("#eleitorado"),
   form: document.querySelector("#lookup-form"),
   localOld: document.querySelector("#local-antigo"),
   nextPage: document.querySelector("#next-page"),
@@ -45,7 +44,7 @@ function renderMetadata(metadata) {
 
 function populateStates() {
   const states = [...new Set(records.map((record) => record.uf.toUpperCase()))].sort();
-  const options = [new Option("Todos os estados", ""), ...states.map((state) => new Option(state, state))];
+  const options = [new Option("Selecione um estado", ""), ...states.map((state) => new Option(state, state))];
   ui.state.replaceChildren(...options);
   ui.state.disabled = false;
 }
@@ -100,11 +99,10 @@ function runSearch() {
     cidade: ui.city.value,
     secao: ui.section.value,
     localAntigo: ui.localOld.value,
-    eleitorado: ui.electorate.value,
   };
-  const hasFilter = Object.values(filters).some((value) => String(value).trim() !== "");
-  if (!hasFilter) {
-    setResultStatus("Preencha pelo menos um campo para fazer a busca.", "error");
+  if (!filters.estado) {
+    setResultStatus("Selecione um estado para fazer a busca.", "error");
+    ui.state.focus();
     return;
   }
   if (filters.secao.trim() && !/^\d+$/.test(filters.secao.trim())) {
@@ -112,12 +110,6 @@ function runSearch() {
     ui.section.focus();
     return;
   }
-  if (filters.eleitorado.trim() && !/^\d+$/.test(filters.eleitorado.trim())) {
-    setResultStatus("O eleitorado deve conter apenas números.", "error");
-    ui.electorate.focus();
-    return;
-  }
-
   lastMatches = filterRecords(records, filters);
   currentPage = 1;
   if (lastMatches.length === 0) {
@@ -135,7 +127,7 @@ ui.form.addEventListener("submit", (event) => {
 ui.form.addEventListener("reset", () => {
   lastMatches = [];
   currentPage = 1;
-  setResultStatus("Preencha um ou mais campos e selecione “Buscar mudanças”.");
+  setResultStatus("Selecione o estado e, se quiser, preencha outros campos.");
 });
 
 ui.previousPage.addEventListener("click", () => {
@@ -176,11 +168,11 @@ async function loadData() {
 
     renderMetadata(metadata);
     populateStates();
-    for (const field of [ui.city, ui.section, ui.localOld, ui.electorate]) field.disabled = false;
+    for (const field of [ui.city, ui.section, ui.localOld]) field.disabled = false;
     ui.searchButton.disabled = false;
     ui.clearButton.disabled = false;
     setDataStatus("Consulta pronta neste aparelho.", "success");
-    setResultStatus("Preencha um ou mais campos e selecione “Buscar mudanças”.");
+    setResultStatus("Selecione o estado e, se quiser, preencha outros campos.");
   } catch (error) {
     const detail = error instanceof Error ? error.message : "Erro desconhecido.";
     setDataStatus(`Não foi possível abrir a consulta. ${detail}`, "error");
