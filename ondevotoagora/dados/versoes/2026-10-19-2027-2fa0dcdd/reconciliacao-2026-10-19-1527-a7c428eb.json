@@ -1,0 +1,721 @@
+{
+  "geradoEm": "2026-10-19T23:51:51.491Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-19-1527-a7c428eb/secoes.csv",
+    "registros": 444,
+    "sha256": "a7c428ebcfb6bb54d1ffe9385bb8d5dfbb4918412ccaefb379584b1cfcc4f317"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-19-2027-2fa0dcdd/secoes.csv",
+    "registros": 438,
+    "sha256": "2fa0dcdded0d160bf9b83b6a39b549b25ae9ec9dd15e5cb20fd2ec95f59a343b"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 384,
+    "apenasNaVersaoAnterior": 60,
+    "apenasNaVersaoAtual": 54,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "62",
+      "secao": "1033"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "51"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "52"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "53"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "54"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "55"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "56"
+    },
+    {
+      "uf": "AP",
+      "municipio": "FERREIRA GOMES",
+      "zona": "12",
+      "secao": "68"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "21"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "22"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "23"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "24"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "25"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "26"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "27"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "28"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "29"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "30"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "53"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "54"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "55"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "75"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "96"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "215"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "241"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "263"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "217"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "228"
+    },
+    {
+      "uf": "AP",
+      "municipio": "SANTANA",
+      "zona": "6",
+      "secao": "240"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AUGUSTO DE LIMA",
+      "zona": "54",
+      "secao": "48"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AUGUSTO DE LIMA",
+      "zona": "54",
+      "secao": "49"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AUGUSTO DE LIMA",
+      "zona": "54",
+      "secao": "9"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AUGUSTO DE LIMA",
+      "zona": "54",
+      "secao": "10"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BUENÓPOLIS",
+      "zona": "54",
+      "secao": "47"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JOAQUIM FELÍCIO",
+      "zona": "54",
+      "secao": "58"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "47"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "48"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "49"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "50"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "51"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "52"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "145"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPO LARGO",
+      "zona": "9",
+      "secao": "204"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAPANEMA",
+      "zona": "107",
+      "secao": "44"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "72"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "73"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "74"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "75"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "76"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "77"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "90"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "95"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "96"
+    },
+    {
+      "uf": "PR",
+      "municipio": "FRANCISCO ALVES",
+      "zona": "97",
+      "secao": "97"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "182"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "200"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "208"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "220"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "232"
+    },
+    {
+      "uf": "PR",
+      "municipio": "RIO BONITO DO IGUAÇU",
+      "zona": "45",
+      "secao": "236"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "AM",
+      "municipio": "ITAMARATI",
+      "zona": "69",
+      "secao": "14"
+    },
+    {
+      "uf": "AM",
+      "municipio": "ITAMARATI",
+      "zona": "69",
+      "secao": "21"
+    },
+    {
+      "uf": "ES",
+      "municipio": "MANTENÓPOLIS",
+      "zona": "36",
+      "secao": "169"
+    },
+    {
+      "uf": "ES",
+      "municipio": "MANTENÓPOLIS",
+      "zona": "36",
+      "secao": "172"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "55"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "56"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "57"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "58"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "59"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "183"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "233"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "241"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "305"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "37"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "38"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "75"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "76"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "77"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "125"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "148"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SANTA JULIANA",
+      "zona": "340",
+      "secao": "94"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SANTA JULIANA",
+      "zona": "340",
+      "secao": "96"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "362"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "364"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "365"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "367"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "368"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "371"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "372"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "377"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "86"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "213"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "151"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "153"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "160"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "165"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "20"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "21"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "22"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "129"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "27"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "130"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "174"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "63"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "14"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "15"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "16"
+    },
+    {
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "zona": "188",
+      "secao": "123"
+    },
+    {
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "zona": "188",
+      "secao": "124"
+    },
+    {
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "zona": "188",
+      "secao": "125"
+    },
+    {
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "zona": "188",
+      "secao": "126"
+    },
+    {
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "zona": "188",
+      "secao": "127"
+    },
+    {
+      "uf": "RO",
+      "municipio": "PRESIDENTE MÉDICI",
+      "zona": "3",
+      "secao": "323"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "326",
+      "secao": "820"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
