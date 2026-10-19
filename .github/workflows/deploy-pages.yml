@@ -35,9 +35,14 @@ jobs:
           cp ondevotoagora/app.js _site/app.js
           cp ondevotoagora/csv-utils.mjs _site/csv-utils.mjs
           cp ondevotoagora/styles.css _site/styles.css
+          cp ondevotoagora/comparacao-1-turno.html _site/comparacao-1-turno.html
+          cp ondevotoagora/comparacao-1-turno.js _site/comparacao-1-turno.js
+          cp ondevotoagora/comparacao-1-turno.css _site/comparacao-1-turno.css
+          cp ondevotoagora/comparacao-utils.mjs _site/comparacao-utils.mjs
           cp ondevotoagora/assets/logo-ondevotoagora.png _site/assets/logo-ondevotoagora.png
           cp ondevotoagora/dados/meta.json _site/dados/meta.json
           cp ondevotoagora/dados/secoes.csv _site/dados/secoes.csv
+          cp ondevotoagora/dados/comparacao-lula-flavio-1t.json _site/dados/comparacao-lula-flavio-1t.json
           cp ondevotoagora/CNAME _site/CNAME
 
       - name: Enviar arquivos para o Pages

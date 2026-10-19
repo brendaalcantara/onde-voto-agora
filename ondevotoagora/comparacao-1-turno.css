@@ -1,0 +1,130 @@
+.comparison-header { gap: 1rem; }
+.comparison-header .brand { min-width: 0; }
+.header-home-link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 750;
+  text-align: right;
+  text-underline-offset: 0.2em;
+}
+.header-home-link:hover { color: #f5d98a; }
+.comparison-shell {
+  width: min(100% - 32px, 900px);
+  margin-inline: auto;
+  padding-block: 1.25rem 2rem;
+}
+.comparison-intro { padding-block: 0.75rem 1rem; }
+.comparison-intro h1 {
+  max-width: 24ch;
+  margin-bottom: 0.6rem;
+  color: var(--navy-dark);
+  font-size: clamp(2rem, 8vw, 3.15rem);
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+.comparison-lead { max-width: 65ch; margin-bottom: 0; color: #2f4657; }
+.turn-warning, .comparison-data-note, .comparison-method, .comparison-search, .comparison-sources {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #a8b9c1;
+  border-radius: 12px;
+}
+.turn-warning {
+  color: #173444;
+  background: #edf4f5;
+  border: 2px solid #63838d;
+}
+.turn-warning h2, .comparison-data-note h2, .comparison-method h2, .comparison-section-heading h2, .comparison-sources h2 {
+  margin-bottom: 0.45rem;
+  color: #173444;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+.turn-warning p, .comparison-data-note p, .comparison-method p { margin-bottom: 0.55rem; }
+.turn-warning p:last-child, .comparison-data-note p:last-child, .comparison-method p:last-child { margin-bottom: 0; }
+.comparison-data-note { background: #eaf5f4; border: 2px solid #2d7c7c; }
+.comparison-data-note strong { color: #173444; }
+.coverage-detail { font-size: 1rem; }
+.comparison-method { background: #f6f8f9; }
+.comparison-search { padding: 1rem; }
+.comparison-section-heading { margin-bottom: 1rem; }
+.comparison-section-heading p:last-child { margin-bottom: 0; color: #486370; }
+.comparison-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.9rem; }
+.comparison-field { display: flex; min-width: 0; flex-direction: column; gap: 0.35rem; }
+.comparison-field label { color: #1c3142; font-size: 1.05rem; font-weight: 750; }
+.comparison-field input, .comparison-field select {
+  width: 100%;
+  min-height: 56px;
+  padding: 0.75rem 0.85rem;
+  color: #1c3142;
+  background: #fff;
+  border: 2px solid #687c89;
+  border-radius: 8px;
+}
+.comparison-field input::placeholder { color: #607985; opacity: 1; }
+.comparison-field input:disabled, .comparison-field select:disabled { color: #536d7a; background: #e8eff1; }
+.comparison-actions { display: grid; grid-template-columns: 1fr; gap: 0.7rem; margin-top: 1rem; }
+.comparison-status {
+  margin: 1rem 0 0;
+  padding: 0.85rem;
+  color: #173444;
+  background: #edf4f5;
+  border-left: 4px solid #63838d;
+  border-radius: 0 7px 7px 0;
+}
+.comparison-order-note { margin: 0.8rem 0 0; color: #344d5e; font-size: 1rem; }
+.comparison-status--error { color: #6d251f; background: #fff0ed; border-left-color: #9c352b; }
+.comparison-list { display: grid; gap: 0.9rem; margin: 0.9rem 0 0; padding: 0; list-style: none; }
+.comparison-card {
+  min-width: 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #8298a3;
+  border-radius: 10px;
+  box-shadow: 0 0.25rem 0.8rem rgb(23 52 68 / 6%);
+}
+.comparison-card h3 { margin-bottom: 0.65rem; color: #173444; font-size: 1.2rem; line-height: 1.3; }
+.section-locations { display: grid; gap: 0.55rem; margin: 0 0 0.85rem; }
+.section-location { padding: 0.7rem; border-left: 4px solid; border-radius: 0 6px 6px 0; overflow-wrap: anywhere; }
+.section-location dt { font-weight: 750; }
+.section-location dd { margin: 0.15rem 0 0; }
+.section-location--old { color: #6d251f; background: #fff0ed; border-color: #9c352b; }
+.section-location--new { color: #12452f; background: #e8f3ec; border-color: #2e7a58; }
+.vote-comparison { padding-top: 0.8rem; border-top: 1px solid #b7c4ca; }
+.vote-denominator { margin: 0 0 0.7rem; color: #344d5e; font-size: 1rem; font-weight: 700; }
+.candidate-vote { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.2rem 0.7rem; align-items: baseline; margin-top: 0.7rem; }
+.candidate-name { color: #1c3142; font-weight: 800; }
+.candidate-value { color: #1c3142; font-weight: 800; text-align: right; }
+.candidate-bar { grid-column: 1 / -1; height: 1rem; overflow: hidden; background: #e5ecee; border: 1px solid #607985; border-radius: 999px; }
+.candidate-bar-fill { height: 100%; min-width: 0; border-radius: inherit; }
+.candidate-bar-fill--lula { background: #176b87; }
+.candidate-bar-fill--flavio { background: #a34f18; }
+.candidate-winner { margin: 0.85rem 0 0; color: #1c3142; font-weight: 800; }
+.inferred-zero { margin: 0.65rem 0 0; color: #344d5e; font-size: 0.98rem; }
+.section-unavailable { margin: 0; padding: 0.85rem; color: #5b3910; background: #fff5dd; border-left: 4px solid #9c6a20; border-radius: 0 7px 7px 0; }
+.comparison-more-wrap { display: flex; justify-content: center; margin-top: 1rem; }
+.comparison-more-wrap .button { width: 100%; }
+.comparison-sources ul { margin: 0; padding-left: 1.25rem; }
+.comparison-sources li { margin-block: 0.65rem; }
+.comparison-sources li:last-child { margin-bottom: 0; }
+.unavailable-note { margin: 0.9rem 0 0; padding: 0.8rem; color: #5b3910; background: #fff5dd; border-left: 4px solid #9c6a20; border-radius: 0 7px 7px 0; }
+
+@media (min-width: 700px) {
+  .comparison-shell { width: min(100% - 48px, 900px); padding-block: 2rem 2.5rem; }
+  .turn-warning, .comparison-data-note, .comparison-method, .comparison-search, .comparison-sources { padding: 1.35rem; }
+  .comparison-fields { grid-template-columns: 1fr 1fr; gap: 1rem 1.25rem; }
+  .comparison-actions { display: flex; flex-wrap: wrap; }
+  .comparison-actions .button { min-width: 190px; }
+  .comparison-card { padding: 1.2rem; }
+  .section-locations { grid-template-columns: 1fr 1fr; }
+  .comparison-more-wrap .button { width: auto; min-width: 240px; }
+}
+
+@media (max-width: 420px) {
+  .comparison-header { flex-wrap: wrap; justify-content: flex-start; gap: 0.2rem 0.8rem; padding-block: 0.5rem; }
+  .comparison-header .header-home-link { margin-left: 3.4rem; white-space: nowrap; }
+}

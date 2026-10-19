@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173444">
+    <meta name="description" content="Compare os votos do primeiro turno para Lula e Flávio Bolsonaro nas seções da cópia local da lista de mudanças de local.">
+    <title>Lula e Flávio Bolsonaro no 1º turno — OndeVotoAgora</title>
+    <link rel="icon" type="image/png" href="./assets/logo-ondevotoagora.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./comparacao-1-turno.css">
+    <script type="module" src="./comparacao-1-turno.js"></script>
+    <script data-goatcounter="https://brendabba.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#filtros">Pular para a busca</a>
+
+    <header class="site-header">
+      <div class="header-inner comparison-header">
+        <a class="brand" href="./" aria-label="OndeVotoAgora, início">
+          <img class="brand-mark" src="./assets/logo-ondevotoagora.png" alt="" aria-hidden="true">
+          <span>OndeVotoAgora</span>
+        </a>
+        <a class="header-home-link" href="./index.html">Consulta de locais</a>
+      </div>
+    </header>
+
+    <main class="comparison-shell">
+      <section class="comparison-intro" aria-labelledby="page-title">
+        <p class="eyebrow">Eleições 2026 · Presidência</p>
+        <h1 id="page-title">Lula e Flávio Bolsonaro no 1º turno</h1>
+        <p class="comparison-lead">Veja a comparação de votos do primeiro turno nas seções que mudaram de local para o 2º turno.</p>
+      </section>
+
+      <section class="turn-warning" aria-labelledby="turn-warning-title">
+        <h2 id="turn-warning-title">São votos do 1º turno.</h2>
+        <p>Não são resultado nem previsão do 2º turno.</p>
+      </section>
+
+      <section class="comparison-data-note" aria-labelledby="coverage-title">
+        <h2 id="coverage-title">Sobre esta lista</h2>
+        <p id="coverage-summary">Carregando os dados da consulta…</p>
+        <p id="coverage-detail" class="coverage-detail"></p>
+      </section>
+
+      <section class="comparison-method" aria-labelledby="method-title">
+        <h2 id="method-title">Como ler as barras</h2>
+        <p>Cada percentual considera somente os votos para Lula e Flávio Bolsonaro naquela seção. Os demais candidatos, votos brancos e nulos não entram nessa comparação.</p>
+        <p id="zero-method"></p>
+      </section>
+
+      <section class="comparison-search" id="filtros" aria-labelledby="search-title">
+        <div class="comparison-section-heading">
+          <p class="eyebrow">Busca simples</p>
+          <h2 id="search-title">Encontre uma seção</h2>
+          <p>Os campos são opcionais. Você também pode ver a lista toda.</p>
+        </div>
+        <form id="comparison-form">
+          <div class="comparison-fields">
+            <div class="comparison-field">
+              <label for="filter-state">Estado (opcional)</label>
+              <select id="filter-state" name="estado" disabled>
+                <option value="">Carregando estados…</option>
+              </select>
+            </div>
+            <div class="comparison-field">
+              <label for="filter-city">Cidade (opcional)</label>
+              <input id="filter-city" name="cidade" type="search" autocomplete="address-level2" maxlength="100" placeholder="Ex.: Ararendá" disabled>
+            </div>
+            <div class="comparison-field">
+              <label for="filter-section">Seção (opcional)</label>
+              <input id="filter-section" name="secao" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="Ex.: 0209" disabled>
+            </div>
+            <div class="comparison-field">
+              <label for="filter-place">Nome do local (opcional)</label>
+              <input id="filter-place" name="local" type="search" maxlength="160" autocomplete="off" placeholder="Local antigo ou novo" disabled>
+            </div>
+          </div>
+          <div class="comparison-actions">
+            <button class="button button-primary" id="search-button" type="submit" disabled>Buscar seções</button>
+            <button class="button button-secondary" id="clear-button" type="reset" disabled>Limpar busca</button>
+          </div>
+        </form>
+
+        <p class="comparison-status" id="comparison-status" role="status" aria-live="polite">Carregando a lista…</p>
+        <p class="comparison-order-note"><strong>Ordem da lista:</strong> estado e cidade em ordem alfabética; depois, zona e seção em ordem numérica.</p>
+        <ol class="comparison-list" id="comparison-list" aria-label="Seções e comparação de votos"></ol>
+        <div class="comparison-more-wrap" id="more-wrap" hidden>
+          <button class="button button-secondary" id="show-more" type="button">Mostrar mais seções</button>
+        </div>
+      </section>
+
+      <section class="comparison-sources" aria-labelledby="sources-title">
+        <h2 id="sources-title">Fontes e limites</h2>
+        <ul>
+          <li>Lista de seções com local alterado para o 2º turno: <a href="https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/home" target="_blank" rel="noopener noreferrer">Painel de estatísticas do eleitorado do TSE</a>, arquivo marcado em <time id="source-list-date" datetime="2026-10-15">15/10/2026</time>.</li>
+          <li>Votos presidenciais por seção no 1º turno: <a href="https://dadosabertos.tse.jus.br/pt_BR/dataset/resultados-2026" target="_blank" rel="noopener noreferrer">Portal de Dados Abertos do TSE — Resultados 2026</a>, arquivo oficial gerado em <time id="source-results-date" datetime="2026-10-06">06/10/2026</time>.</li>
+          <li>O TSE explica a <a href="https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno" target="_blank" rel="noopener noreferrer">mudança de endereço de seções para o 2º turno</a>.</li>
+          <li>O nome no arquivo do TSE é “Flávio Nantes Bolsonaro”. A página usa “Flávio Bolsonaro” para facilitar a leitura.</li>
+        </ul>
+        <p id="unavailable-note" class="unavailable-note"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-disclaimer">Projeto independente. Não é um serviço oficial do TSE.</p>
+        <p class="footer-credit">
+          <span>Feito por <strong>Brenda Alcântara</strong></span>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.instagram.com/bbabrenda/" aria-label="Instagram de Brenda Alcântara, @bbabrenda" target="_blank" rel="noopener noreferrer">Instagram @bbabrenda</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
