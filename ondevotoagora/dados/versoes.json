@@ -1,0 +1,75 @@
+{
+  "currentVersionId": "2026-10-19-1127",
+  "versions": [
+    {
+      "id": "2026-10-19-1127",
+      "label": "TSE · 19/10 às 11h27 · 554 seções",
+      "records": 554,
+      "csv": "dados/versoes/2026-10-19-1127/secoes.csv",
+      "comparison": "dados/versoes/2026-10-19-1127/comparacao.json",
+      "sourceCapture": "dados/versoes/2026-10-19-1127/fonte-tse.json",
+      "sourceArchive": "dados/versoes/2026-10-19-1127/origem.zip",
+      "reconciliation": "dados/versoes/2026-10-19-1127/reconciliacao-2026-10-19-1050.json",
+      "reconcilesWith": "2026-10-19-1050",
+      "panelUpdatedAt": "2026-10-19T11:27:00-03:00",
+      "capturedAt": null,
+      "fileTimestamp": "2026-10-19T11:29:00",
+      "sourceUrl": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      "sourceSha256": "1b8b60b4a8395cba6f79a748875c7d9375cdc82a94fc8d17facc2e1c6f2752ef",
+      "csvSha256": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+      "sourceZipSha256": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+      "resultsZipSha256": "2d42006d0f6c6e00bad83f5c23cd3d78cd3e3182dbc1ad6718222b6b132c23e1",
+      "note": "Exportação oficial integral do TSE. O horário do painel (11h27) e o carimbo interno do CSV no ZIP (11h29) são registros distintos. Comparação de votos refeita a partir do ZIP oficial de resultados do 1º turno."
+    },
+    {
+      "id": "2026-10-19-1050",
+      "label": "TSE · 19/10 às 10h50 · 774 seções",
+      "records": 774,
+      "csv": "dados/versoes/2026-10-19-1050/secoes.csv",
+      "comparison": "dados/versoes/2026-10-19-1050/comparacao.json",
+      "sourceCapture": "dados/versoes/2026-10-19-1050/fonte-tse.json",
+      "panelUpdatedAt": "2026-10-19T10:50:00-03:00",
+      "capturedAt": "2026-10-19T11:05:48-03:00",
+      "sourceUrl": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      "sourceSha256": "88b2739be88673f5802516aaea8e744f55459372ff91469deb0999cac6a41378",
+      "csvSha256": "97536e74d0ea283d0f28fa4613135c458971544f57fe273b7fa2e28a32d9b1ec",
+      "note": "Tabela oficial paginada, conferida em 39 páginas, sem lacunas e com 774 chaves únicas."
+    },
+    {
+      "id": "2026-10-15-1621",
+      "label": "Arquivo anterior · 15/10 às 16h21 · 4.288 seções",
+      "records": 4288,
+      "csv": "dados/versoes/2026-10-15-1621/secoes.csv",
+      "comparison": "dados/versoes/2026-10-15-1621/comparacao.json",
+      "sourceArchive": "dados/versoes/2026-10-15-1621/origem.zip",
+      "fileTimestamp": "2026-10-15T16:21:00",
+      "sourceUrl": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      "sourceZipSha256": "0e58a24c3e985c558bbb0db4aea16e10119db37da7a3580bb840085fc10ab7ef",
+      "csvSha256": "3a6562976ffcd599d96a101b9ae3f5b2527db9f95aaed4805b19ae24b5f56f17",
+      "note": "O horário é o carimbo gravado no arquivo ZIP; não confirma quando o painel do TSE foi atualizado."
+    }
+  ],
+  "observedCounts": [
+    {
+      "records": 5146,
+      "observedAt": "2026-10-17T20:28:00-03:00",
+      "status": "Contagem observada no painel; não foi salvo o arquivo completo dessa consulta."
+    },
+    {
+      "records": 1774,
+      "observedAt": null,
+      "status": "Contagem observada durante consulta posterior; o horário exato não foi registrado e o arquivo completo não foi salvo."
+    },
+    {
+      "records": 2033,
+      "observedAt": "2026-10-17T23:33:00-03:00",
+      "status": "Contagem observada no painel; não foi salvo o arquivo completo dessa consulta."
+    },
+    {
+      "records": 1106,
+      "observedAt": null,
+      "displayedPanelTimestamp": "2026-10-18T20:27:00-03:00",
+      "status": "Número visto em uma aba antiga, com sessão do TSE finalizada; conteúdo desatualizado e não confirmado em nova consulta."
+    }
+  ]
+}

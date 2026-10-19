@@ -1,5 +1,6 @@
 .comparison-header { gap: 1rem; }
 .comparison-header .brand { min-width: 0; }
+.comparison-header-links { display: flex; align-items: center; gap: 0.75rem; }
 .header-home-link {
   min-height: 44px;
   display: inline-flex;
@@ -10,7 +11,7 @@
   text-align: right;
   text-underline-offset: 0.2em;
 }
-.header-home-link:hover { color: #f5d98a; }
+.header-home-link:hover { color: #d6eeeb; }
 .comparison-shell {
   width: min(100% - 32px, 900px);
   margin-inline: auto;
@@ -49,6 +50,11 @@
 .comparison-data-note { background: #eaf5f4; border: 2px solid #2d7c7c; }
 .comparison-data-note strong { color: #173444; }
 .coverage-detail { font-size: 1rem; }
+.comparison-version-control { display: grid; gap: 0.4rem; margin-top: 0.85rem; padding-top: 0.8rem; border-top: 1px solid #a8b9c1; }
+.comparison-version-control label { font-weight: 800; }
+.comparison-version-control select { width: 100%; min-height: 56px; padding: 0.7rem 0.8rem; color: #1c3142; background: #fff; border: 2px solid #526a79; border-radius: 8px; font: inherit; }
+.comparison-version-control p { margin: 0; color: #344d5e; }
+.comparison-version-control .version-note--older { padding: 0.65rem; color: #5b3428; background: #fff1eb; border-left: 4px solid #a84b35; border-radius: 0 6px 6px 0; }
 .comparison-method { background: #f6f8f9; }
 .comparison-search { padding: 1rem; }
 .comparison-section-heading { margin-bottom: 1rem; }
@@ -105,13 +111,13 @@
 .candidate-bar-fill--flavio { background: #a34f18; }
 .candidate-winner { margin: 0.85rem 0 0; color: #1c3142; font-weight: 800; }
 .inferred-zero { margin: 0.65rem 0 0; color: #344d5e; font-size: 0.98rem; }
-.section-unavailable { margin: 0; padding: 0.85rem; color: #5b3910; background: #fff5dd; border-left: 4px solid #9c6a20; border-radius: 0 7px 7px 0; }
+.section-unavailable { margin: 0; padding: 0.85rem; color: #244653; background: #edf4f5; border-left: 4px solid #63838d; border-radius: 0 7px 7px 0; }
 .comparison-more-wrap { display: flex; justify-content: center; margin-top: 1rem; }
 .comparison-more-wrap .button { width: 100%; }
 .comparison-sources ul { margin: 0; padding-left: 1.25rem; }
 .comparison-sources li { margin-block: 0.65rem; }
 .comparison-sources li:last-child { margin-bottom: 0; }
-.unavailable-note { margin: 0.9rem 0 0; padding: 0.8rem; color: #5b3910; background: #fff5dd; border-left: 4px solid #9c6a20; border-radius: 0 7px 7px 0; }
+.unavailable-note { margin: 0.9rem 0 0; padding: 0.8rem; color: #244653; background: #edf4f5; border-left: 4px solid #63838d; border-radius: 0 7px 7px 0; }
 
 @media (min-width: 700px) {
   .comparison-shell { width: min(100% - 48px, 900px); padding-block: 2rem 2.5rem; }
@@ -125,6 +131,7 @@
 }
 
 @media (max-width: 420px) {
-  .comparison-header { flex-wrap: wrap; justify-content: flex-start; gap: 0.2rem 0.8rem; padding-block: 0.5rem; }
-  .comparison-header .header-home-link { margin-left: 3.4rem; white-space: nowrap; }
+  .comparison-header { flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 0.8rem; padding-block: 0.5rem; }
+  .comparison-header-links { width: 100%; margin-left: 3.4rem; justify-content: flex-start; gap: 1rem; }
+  .comparison-header .header-home-link { white-space: nowrap; }
 }

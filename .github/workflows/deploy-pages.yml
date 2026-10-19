@@ -5,11 +5,14 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Commit validado que deve ser publicado
+        required: false
+        type: string
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
   group: pages
@@ -17,16 +20,23 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Baixar o repositório
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ inputs.ref || github.sha }}
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
       - name: Preparar somente os arquivos públicos do site
         run: |
@@ -35,21 +45,25 @@ jobs:
           cp ondevotoagora/app.js _site/app.js
           cp ondevotoagora/csv-utils.mjs _site/csv-utils.mjs
           cp ondevotoagora/styles.css _site/styles.css
+          cp ondevotoagora/historico.html _site/historico.html
+          cp ondevotoagora/historico.js _site/historico.js
           cp ondevotoagora/comparacao-1-turno.html _site/comparacao-1-turno.html
           cp ondevotoagora/comparacao-1-turno.js _site/comparacao-1-turno.js
           cp ondevotoagora/comparacao-1-turno.css _site/comparacao-1-turno.css
           cp ondevotoagora/comparacao-utils.mjs _site/comparacao-utils.mjs
           cp ondevotoagora/assets/logo-ondevotoagora.png _site/assets/logo-ondevotoagora.png
           cp ondevotoagora/dados/meta.json _site/dados/meta.json
+          cp ondevotoagora/dados/versoes.json _site/dados/versoes.json
           cp ondevotoagora/dados/secoes.csv _site/dados/secoes.csv
           cp ondevotoagora/dados/comparacao-lula-flavio-1t.json _site/dados/comparacao-lula-flavio-1t.json
+          cp -R ondevotoagora/dados/versoes _site/dados/versoes
           cp ondevotoagora/CNAME _site/CNAME
 
       - name: Enviar arquivos para o Pages
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: ./_site
 
       - name: Publicar no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

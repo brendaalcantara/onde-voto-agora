@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173444">
+    <meta name="description" content="Consulte versões arquivadas das listas de seções eleitorais alteradas e as datas registradas.">
+    <title>Histórico das listas — OndeVotoAgora</title>
+    <link rel="icon" type="image/png" href="./assets/logo-ondevotoagora.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./historico.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#historico">Pular para o histórico</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="OndeVotoAgora, início">
+          <img class="brand-mark" src="./assets/logo-ondevotoagora.png" alt="" aria-hidden="true">
+          <span>OndeVotoAgora</span>
+        </a>
+        <a class="edition" href="./">Voltar à consulta</a>
+      </div>
+    </header>
+
+    <main class="page-shell history-shell" id="historico">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Eleições 2026</p>
+        <h1 id="page-title">Histórico das listas</h1>
+        <p class="intro-copy">Escolha uma versão para consultar as seções e os votos do 1º turno vinculados à mesma lista.</p>
+      </section>
+
+      <section class="history-panel" aria-labelledby="versions-title">
+        <h2 id="versions-title">Versões completas disponíveis</h2>
+        <p>As versões ficam guardadas para consulta. A lista mais recente aparece primeiro.</p>
+        <ol class="version-list" id="version-list" aria-live="polite">
+          <li>Carregando as versões…</li>
+        </ol>
+      </section>
+
+      <section class="history-panel history-observations" aria-labelledby="observations-title">
+        <h2 id="observations-title">Contagens vistas em outras consultas</h2>
+        <p>O painel do TSE exibiu números diferentes em momentos distintos. Para estas contagens, não temos o arquivo completo; elas não podem ser pesquisadas por seção.</p>
+        <ul id="observation-list">
+          <li>Carregando as observações…</li>
+        </ul>
+      </section>
+
+      <p class="history-source">Fonte: <a href="https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas" target="_blank" rel="noopener noreferrer">TSE — Seções alteradas</a>.</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-disclaimer">Projeto independente. Não é um serviço oficial do TSE.</p>
+        <p class="footer-credit">
+          <span>Feito por <strong>Brenda Alcântara</strong></span>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.instagram.com/bbabrenda/" aria-label="Instagram de Brenda Alcântara, @bbabrenda" target="_blank" rel="noopener noreferrer">Instagram @bbabrenda</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

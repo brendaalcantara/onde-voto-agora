@@ -1,0 +1,39 @@
+{
+  "id": "2026-10-19-1127",
+  "eleicao": 2026,
+  "turnoInicial": 1,
+  "turnoFinal": 2,
+  "registrosBase": 554,
+  "arquivoFonte": "dados/versoes/2026-10-19-1127/secoes.csv",
+  "dataArquivoNoZip": "2026-10-19T11:29:00",
+  "sha256ArquivoCsv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+  "sha256ArquivoZip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+  "arquivoZip": "dados/versoes/2026-10-19-1127/origem.zip",
+  "fonteOficialAtual": {
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "arquivoCaptura": "dados/versoes/2026-10-19-1127/fonte-tse.json",
+    "sha256ArquivoCaptura": "1b8b60b4a8395cba6f79a748875c7d9375cdc82a94fc8d17facc2e1c6f2752ef",
+    "sha256ArquivoZip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+    "sha256Csv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+    "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
+    "capturadaEm": null,
+    "painelAtualizacaoInformada": "2026-10-19T11:27:00-03:00",
+    "painelRegistrosInformados": 554,
+    "registros": 554,
+    "paginasConferidas": null,
+    "filtros": {
+      "electionYear": 2026,
+      "country": "Brasil",
+      "region": "Todas",
+      "state": "Todas",
+      "municipality": "Todos",
+      "zone": "Todas",
+      "votingPlace": "Todos"
+    },
+    "metodo": "Extração do CSV do ZIP oficial e validação estrutural: 554 linhas, 0 erros e 0 chaves duplicadas; 22 UFs com registros. O horário interno 11:29 não é tratado como horário de atualização do painel."
+  },
+  "fonte": {
+    "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas"
+  }
+}

@@ -18,11 +18,14 @@ const ui = {
   searchButton: document.querySelector("#search-button"),
   section: document.querySelector("#secao"),
   state: document.querySelector("#estado"),
+  versionNote: document.querySelector("#version-note"),
+  versionSelect: document.querySelector("#version-select"),
 };
 
 let records = [];
 let lastMatches = [];
 let currentPage = 1;
+let catalog;
 
 function setDataStatus(message, state = "") {
   ui.dataStatus.className = `data-status${state ? ` data-status--${state}` : ""}`;
@@ -37,10 +40,59 @@ function setResultStatus(message, state = "") {
   ui.pagination.hidden = true;
 }
 
-function renderMetadata(metadata) {
-  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(metadata.siteAtualizadoEm ?? ""));
-  const date = match ? `${match[3]}/${match[2]}/${match[1]}` : "data não informada";
-  ui.coverageNote.textContent = `Atualizado em ${date}.`;
+function renderMetadata(version) {
+  const formatDateTime = (value) => {
+    if (!value || !Number.isFinite(Date.parse(value))) return "data não informada";
+    const date = new Date(value);
+    const datePart = new Intl.DateTimeFormat("pt-BR", {
+      timeZone: "America/Bahia",
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    }).format(date);
+    const timePart = new Intl.DateTimeFormat("pt-BR", {
+      timeZone: "America/Bahia",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    }).format(date).replace(":", "h");
+    return `${datePart} às ${timePart}`;
+  };
+  ui.coverageNote.textContent = `${NUMBER_FORMAT.format(version.records)} seções · ${version.panelUpdatedAt
+    ? `Fonte: TSE em ${formatDateTime(version.panelUpdatedAt)}.`
+    : "Fonte: TSE; data da atualização não informada."}`;
+
+  const isCurrent = version.id === catalog.currentVersionId;
+  ui.versionNote.textContent = isCurrent
+    ? "Você está consultando a versão mais recente registrada aqui."
+    : "Você está consultando uma lista anterior. Se não encontrar sua seção, isso não confirma que o local permaneceu igual.";
+  ui.versionNote.classList.toggle("version-note--older", !isCurrent);
+  if (isCurrent) {
+    const currentUrl = new URL(window.location.href);
+    if (currentUrl.searchParams.get("versao") !== version.id) {
+      currentUrl.searchParams.set("versao", version.id);
+      window.history.replaceState({}, "", currentUrl);
+    }
+  }
+}
+
+function validateCatalog(value) {
+  if (!value || !Array.isArray(value.versions) || typeof value.currentVersionId !== "string") {
+    throw new Error("O histórico de versões está incompleto.");
+  }
+  const seen = new Set();
+  for (const version of value.versions) {
+    if (!/^[a-z0-9-]+$/.test(version.id) || seen.has(version.id)) throw new Error("Há uma identificação de versão inválida ou repetida.");
+    if (version.csv !== `dados/versoes/${version.id}/secoes.csv` || version.comparison !== `dados/versoes/${version.id}/comparacao.json`) {
+      throw new Error(`Os arquivos da versão ${version.id} não correspondem à pasta esperada.`);
+    }
+    if (!Number.isInteger(version.records) || version.records < 1 || typeof version.label !== "string") {
+      throw new Error(`Os dados da versão ${version.id} estão incompletos.`);
+    }
+    seen.add(version.id);
+  }
+  if (!seen.has(value.currentVersionId)) throw new Error("A versão atual não consta no histórico.");
+  return value;
 }
 
 function populateStates() {
@@ -146,28 +198,28 @@ ui.nextPage.addEventListener("click", () => {
   }
 });
 
-async function loadData() {
+async function loadVersion(versionId) {
   try {
-    const [csvResponse, metadataResponse] = await Promise.all([
-      fetch("./dados/secoes.csv"),
-      fetch("./dados/meta.json"),
-    ]);
+    const version = catalog.versions.find((item) => item.id === versionId);
+    if (!version) throw new Error("Essa versão não está disponível.");
+    setResultStatus("Carregando a versão selecionada…");
+    ui.versionNote.textContent = "Carregando…";
+    const csvResponse = await fetch(`./${version.csv}`);
     if (!csvResponse.ok) throw new Error(`Erro HTTP ${csvResponse.status} ao carregar o arquivo de dados.`);
-    if (!metadataResponse.ok) throw new Error(`Erro HTTP ${metadataResponse.status} ao carregar a identificação da base.`);
 
-    const [csvBytes, metadata] = await Promise.all([csvResponse.arrayBuffer(), metadataResponse.json()]);
+    const csvBytes = await csvResponse.arrayBuffer();
     const csvText = new TextDecoder("windows-1252").decode(csvBytes);
-    const validation = validateCsv(csvText, "dados/secoes.csv");
+    const validation = validateCsv(csvText, version.csv);
     if (validation.errors.length > 0) {
       const examples = validation.errors.slice(0, 3).map((item) => `linha ${item.line}: ${item.message}`).join(" ");
       throw new Error(`${validation.errors.length} problema(s) na base. ${examples}`);
     }
     records = validation.records;
-    if (!Number.isInteger(metadata.registrosBase) || metadata.registrosBase !== records.length) {
-      throw new Error(`A contagem dos dados (${NUMBER_FORMAT.format(records.length)}) não confere com a registrada (${metadata.registrosBase}).`);
+    if (version.records !== records.length) {
+      throw new Error(`A contagem dos dados (${NUMBER_FORMAT.format(records.length)}) não confere com a registrada (${version.records}).`);
     }
 
-    renderMetadata(metadata);
+    renderMetadata(version);
     populateStates();
     for (const field of [ui.city, ui.section, ui.localOld]) field.disabled = false;
     ui.searchButton.disabled = false;
@@ -176,6 +228,32 @@ async function loadData() {
   } catch (error) {
     const detail = error instanceof Error ? error.message : "Erro desconhecido.";
     setDataStatus(`Não foi possível abrir a consulta. ${detail}`, "error");
+    setResultStatus("Use o Autoatendimento Eleitoral ou o e-Título para confirmar seu local de votação.", "error");
+  }
+}
+
+async function loadData() {
+  try {
+    const response = await fetch("./dados/versoes.json");
+    if (!response.ok) throw new Error(`Erro HTTP ${response.status} ao carregar as versões.`);
+    catalog = validateCatalog(await response.json());
+    const options = catalog.versions.map((version) => new Option(version.label, version.id));
+    ui.versionSelect.replaceChildren(...options);
+    const requested = new URLSearchParams(window.location.search).get("versao");
+    const versionId = catalog.versions.some((version) => version.id === requested) ? requested : catalog.currentVersionId;
+    ui.versionSelect.value = versionId;
+    ui.versionSelect.disabled = false;
+    ui.versionSelect.addEventListener("change", async () => {
+      ui.form.reset();
+      await loadVersion(ui.versionSelect.value);
+      const nextUrl = new URL(window.location.href);
+      nextUrl.searchParams.set("versao", ui.versionSelect.value);
+      window.history.replaceState({}, "", nextUrl);
+    });
+    await loadVersion(versionId);
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : "Erro desconhecido.";
+    setDataStatus(`Não foi possível abrir o histórico de listas. ${detail}`, "error");
     setResultStatus("Use o Autoatendimento Eleitoral ou o e-Título para confirmar seu local de votação.", "error");
   }
 }

@@ -1,0 +1,3760 @@
+{
+  "geradoEm": "2026-10-19T15:12:05.013Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-19-1050/secoes.csv",
+    "registros": 774,
+    "sha256": "97536e74d0ea283d0f28fa4613135c458971544f57fe273b7fa2e28a32d9b1ec"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-19-1127/secoes.csv",
+    "registros": 554,
+    "sha256": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 535,
+    "apenasNaVersaoAnterior": 239,
+    "apenasNaVersaoAtual": 19,
+    "registrosCompartilhadosComCamposAlterados": 136,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 190,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 105,
+      "seção": 0,
+      "local novo": 85,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AC",
+      "municipio": "BRASILÉIA",
+      "zona": "6",
+      "secao": "54"
+    },
+    {
+      "uf": "AC",
+      "municipio": "BRASILÉIA",
+      "zona": "6",
+      "secao": "113"
+    },
+    {
+      "uf": "AC",
+      "municipio": "BRASILÉIA",
+      "zona": "6",
+      "secao": "146"
+    },
+    {
+      "uf": "AC",
+      "municipio": "BRASILÉIA",
+      "zona": "6",
+      "secao": "165"
+    },
+    {
+      "uf": "AC",
+      "municipio": "CAPIXABA",
+      "zona": "2",
+      "secao": "88"
+    },
+    {
+      "uf": "AC",
+      "municipio": "CAPIXABA",
+      "zona": "2",
+      "secao": "89"
+    },
+    {
+      "uf": "AC",
+      "municipio": "XAPURI",
+      "zona": "2",
+      "secao": "33"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "5"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "6"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "7"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "30"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "31"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "41"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "42"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "52"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "53"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "66"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "72"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "95"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "97"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "108"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "113"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "118"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "130"
+    },
+    {
+      "uf": "AL",
+      "municipio": "DELMIRO GOUVEIA",
+      "zona": "40",
+      "secao": "141"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "2",
+      "secao": "807"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "2",
+      "secao": "810"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ARACATU",
+      "zona": "90",
+      "secao": "164"
+    },
+    {
+      "uf": "BA",
+      "municipio": "BOA VISTA DO TUPIM",
+      "zona": "42",
+      "secao": "248"
+    },
+    {
+      "uf": "BA",
+      "municipio": "CHORROCHÓ",
+      "zona": "158",
+      "secao": "35"
+    },
+    {
+      "uf": "BA",
+      "municipio": "CHORROCHÓ",
+      "zona": "158",
+      "secao": "68"
+    },
+    {
+      "uf": "BA",
+      "municipio": "CURAÇÁ",
+      "zona": "85",
+      "secao": "104"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITABERABA",
+      "zona": "42",
+      "secao": "79"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITABERABA",
+      "zona": "42",
+      "secao": "120"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITABERABA",
+      "zona": "42",
+      "secao": "121"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITABERABA",
+      "zona": "42",
+      "secao": "193"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITAPARICA",
+      "zona": "141",
+      "secao": "102"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITAPARICA",
+      "zona": "141",
+      "secao": "112"
+    },
+    {
+      "uf": "BA",
+      "municipio": "ITAPARICA",
+      "zona": "141",
+      "secao": "127"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JAGUARARI",
+      "zona": "179",
+      "secao": "6"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "34"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "35"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "36"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "37"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "38"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "184"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "211"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "262"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "263"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "264"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "265"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "266"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "267"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "268"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "325"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "326"
+    },
+    {
+      "uf": "BA",
+      "municipio": "JEQUIÉ",
+      "zona": "22",
+      "secao": "327"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MACAJUBA",
+      "zona": "87",
+      "secao": "19"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MACAJUBA",
+      "zona": "87",
+      "secao": "24"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MANOEL VITORINO",
+      "zona": "22",
+      "secao": "128"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MANOEL VITORINO",
+      "zona": "22",
+      "secao": "129"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MANOEL VITORINO",
+      "zona": "22",
+      "secao": "130"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MANOEL VITORINO",
+      "zona": "22",
+      "secao": "131"
+    },
+    {
+      "uf": "BA",
+      "municipio": "RIACHÃO DAS NEVES",
+      "zona": "182",
+      "secao": "4"
+    },
+    {
+      "uf": "BA",
+      "municipio": "RIACHÃO DAS NEVES",
+      "zona": "182",
+      "secao": "5"
+    },
+    {
+      "uf": "BA",
+      "municipio": "RIACHÃO DAS NEVES",
+      "zona": "182",
+      "secao": "6"
+    },
+    {
+      "uf": "BA",
+      "municipio": "RIACHÃO DAS NEVES",
+      "zona": "182",
+      "secao": "61"
+    },
+    {
+      "uf": "BA",
+      "municipio": "RIACHÃO DAS NEVES",
+      "zona": "182",
+      "secao": "64"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DOURADA",
+      "zona": "190",
+      "secao": "50"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DOURADA",
+      "zona": "190",
+      "secao": "51"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "397"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "398"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "401"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "404"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "405"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "409"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "434"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "455"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "578"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "579"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "580"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "581"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "582"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ANÁPOLIS",
+      "zona": "3",
+      "secao": "583"
+    },
+    {
+      "uf": "GO",
+      "municipio": "PORANGATU",
+      "zona": "55",
+      "secao": "65"
+    },
+    {
+      "uf": "GO",
+      "municipio": "PORANGATU",
+      "zona": "55",
+      "secao": "70"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "105"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "106"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "107"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "108"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "109"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MUNHOZ",
+      "zona": "112",
+      "secao": "110"
+    },
+    {
+      "uf": "PB",
+      "municipio": "BELÉM",
+      "zona": "14",
+      "secao": "177"
+    },
+    {
+      "uf": "PB",
+      "municipio": "BELÉM",
+      "zona": "14",
+      "secao": "178"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "1"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "20"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "23"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "24"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "25"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "27"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "28"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "29"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "30"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "85"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "107"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CABEDELO",
+      "zona": "57",
+      "secao": "127"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CAIÇARA",
+      "zona": "14",
+      "secao": "208"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CAIÇARA",
+      "zona": "14",
+      "secao": "209"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CAIÇARA",
+      "zona": "14",
+      "secao": "210"
+    },
+    {
+      "uf": "PB",
+      "municipio": "CAIÇARA",
+      "zona": "14",
+      "secao": "211"
+    },
+    {
+      "uf": "PB",
+      "municipio": "ITABAIANA",
+      "zona": "6",
+      "secao": "76"
+    },
+    {
+      "uf": "PB",
+      "municipio": "ITABAIANA",
+      "zona": "6",
+      "secao": "77"
+    },
+    {
+      "uf": "PB",
+      "municipio": "ITABAIANA",
+      "zona": "6",
+      "secao": "78"
+    },
+    {
+      "uf": "PB",
+      "municipio": "SÃO JOSÉ DOS RAMOS",
+      "zona": "6",
+      "secao": "270"
+    },
+    {
+      "uf": "PB",
+      "municipio": "SÃO JOSÉ DOS RAMOS",
+      "zona": "6",
+      "secao": "275"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "12"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "13"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "14"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "15"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "16"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "105"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "106"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "109"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "111"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "113"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "115"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "134"
+    },
+    {
+      "uf": "PE",
+      "municipio": "ESCADA",
+      "zona": "19",
+      "secao": "165"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "167"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "168"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "169"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "170"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "171"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "173"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "201"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "217"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "219"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "226"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "243"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "251"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "291"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "299"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "321"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PAULISTA",
+      "zona": "146",
+      "secao": "342"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "83",
+      "secao": "450"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "83",
+      "secao": "451"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "83",
+      "secao": "519"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "83",
+      "secao": "545"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "275"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "276"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "277"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "278"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "279"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "280"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "281"
+    },
+    {
+      "uf": "PE",
+      "municipio": "PETROLINA",
+      "zona": "144",
+      "secao": "282"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "603"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "604"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "605"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "606"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "735"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "736"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "737"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "738"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "739"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "740"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "741"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "742"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "743"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "744"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "745"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "3",
+      "secao": "746"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "1"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "5"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "6"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "7"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "8"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "38"
+    },
+    {
+      "uf": "PR",
+      "municipio": "GUARACI",
+      "zona": "64",
+      "secao": "47"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "180"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "181"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "182"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "183"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "184"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "185"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "186"
+    },
+    {
+      "uf": "SE",
+      "municipio": "BREJO GRANDE",
+      "zona": "15",
+      "secao": "189"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "93"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "131"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "149"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "171"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "178"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "230"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ESTÂNCIA",
+      "zona": "6",
+      "secao": "239"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "91"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "94"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "100"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "102"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "103"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "107"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "119"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "123"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "126"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "127"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANA",
+      "zona": "9",
+      "secao": "285"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "218"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "219"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "220"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "221"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "222"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "223"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "224"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "225"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "226"
+    },
+    {
+      "uf": "SE",
+      "municipio": "RIACHUELO",
+      "zona": "13",
+      "secao": "238"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "59"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "60"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "61"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "62"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "63"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "64"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "75"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "76"
+    },
+    {
+      "uf": "SE",
+      "municipio": "UMBAÚBA",
+      "zona": "35",
+      "secao": "155"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ARAPOEMA",
+      "zona": "31",
+      "secao": "18"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ARAPOEMA",
+      "zona": "31",
+      "secao": "19"
+    },
+    {
+      "uf": "TO",
+      "municipio": "FIGUEIRÓPOLIS",
+      "zona": "14",
+      "secao": "183"
+    },
+    {
+      "uf": "TO",
+      "municipio": "FIGUEIRÓPOLIS",
+      "zona": "14",
+      "secao": "187"
+    },
+    {
+      "uf": "TO",
+      "municipio": "MIRACEMA DO TOCANTINS",
+      "zona": "5",
+      "secao": "44"
+    },
+    {
+      "uf": "TO",
+      "municipio": "MIRACEMA DO TOCANTINS",
+      "zona": "5",
+      "secao": "68"
+    },
+    {
+      "uf": "TO",
+      "municipio": "MIRACEMA DO TOCANTINS",
+      "zona": "5",
+      "secao": "88"
+    },
+    {
+      "uf": "TO",
+      "municipio": "MIRACEMA DO TOCANTINS",
+      "zona": "5",
+      "secao": "121"
+    },
+    {
+      "uf": "TO",
+      "municipio": "RIO DA CONCEIÇÃO",
+      "zona": "25",
+      "secao": "31"
+    },
+    {
+      "uf": "TO",
+      "municipio": "RIO DA CONCEIÇÃO",
+      "zona": "25",
+      "secao": "32"
+    },
+    {
+      "uf": "TO",
+      "municipio": "RIO DA CONCEIÇÃO",
+      "zona": "25",
+      "secao": "58"
+    },
+    {
+      "uf": "TO",
+      "municipio": "RIO DA CONCEIÇÃO",
+      "zona": "25",
+      "secao": "79"
+    },
+    {
+      "uf": "TO",
+      "municipio": "TALISMÃ",
+      "zona": "14",
+      "secao": "79"
+    },
+    {
+      "uf": "TO",
+      "municipio": "TALISMÃ",
+      "zona": "14",
+      "secao": "180"
+    },
+    {
+      "uf": "TO",
+      "municipio": "TALISMÃ",
+      "zona": "14",
+      "secao": "188"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "293"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "105"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "106"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "107"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "108"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "109"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "110"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "316"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "329"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "330"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "402"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBÁ",
+      "zona": "275",
+      "secao": "479"
+    },
+    {
+      "uf": "PA",
+      "municipio": "MARACANÃ",
+      "zona": "31",
+      "secao": "41"
+    },
+    {
+      "uf": "PA",
+      "municipio": "MARACANÃ",
+      "zona": "31",
+      "secao": "76"
+    },
+    {
+      "uf": "PA",
+      "municipio": "MARACANÃ",
+      "zona": "31",
+      "secao": "17"
+    },
+    {
+      "uf": "PE",
+      "municipio": "TACAIMBÓ",
+      "zona": "44",
+      "secao": "107"
+    },
+    {
+      "uf": "PE",
+      "municipio": "TACAIMBÓ",
+      "zona": "44",
+      "secao": "112"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ITAGUATINS",
+      "zona": "11",
+      "secao": "5"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ITAGUATINS",
+      "zona": "11",
+      "secao": "112"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": [
+    {
+      "chave": "AL/PAO DE ACUCAR/11/85",
+      "municipio": "PÃO DE AÇÚCAR",
+      "uf": "AL",
+      "zona": "11",
+      "secao": "85",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "CRECHE - ANEXO DA UME ANA TEREZA DE JESUS",
+          "atual": "CRECHE - ANEXO  DA UME ANA TEREZA DE JESUS"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/32/919",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "32",
+      "secao": "919",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. PROF. PERCILIA DO NASCIMENTO SOUZA",
+          "atual": "E, M, PROF, PERCILIA DO NASCIMENTO SOUZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. SÃO JOSÉ",
+          "atual": "E, M, SÃO JOSÉ"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/62/555",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "62",
+      "secao": "555",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. JOAO GOULART",
+          "atual": "E, M, JOAO GOULART"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OCTAVIO MOURÃO",
+          "atual": "E, E, OCTAVIO MOURÃO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/62/580",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "62",
+      "secao": "580",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. JOAO GOULART",
+          "atual": "E, M, JOAO GOULART"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OCTAVIO MOURÃO",
+          "atual": "E, E, OCTAVIO MOURÃO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/62/631",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "62",
+      "secao": "631",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. JOAO GOULART",
+          "atual": "E, M, JOAO GOULART"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OCTAVIO MOURÃO",
+          "atual": "E, E, OCTAVIO MOURÃO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/62/1020",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "62",
+      "secao": "1020",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. JOAO GOULART",
+          "atual": "E, M, JOAO GOULART"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OCTAVIO MOURÃO",
+          "atual": "E, E, OCTAVIO MOURÃO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/62/1033",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "62",
+      "secao": "1033",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. JOAO GOULART",
+          "atual": "E, M, JOAO GOULART"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. PROF. ANTONIA PEREIRA DA SILVA",
+          "atual": "E, M, PROF, ANTONIA PEREIRA DA SILVA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/63/687",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "63",
+      "secao": "687",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. PINTOR CANDIDO PORTINARI",
+          "atual": "E, M, PINTOR CANDIDO PORTINARI"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. CEL JORGE TEIXEIRA DE OLIVEIRA",
+          "atual": "E, M, CEL JORGE TEIXEIRA DE OLIVEIRA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/667",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "667",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. JURACY BATISTA GOMES",
+          "atual": "E, E, JURACY BATISTA GOMES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/750",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "750",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. ULISSES GUIMARAES",
+          "atual": "E, M, ULISSES GUIMARAES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/752",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "752",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. JURACY BATISTA GOMES",
+          "atual": "E, E, JURACY BATISTA GOMES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/766",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "766",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. JURACY BATISTA GOMES",
+          "atual": "E, E, JURACY BATISTA GOMES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/772",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "772",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. ULISSES GUIMARAES",
+          "atual": "E, M, ULISSES GUIMARAES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/781",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "781",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+          "atual": "CECF PROF, TEONÍZIA LOBO DE CARVALHO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. ULISSES GUIMARAES",
+          "atual": "E, M, ULISSES GUIMARAES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/707",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "707",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+          "atual": "E, M, JARLECE DA CONCEIÇÃO ZARANZA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/715",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "715",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+          "atual": "E, M, JARLECE DA CONCEIÇÃO ZARANZA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/737",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "737",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+          "atual": "E, M, JARLECE DA CONCEIÇÃO ZARANZA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/756",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "756",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+          "atual": "E, M, JARLECE DA CONCEIÇÃO ZARANZA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/816",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "816",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. SOCIÓLOGO HERBERT JOSÉ SOUZA",
+          "atual": "E, M, SOCIÓLOGO HERBERT JOSÉ SOUZA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/811",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "811",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. E. ELIRA PINHEIRO",
+          "atual": "E, E, ELIRA PINHEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. POETISA CORA CORALINA",
+          "atual": "E, M, POETISA CORA CORALINA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/821",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "821",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. GOVERNADOR EDUARDO RIBEIRO",
+          "atual": "E, M, GOVERNADOR EDUARDO RIBEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "CMEI - PROF. RITA FONSECA VELOSO",
+          "atual": "CMEI - PROF, RITA FONSECA VELOSO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/822",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "822",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. GOVERNADOR EDUARDO RIBEIRO",
+          "atual": "E, M, GOVERNADOR EDUARDO RIBEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. SAO BENEDITO",
+          "atual": "E, M, SAO BENEDITO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/825",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "825",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. GOVERNADOR EDUARDO RIBEIRO",
+          "atual": "E, M, GOVERNADOR EDUARDO RIBEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. SAO BENEDITO",
+          "atual": "E, M, SAO BENEDITO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/739",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "739",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/757",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "757",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/764",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "764",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/782",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "782",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/786",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "786",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/795",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "795",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/797",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "797",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. OLGA FIGUEIREDO",
+          "atual": "E, M, OLGA FIGUEIREDO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. AUREO NONATO",
+          "atual": "E, M, AUREO NONATO"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/788",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "788",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. SEN. DARCY RIBEIRO",
+          "atual": "E, M, SEN, DARCY RIBEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. ULISSES GUIMARAES",
+          "atual": "E, M, ULISSES GUIMARAES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/792",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "792",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. SEN. DARCY RIBEIRO",
+          "atual": "E, M, SEN, DARCY RIBEIRO"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. M. ULISSES GUIMARAES",
+          "atual": "E, M, ULISSES GUIMARAES"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/722",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "722",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EMEF. MIGUEL ARRAES DE ALENCAR",
+          "atual": "EMEF, MIGUEL ARRAES DE ALENCAR"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OSMAR PEDROSA",
+          "atual": "E, E, OSMAR PEDROSA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/729",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "729",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EMEF. MIGUEL ARRAES DE ALENCAR",
+          "atual": "EMEF, MIGUEL ARRAES DE ALENCAR"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OSMAR PEDROSA",
+          "atual": "E, E, OSMAR PEDROSA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/742",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "742",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EMEF. MIGUEL ARRAES DE ALENCAR",
+          "atual": "EMEF, MIGUEL ARRAES DE ALENCAR"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OSMAR PEDROSA",
+          "atual": "E, E, OSMAR PEDROSA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/760",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "760",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EMEF. MIGUEL ARRAES DE ALENCAR",
+          "atual": "EMEF, MIGUEL ARRAES DE ALENCAR"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OSMAR PEDROSA",
+          "atual": "E, E, OSMAR PEDROSA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/70/777",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "70",
+      "secao": "777",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EMEF. MIGUEL ARRAES DE ALENCAR",
+          "atual": "EMEF, MIGUEL ARRAES DE ALENCAR"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. OSMAR PEDROSA",
+          "atual": "E, E, OSMAR PEDROSA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/SAO PAULO DE OLIVENCA/22/37",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "uf": "AM",
+      "zona": "22",
+      "secao": "37",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+          "atual": "E, M, CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. POGÜTA",
+          "atual": "E, E, POGÜTA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/SAO PAULO DE OLIVENCA/22/46",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "uf": "AM",
+      "zona": "22",
+      "secao": "46",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+          "atual": "E, M, CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. POGÜTA",
+          "atual": "E, E, POGÜTA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/SAO PAULO DE OLIVENCA/22/86",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "uf": "AM",
+      "zona": "22",
+      "secao": "86",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+          "atual": "E, M, CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. POGÜTA",
+          "atual": "E, E, POGÜTA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/SAO PAULO DE OLIVENCA/22/97",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "uf": "AM",
+      "zona": "22",
+      "secao": "97",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+          "atual": "E, M, CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. POGÜTA",
+          "atual": "E, E, POGÜTA"
+        }
+      ]
+    },
+    {
+      "chave": "AM/SAO PAULO DE OLIVENCA/22/110",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "uf": "AM",
+      "zona": "22",
+      "secao": "110",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+          "atual": "E, M, CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E. E. POGÜTA",
+          "atual": "E, E, POGÜTA"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/21",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "21",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/22",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "22",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/23",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "23",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/24",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "24",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/25",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "25",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/26",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "26",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/27",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "27",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/28",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "28",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/29",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "29",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/30",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "30",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. AMAZONAS",
+          "atual": "E,P,G, AMAZONAS"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/53",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "53",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/54",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "54",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/55",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "55",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/75",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "75",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/96",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "96",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/215",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "215",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/241",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "241",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/263",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "263",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. IGARAPE DA FORTALEZA",
+          "atual": "E,E, IGARAPE DA FORTALEZA"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "E.P.G. PIAUI",
+          "atual": "E,P,G, PIAUI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/217",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "217",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.P.G. PADRE ANGELO BIRACHI",
+          "atual": "E,P,G, PADRE ANGELO BIRACHI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/228",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "228",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.P.G. PADRE ANGELO BIRACHI",
+          "atual": "E,P,G, PADRE ANGELO BIRACHI"
+        }
+      ]
+    },
+    {
+      "chave": "AP/SANTANA/6/240",
+      "municipio": "SANTANA",
+      "uf": "AP",
+      "zona": "6",
+      "secao": "240",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.P.G. PADRE ANGELO BIRACHI",
+          "atual": "E,P,G, PADRE ANGELO BIRACHI"
+        }
+      ]
+    },
+    {
+      "chave": "BA/CONCEICAO DO ALMEIDA/184/50",
+      "municipio": "CONCEIÇÃO DO ALMEIDA",
+      "uf": "BA",
+      "zona": "184",
+      "secao": "50",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA DR. DJALMA ROCHA GALVÃO - SEDE",
+          "atual": "ESCOLA DR, DJALMA ROCHA GALVÃO - SEDE"
+        }
+      ]
+    },
+    {
+      "chave": "BA/CONCEICAO DO ALMEIDA/184/51",
+      "municipio": "CONCEIÇÃO DO ALMEIDA",
+      "uf": "BA",
+      "zona": "184",
+      "secao": "51",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA DR. DJALMA ROCHA GALVÃO - SEDE",
+          "atual": "ESCOLA DR, DJALMA ROCHA GALVÃO - SEDE"
+        }
+      ]
+    },
+    {
+      "chave": "MA/ROSARIO/18/213",
+      "municipio": "ROSÁRIO",
+      "uf": "MA",
+      "zona": "18",
+      "secao": "213",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "U.E MIGUEL ARCANGELO MARQUES",
+          "atual": "U,E MIGUEL ARCANGELO MARQUES"
+        }
+      ]
+    },
+    {
+      "chave": "MG/AIMORES/5/4",
+      "municipio": "AIMORÉS",
+      "uf": "MG",
+      "zona": "5",
+      "secao": "4",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC-UNIVERSIDADE PRES, ANTONIO CARLOS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC - UNIVERSIDADE PRES, ANTONIO CARLOS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/AIMORES/5/5",
+      "municipio": "AIMORÉS",
+      "uf": "MG",
+      "zona": "5",
+      "secao": "5",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC-UNIVERSIDADE PRES, ANTONIO CARLOS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC - UNIVERSIDADE PRES, ANTONIO CARLOS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/AIMORES/5/6",
+      "municipio": "AIMORÉS",
+      "uf": "MG",
+      "zona": "5",
+      "secao": "6",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC-UNIVERSIDADE PRES, ANTONIO CARLOS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC - UNIVERSIDADE PRES, ANTONIO CARLOS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/AIMORES/5/64",
+      "municipio": "AIMORÉS",
+      "uf": "MG",
+      "zona": "5",
+      "secao": "64",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC-UNIVERSIDADE PRES, ANTONIO CARLOS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+          "atual": "UNIPAC - UNIVERSIDADE PRES, ANTONIO CARLOS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/41",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "41",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUNICIPAL D. JUDITH JACQUES",
+          "atual": "ESCOLA MUNICIPAL D, JUDITH JACQUES"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/42",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "42",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUNICIPAL D. JUDITH JACQUES",
+          "atual": "ESCOLA MUNICIPAL D, JUDITH JACQUES"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/29",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "29",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUNICIPAL DR. ROBERTO MONTEIRO FONSECA",
+          "atual": "ESCOLA MUNICIPAL DR, ROBERTO MONTEIRO FONSECA"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/45",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "45",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUNICIPAL DR. ROBERTO MONTEIRO FONSECA",
+          "atual": "ESCOLA MUNICIPAL DR, ROBERTO MONTEIRO FONSECA"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARIANA/171/67",
+      "municipio": "MARIANA",
+      "uf": "MG",
+      "zona": "171",
+      "secao": "67",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. PROFESSORA CELINA CÉLIA GOMES",
+          "atual": "E, M,  PROFESSORA CELINA CÉLIA GOMES"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARIANA/171/68",
+      "municipio": "MARIANA",
+      "uf": "MG",
+      "zona": "171",
+      "secao": "68",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E. M. PROFESSORA CELINA CÉLIA GOMES",
+          "atual": "E, M,  PROFESSORA CELINA CÉLIA GOMES"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/159",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "159",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/160",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "160",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/161",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "161",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/162",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "162",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/163",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "163",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/164",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "164",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/165",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "165",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/166",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "166",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARTINHO CAMPOS/45/167",
+      "municipio": "MARTINHO CAMPOS",
+      "uf": "MG",
+      "zona": "45",
+      "secao": "167",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+          "atual": "ESCOLA  MUNICIPAL GERALDO DE ASSIS"
+        }
+      ]
+    },
+    {
+      "chave": "PB/UIRAUNA/53/2",
+      "municipio": "UIRAÚNA",
+      "uf": "PB",
+      "zona": "53",
+      "secao": "2",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E. M. LICA DUARTE",
+          "atual": "E, M, LICA DUARTE"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/68",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "68",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+          "atual": "UNIDADE BÁSICA DE SAÚDE DR, CANTIDIANO VALGUEIRO DE CARVALHO"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/91",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "91",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+          "atual": "UNIDADE BÁSICA DE SAÚDE DR, CANTIDIANO VALGUEIRO DE CARVALHO"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/121",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "121",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+          "atual": "UNIDADE BÁSICA DE SAÚDE DR, CANTIDIANO VALGUEIRO DE CARVALHO"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/123",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "123",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+          "atual": "UNIDADE BÁSICA DE SAÚDE DR, CANTIDIANO VALGUEIRO DE CARVALHO"
+        }
+      ]
+    },
+    {
+      "chave": "RN/UPANEMA/49/32",
+      "municipio": "UPANEMA",
+      "uf": "RN",
+      "zona": "49",
+      "secao": "32",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL PROFA. MARIA GORETE DE CARVALHO MACEDO",
+          "atual": "ESCOLA MUNICIPAL PROFA, MARIA GORETE DE CARVALHO MACEDO"
+        }
+      ]
+    },
+    {
+      "chave": "RS/CATUIPE/23/370",
+      "municipio": "CATUÍPE",
+      "uf": "RS",
+      "zona": "23",
+      "secao": "370",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUN. DE ENS. FUNDAMENTAL SAO JOAO BATISTA DE LA SALLE",
+          "atual": "ESCOLA MUN, DE ENS, FUNDAMENTAL SAO JOAO BATISTA DE LA SALLE"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/8",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "8",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/71",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "71",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/128",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "128",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/142",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "142",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/161",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "161",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PELOTAS/164/943",
+      "municipio": "PELOTAS",
+      "uf": "RS",
+      "zona": "164",
+      "secao": "943",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. MUN. BALBINO MASCARENHAS",
+          "atual": "ESC, MUN, BALBINO MASCARENHAS"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+          "atual": "INST, FED, DE EDUC, CIÊNCIAS E TECNOL, SUL-RIO-GRANDENSE (IFSUL)  PEL"
+        }
+      ]
+    },
+    {
+      "chave": "RS/ROLANTE/55/266",
+      "municipio": "ROLANTE",
+      "uf": "RS",
+      "zona": "55",
+      "secao": "266",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E.M.E.F. PADRE REUS",
+          "atual": "E,M,E,F, PADRE REUS"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/8",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "8",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+          "atual": "ESCOLA MUNICIPAL DE ENSINO FUND, JOSE BONIFACIO"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/81",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "81",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+          "atual": "ESCOLA MUNICIPAL DE ENSINO FUND, JOSE BONIFACIO"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/118",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "118",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+          "atual": "ESCOLA MUNICIPAL DE ENSINO FUND, JOSE BONIFACIO"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/84",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "84",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. EST. DE ENS. FUND. DR. MÁRIO VIEIRA MARQUES-CIEP",
+          "atual": "ESC, EST, DE ENS, FUND, DR, MÁRIO VIEIRA MARQUES-CIEP"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+          "atual": "ESCOLA MUN, DE ENSINO FUND, ERNESTINA AMARAL LANGSCH"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/105",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "105",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESC. EST. DE ENS. FUND. DR. MÁRIO VIEIRA MARQUES-CIEP",
+          "atual": "ESC, EST, DE ENS, FUND, DR, MÁRIO VIEIRA MARQUES-CIEP"
+        },
+        {
+          "campo": "local novo",
+          "anterior": "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+          "atual": "ESCOLA MUN, DE ENSINO FUND, ERNESTINA AMARAL LANGSCH"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/130",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "130",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+          "atual": "ESCOLA MUN, DE ENSINO FUND, ERNESTINA AMARAL LANGSCH"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SAO LUIZ GONZAGA/52/176",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "uf": "RS",
+      "zona": "52",
+      "secao": "176",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+          "atual": "ESCOLA MUN, DE ENSINO FUND, ERNESTINA AMARAL LANGSCH"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/120",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "120",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/121",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "121",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/122",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "122",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/123",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "123",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/185",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "185",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SE/ITABAIANINHA/30/196",
+      "municipio": "ITABAIANINHA",
+      "uf": "SE",
+      "zona": "30",
+      "secao": "196",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+          "atual": "(CRECHE) STA, JOANA D'ARC, ESCOLA MUNICIPAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/12",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "12",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/13",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "13",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/14",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "14",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/15",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "15",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/16",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "16",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/17",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "17",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/18",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "18",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/19",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "19",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/20",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "20",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/21",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "21",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/171",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "171",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/PRESIDENTE PRUDENTE/402/201",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "uf": "SP",
+      "zona": "402",
+      "secao": "201",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "E.E. FLORIVALDO LEAL",
+          "atual": "E,E, FLORIVALDO LEAL"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/185",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "185",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/186",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "186",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/187",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "187",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/188",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "188",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/189",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "189",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/190",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "190",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/239",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "239",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/257",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "257",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/306",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "306",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/339",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "339",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/420",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "420",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/432",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "432",
+      "campos": [
+        {
+          "campo": "local anterior",
+          "anterior": "EE. CONSELHEIRO RUY BARBOSA",
+          "atual": "EE, CONSELHEIRO RUY BARBOSA"
+        }
+      ]
+    }
+  ]
+}

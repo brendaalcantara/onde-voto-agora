@@ -2,34 +2,44 @@
   "eleicao": 2026,
   "turnoInicial": 1,
   "turnoFinal": 2,
-  "siteAtualizadoEm": "2026-10-18",
-  "registrosBase": 4288,
-  "arquivoFonte": "secoes_eleitorais_alteradas_2t-pais_2026.csv",
-  "dataArquivoNoZip": "2026-10-15T16:21:00",
-  "sha256ArquivoCsv": "3a6562976ffcd599d96a101b9ae3f5b2527db9f95aaed4805b19ae24b5f56f17",
-  "arquivoZip": "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
-  "sha256ArquivoZip": "0e58a24c3e985c558bbb0db4aea16e10119db37da7a3580bb840085fc10ab7ef",
-  "fonteOficialAtual": null,
-  "observacoesPainel": [
-    {
-      "observadoEm": "2026-10-17T20:28:00-03:00",
-      "registrosInformados": 5146
+  "siteAtualizadoEm": "2026-10-19",
+  "dadosConsultadosEm": null,
+  "registrosBase": 554,
+  "arquivoFonte": "dados/versoes/2026-10-19-1127/secoes.csv",
+  "dataArquivoNoZip": "2026-10-19T11:29:00",
+  "arquivoZip": "dados/versoes/2026-10-19-1127/origem.zip",
+  "sha256ArquivoZip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+  "sha256ArquivoCsv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+  "fonteOficialAtual": {
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "arquivoCaptura": "dados/versoes/2026-10-19-1127/fonte-tse.json",
+    "sha256ArquivoCaptura": "1b8b60b4a8395cba6f79a748875c7d9375cdc82a94fc8d17facc2e1c6f2752ef",
+    "sha256Csv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+    "sha256Zip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+    "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
+    "capturadaEm": null,
+    "painelAtualizacaoInformada": "2026-10-19T11:27:00-03:00",
+    "painelRegistrosInformados": 554,
+    "registros": 554,
+    "paginasConferidas": null,
+    "validacao": "554 linhas, 0 erros, 0 chaves duplicadas; 22 UFs com registros",
+    "filtros": {
+      "electionYear": 2026,
+      "country": "Brasil",
+      "region": "Todas",
+      "state": "Todas",
+      "municipality": "Todos",
+      "zone": "Todas",
+      "votingPlace": "Todos"
     },
-    {
-      "observadoEm": null,
-      "registrosInformados": 1774,
-      "nota": "Contagem observada durante paginação posterior do painel; o horário exato não foi registrado."
-    },
-    {
-      "observadoEm": "2026-10-17T23:33:00-03:00",
-      "registrosInformados": 2033
-    }
-  ],
+    "metodo": "Extração do CSV do ZIP oficial e validação estrutural. Horário interno do CSV (11h29) registrado separadamente da atualização do painel (11h27)."
+  },
   "fonte": {
     "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
-    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/home",
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
   },
-  "mensagemParaEleitor": "Esta cópia contém 4.288 registros e pode estar incompleta. Ela ainda não foi comparada com uma exportação atual do TSE. Se a busca não encontrar sua seção, confirme seu local no site oficial.",
-  "observacao": "Esta cópia local contém 4.288 registros do CSV dentro de um ZIP marcado em 15/10/2026 às 16:21. As duas cópias do ZIP encontradas em Downloads têm o mesmo SHA-256 e os mesmos bytes. O painel do TSE apresentou contagens diferentes durante a consulta (5.146, depois 1.774 e 2.033 às 23:33 de 17/10/2026). Como a exportação disponível continuou com 4.288 registros, a base local não foi reconciliada com uma exportação oficial atual e não representa cobertura integral confirmada."
+  "mensagemParaEleitor": "Lista do TSE: 554 seções. Painel atualizado em 19/10/2026 às 11h27.",
+  "observacao": "A nova lista oficial substitui a consulta ativa anterior de 774 linhas, que continua preservada no histórico. A diferença entre versões não é interpretada como cancelamento de seções."
 }

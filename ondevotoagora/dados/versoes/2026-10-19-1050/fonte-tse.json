@@ -1,0 +1,7970 @@
+{
+  "source": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+  "panel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
+  "consultedAt": "2026-10-19T11:05:48-03:00",
+  "lastUpdatedByTse": "2026-10-19T10:50:00-03:00",
+  "filters": {
+    "electionYear": 2026,
+    "country": "Todos",
+    "region": "Todas",
+    "state": "Todas",
+    "municipality": "Todos",
+    "zone": "Todas",
+    "votingPlace": "Todos"
+  },
+  "expectedRows": 774,
+  "extraction": {
+    "method": "Leitura da tabela oficial paginada, com conferência de cada intervalo e contagem; 39 páginas, 20 linhas por página exceto a última (14).",
+    "exportError": "ORA-40441: erro de sintaxe JSON"
+  },
+  "columns": [
+    "eleicao",
+    "uf",
+    "municipio",
+    "zona",
+    "localInicial",
+    "localFinal",
+    "secao",
+    "eleitorado"
+  ],
+  "pageRanges": [
+    {
+      "page": 1,
+      "range": "1-20",
+      "count": 20
+    },
+    {
+      "page": 2,
+      "range": "21-40",
+      "count": 20
+    },
+    {
+      "page": 3,
+      "range": "41-60",
+      "count": 20
+    },
+    {
+      "page": 4,
+      "range": "61-80",
+      "count": 20
+    },
+    {
+      "page": 5,
+      "range": "81-100",
+      "count": 20
+    },
+    {
+      "page": 6,
+      "range": "101-120",
+      "count": 20
+    },
+    {
+      "page": 7,
+      "range": "121-140",
+      "count": 20
+    },
+    {
+      "page": 8,
+      "range": "141-160",
+      "count": 20
+    },
+    {
+      "page": 9,
+      "range": "161-180",
+      "count": 20
+    },
+    {
+      "page": 10,
+      "range": "181-200",
+      "count": 20
+    },
+    {
+      "page": 11,
+      "range": "201-220",
+      "count": 20
+    },
+    {
+      "page": 12,
+      "range": "221-240",
+      "count": 20
+    },
+    {
+      "page": 13,
+      "range": "241-260",
+      "count": 20
+    },
+    {
+      "page": 14,
+      "range": "261-280",
+      "count": 20
+    },
+    {
+      "page": 15,
+      "range": "281-300",
+      "count": 20
+    },
+    {
+      "page": 16,
+      "range": "301-320",
+      "count": 20
+    },
+    {
+      "page": 17,
+      "range": "321-340",
+      "count": 20
+    },
+    {
+      "page": 18,
+      "range": "341-360",
+      "count": 20
+    },
+    {
+      "page": 19,
+      "range": "361-380",
+      "count": 20
+    },
+    {
+      "page": 20,
+      "range": "381-400",
+      "count": 20
+    },
+    {
+      "page": 21,
+      "range": "401-420",
+      "count": 20
+    },
+    {
+      "page": 22,
+      "range": "421-440",
+      "count": 20
+    },
+    {
+      "page": 23,
+      "range": "441-460",
+      "count": 20
+    },
+    {
+      "page": 24,
+      "range": "461-480",
+      "count": 20
+    },
+    {
+      "page": 25,
+      "range": "481-500",
+      "count": 20
+    },
+    {
+      "page": 26,
+      "range": "501-520",
+      "count": 20
+    },
+    {
+      "page": 27,
+      "range": "521-540",
+      "count": 20
+    },
+    {
+      "page": 28,
+      "range": "541-560",
+      "count": 20
+    },
+    {
+      "page": 29,
+      "range": "561-580",
+      "count": 20
+    },
+    {
+      "page": 30,
+      "range": "581-600",
+      "count": 20
+    },
+    {
+      "page": 31,
+      "range": "601-620",
+      "count": 20
+    },
+    {
+      "page": 32,
+      "range": "621-640",
+      "count": 20
+    },
+    {
+      "page": 33,
+      "range": "641-660",
+      "count": 20
+    },
+    {
+      "page": 34,
+      "range": "661-680",
+      "count": 20
+    },
+    {
+      "page": 35,
+      "range": "681-700",
+      "count": 20
+    },
+    {
+      "page": 36,
+      "range": "701-720",
+      "count": 20
+    },
+    {
+      "page": 37,
+      "range": "721-740",
+      "count": 20
+    },
+    {
+      "page": 38,
+      "range": "741-760",
+      "count": 20
+    },
+    {
+      "page": 39,
+      "range": "761-774",
+      "count": 14
+    }
+  ],
+  "rows": [
+    [
+      "2026",
+      "AC",
+      "BRASILÉIA",
+      "6",
+      "ESCOLA FONTENELE DE CASTRO",
+      "CAMPUS FRONTEIRA DO ALTO ACRE - UFAC",
+      "54",
+      "233"
+    ],
+    [
+      "2026",
+      "AC",
+      "BRASILÉIA",
+      "6",
+      "ESCOLA FONTENELE DE CASTRO",
+      "ESCOLA ANTÔNIO CARNEIRO DA SILVA - KM 04 POLO AGROFLORESTAL",
+      "113",
+      "255"
+    ],
+    [
+      "2026",
+      "AC",
+      "BRASILÉIA",
+      "6",
+      "ESCOLA MENINO JESUS",
+      "UNIDADE BÁSICA DE SAÚDE SIMÃO MANSOUR BARTHA",
+      "146",
+      "272"
+    ],
+    [
+      "2026",
+      "AC",
+      "BRASILÉIA",
+      "6",
+      "ESCOLA MENINO JESUS",
+      "UNIDADE BÁSICA DE SAÚDE SIMÃO MANSOUR BARTHA",
+      "165",
+      "270"
+    ],
+    [
+      "2026",
+      "AC",
+      "CAPIXABA",
+      "2",
+      "ESC ENS FUN PROF NOELIA MARIA ALVES DE SOUZA",
+      "ESCOLA MUNICIPAL MARIETA FREIRE RODRIGUES",
+      "88",
+      "197"
+    ],
+    [
+      "2026",
+      "AC",
+      "CAPIXABA",
+      "2",
+      "ESC ENS FUN PROF NOELIA MARIA ALVES DE SOUZA",
+      "ESCOLA MUNICIPAL MARIETA FREIRE RODRIGUES",
+      "89",
+      "195"
+    ],
+    [
+      "2026",
+      "AC",
+      "XAPURI",
+      "2",
+      "POSTO DE SAÚDE - ASSENTAMENTO TUPÁ",
+      "ESCOLA 5 DE DEZEMBRO - COMUNIDADE NOVA VIDA",
+      "33",
+      "101"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA DE EDUCAÇÃO BÁSICA BEABÁ",
+      "NATERCIA S. DE MENEZES, ESCOLA (FÁBRICA)",
+      "5",
+      "220"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA DE EDUCAÇÃO BÁSICA BEABÁ",
+      "NATERCIA S. DE MENEZES, ESCOLA (FÁBRICA)",
+      "6",
+      "221"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA DE EDUCAÇÃO BÁSICA BEABÁ",
+      "NATERCIA S. DE MENEZES, ESCOLA (FÁBRICA)",
+      "7",
+      "228"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA DE EDUCAÇÃO BÁSICA BEABÁ",
+      "NATERCIA S. DE MENEZES, ESCOLA (FÁBRICA)",
+      "66",
+      "221"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA PROFESSOR MANOEL JOSÉ GOMES CALAÇA",
+      "ANTENOR CORREIA SERPA, ESCOLA MUNICIPAL DR.",
+      "42",
+      "194"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA PROFESSOR MANOEL JOSÉ GOMES CALAÇA",
+      "ANTENOR CORREIA SERPA, ESCOLA MUNICIPAL DR.",
+      "108",
+      "195"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESC MUN DE EDU BÁS JUSCELINO KUBITSCHEK DE OLIVEIRA",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA JUSCELINO KUBISTCHEK DE OLIVEIRA",
+      "41",
+      "221"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESC MUN DE EDU BÁS JUSCELINO KUBITSCHEK DE OLIVEIRA",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA JUSCELINO KUBISTCHEK DE OLIVEIRA",
+      "118",
+      "219"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUN DE EDU BÁSICA JOSÉ CORREIA DOS SANTOS",
+      "JOSE CORREIA DOS SANTOS,GRUPO ESCOLAR",
+      "52",
+      "280"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUN DE EDU BÁSICA JOSÉ CORREIA DOS SANTOS",
+      "JOSE CORREIA DOS SANTOS,GRUPO ESCOLAR",
+      "53",
+      "284"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUN DE EDU BÁSICA JOSÉ CORREIA DOS SANTOS",
+      "JOSE CORREIA DOS SANTOS,GRUPO ESCOLAR",
+      "97",
+      "279"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUN DE EDU BÁSICA JOSÉ CORREIA DOS SANTOS",
+      "JOSE CORREIA DOS SANTOS,GRUPO ESCOLAR",
+      "141",
+      "281"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "30",
+      "296"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "31",
+      "298"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "72",
+      "299"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "95",
+      "295"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "113",
+      "295"
+    ],
+    [
+      "2026",
+      "AL",
+      "DELMIRO GOUVEIA",
+      "40",
+      "SEDE TEMPORÁRIA DA ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA ELISEU NORBERTO",
+      "ELIZEU NORBERTO, GRUPO ESCOLAR",
+      "130",
+      "296"
+    ],
+    [
+      "2026",
+      "AL",
+      "PÃO DE AÇÚCAR",
+      "11",
+      "UME ANA TEREZA DE JESUS",
+      "CRECHE - ANEXO DA UME ANA TEREZA DE JESUS",
+      "85",
+      "238"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "2",
+      "CENTRO EDUCACIONAL PINGO DE GENTE LAVINIENSE ENSINO INTEGRADO",
+      "ESCOLA IDAAM - UNIDADE MORADA DO SOL",
+      "807",
+      "249"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "2",
+      "P.E. CRECHE INFANTE TIRADENTES (ANTIGO CIESA)",
+      "E. M. PROF. MARIA JOSÉ NUNES DA LUZ",
+      "810",
+      "205"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "32",
+      "E. M. PROF. PERCILIA DO NASCIMENTO SOUZA",
+      "E. M. SÃO JOSÉ",
+      "919",
+      "151"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "62",
+      "E. M. JOAO GOULART",
+      "E. E. OCTAVIO MOURÃO",
+      "555",
+      "389"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "62",
+      "E. M. JOAO GOULART",
+      "E. E. OCTAVIO MOURÃO",
+      "580",
+      "386"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "62",
+      "E. M. JOAO GOULART",
+      "E. E. OCTAVIO MOURÃO",
+      "631",
+      "391"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "62",
+      "E. M. JOAO GOULART",
+      "E. E. OCTAVIO MOURÃO",
+      "1020",
+      "385"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "62",
+      "E. M. JOAO GOULART",
+      "E. M. PROF. ANTONIA PEREIRA DA SILVA",
+      "1033",
+      "229"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "63",
+      "E. M. PINTOR CANDIDO PORTINARI",
+      "E. M. CEL JORGE TEIXEIRA DE OLIVEIRA",
+      "687",
+      "401"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "65",
+      "CMEI PROF DR FELIX VALOIS COELHO",
+      "FAMETRO UNIDADE NOVA CIDADE",
+      "667",
+      "362"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "65",
+      "CMEI PROF DR FELIX VALOIS COELHO",
+      "FAMETRO UNIDADE NOVA CIDADE",
+      "673",
+      "360"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "65",
+      "CMEI PROF DR FELIX VALOIS COELHO",
+      "FAMETRO UNIDADE NOVA CIDADE",
+      "680",
+      "360"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "65",
+      "CMEI PROF DR FELIX VALOIS COELHO",
+      "FAMETRO UNIDADE NOVA CIDADE",
+      "691",
+      "359"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "65",
+      "CMEI PROF DR FELIX VALOIS COELHO",
+      "FAMETRO UNIDADE NOVA CIDADE",
+      "698",
+      "362"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. E. JURACY BATISTA GOMES",
+      "667",
+      "395"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. M. ULISSES GUIMARAES",
+      "750",
+      "365"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. E. JURACY BATISTA GOMES",
+      "752",
+      "392"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. E. JURACY BATISTA GOMES",
+      "766",
+      "396"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. M. ULISSES GUIMARAES",
+      "772",
+      "369"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CECF PROF. TEONÍZIA LOBO DE CARVALHO",
+      "E. M. ULISSES GUIMARAES",
+      "781",
+      "364"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CMEI PADRE CLAUDIO DALBON",
+      "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+      "707",
+      "395"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CMEI PADRE CLAUDIO DALBON",
+      "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+      "715",
+      "390"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CMEI PADRE CLAUDIO DALBON",
+      "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+      "737",
+      "392"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CMEI PADRE CLAUDIO DALBON",
+      "E. M. JARLECE DA CONCEIÇÃO ZARANZA",
+      "756",
+      "390"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "CMEI PADRE CLAUDIO DALBON",
+      "E. M. SOCIÓLOGO HERBERT JOSÉ SOUZA",
+      "816",
+      "187"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. E. ELIRA PINHEIRO",
+      "E. M. POETISA CORA CORALINA",
+      "811",
+      "269"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. GOVERNADOR EDUARDO RIBEIRO",
+      "CMEI - PROF. RITA FONSECA VELOSO",
+      "821",
+      "309"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. GOVERNADOR EDUARDO RIBEIRO",
+      "E. M. SAO BENEDITO",
+      "822",
+      "390"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. GOVERNADOR EDUARDO RIBEIRO",
+      "E. M. SAO BENEDITO",
+      "825",
+      "391"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "739",
+      "286"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "757",
+      "297"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "764",
+      "279"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "782",
+      "277"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "786",
+      "286"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "795",
+      "286"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. OLGA FIGUEIREDO",
+      "E. M. AUREO NONATO",
+      "797",
+      "287"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. SEN. DARCY RIBEIRO",
+      "E. M. ULISSES GUIMARAES",
+      "788",
+      "367"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "E. M. SEN. DARCY RIBEIRO",
+      "E. M. ULISSES GUIMARAES",
+      "792",
+      "371"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "EMEF. MIGUEL ARRAES DE ALENCAR",
+      "E. E. OSMAR PEDROSA",
+      "722",
+      "385"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "EMEF. MIGUEL ARRAES DE ALENCAR",
+      "E. E. OSMAR PEDROSA",
+      "729",
+      "381"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "EMEF. MIGUEL ARRAES DE ALENCAR",
+      "E. E. OSMAR PEDROSA",
+      "742",
+      "380"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "EMEF. MIGUEL ARRAES DE ALENCAR",
+      "E. E. OSMAR PEDROSA",
+      "760",
+      "387"
+    ],
+    [
+      "2026",
+      "AM",
+      "MANAUS",
+      "70",
+      "EMEF. MIGUEL ARRAES DE ALENCAR",
+      "E. E. OSMAR PEDROSA",
+      "777",
+      "382"
+    ],
+    [
+      "2026",
+      "AM",
+      "SÃO PAULO DE OLIVENÇA",
+      "22",
+      "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+      "E. E. POGÜTA",
+      "37",
+      "385"
+    ],
+    [
+      "2026",
+      "AM",
+      "SÃO PAULO DE OLIVENÇA",
+      "22",
+      "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+      "E. E. POGÜTA",
+      "46",
+      "384"
+    ],
+    [
+      "2026",
+      "AM",
+      "SÃO PAULO DE OLIVENÇA",
+      "22",
+      "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+      "E. E. POGÜTA",
+      "86",
+      "381"
+    ],
+    [
+      "2026",
+      "AM",
+      "SÃO PAULO DE OLIVENÇA",
+      "22",
+      "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+      "E. E. POGÜTA",
+      "97",
+      "385"
+    ],
+    [
+      "2026",
+      "AM",
+      "SÃO PAULO DE OLIVENÇA",
+      "22",
+      "E. M. CENTRO TIKUNA PEDRO INÁCIO PINHEIRO - NGUTCHAUCU",
+      "E. E. POGÜTA",
+      "110",
+      "383"
+    ],
+    [
+      "2026",
+      "AP",
+      "AMAPÁ",
+      "1",
+      "ESCOLA MUNICIPAL PIMPOLHO",
+      "ESCOLA ESTADUAL VEIGA CABRAL",
+      "1",
+      "265"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "51",
+      "353"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "52",
+      "361"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "53",
+      "363"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "54",
+      "362"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "55",
+      "354"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "56",
+      "362"
+    ],
+    [
+      "2026",
+      "AP",
+      "FERREIRA GOMES",
+      "12",
+      "CRECHE MUNICIPAL SARAH SALOMÃO",
+      "ESCOLA MUNICIPAL JOÃO FREIRE CORDEIRO",
+      "68",
+      "364"
+    ],
+    [
+      "2026",
+      "AP",
+      "MACAPÁ",
+      "10",
+      "LOCAL 2 PRÉDIO ANEXO DA ESCOLA JARDIM FELICIDADE",
+      "ESCOLA MUNICIPAL ELIANA FLEXA VILHENA",
+      "115",
+      "346"
+    ],
+    [
+      "2026",
+      "AP",
+      "MACAPÁ",
+      "10",
+      "LOCAL 2 PRÉDIO ANEXO DA ESCOLA JARDIM FELICIDADE",
+      "ESCOLA MUNICIPAL ELIANA FLEXA VILHENA",
+      "130",
+      "341"
+    ],
+    [
+      "2026",
+      "AP",
+      "MACAPÁ",
+      "10",
+      "LOCAL 2 PRÉDIO ANEXO DA ESCOLA JARDIM FELICIDADE",
+      "ESCOLA MUNICIPAL ELIANA FLEXA VILHENA",
+      "298",
+      "344"
+    ],
+    [
+      "2026",
+      "AP",
+      "MACAPÁ",
+      "10",
+      "LOCAL 2 PRÉDIO ANEXO DA ESCOLA JARDIM FELICIDADE",
+      "ESCOLA MUNICIPAL ELIANA FLEXA VILHENA",
+      "330",
+      "341"
+    ],
+    [
+      "2026",
+      "AP",
+      "MACAPÁ",
+      "10",
+      "LOCAL 2 PRÉDIO ANEXO DA ESCOLA JARDIM FELICIDADE",
+      "ESCOLA MUNICIPAL ELIANA FLEXA VILHENA",
+      "357",
+      "344"
+    ],
+    [
+      "2026",
+      "AP",
+      "PRACUÚBA",
+      "1",
+      "ESCOLA ESTADUAL ERNESTO COLARES",
+      "ESCOLA MUNICIPAL AUGUSTO ROCHA DE OLIVEIRA",
+      "41",
+      "303"
+    ],
+    [
+      "2026",
+      "AP",
+      "PRACUÚBA",
+      "1",
+      "ESCOLA ESTADUAL ERNESTO COLARES",
+      "ESCOLA MUNICIPAL AUGUSTO ROCHA DE OLIVEIRA",
+      "44",
+      "293"
+    ],
+    [
+      "2026",
+      "AP",
+      "PRACUÚBA",
+      "1",
+      "ESCOLA ESTADUAL ERNESTO COLARES",
+      "ESCOLA MUNICIPAL AUGUSTO ROCHA DE OLIVEIRA",
+      "46",
+      "307"
+    ],
+    [
+      "2026",
+      "AP",
+      "PRACUÚBA",
+      "1",
+      "ESCOLA ESTADUAL ERNESTO COLARES",
+      "ESCOLA MUNICIPAL AUGUSTO ROCHA DE OLIVEIRA",
+      "48",
+      "303"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "21",
+      "317"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "22",
+      "316"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "23",
+      "321"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "24",
+      "320"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "25",
+      "314"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "26",
+      "315"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "27",
+      "317"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "28",
+      "322"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "29",
+      "321"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "ANEXO DA PARÓQUIA NOSSA SENHORA DE FÁTIMA",
+      "E.P.G. AMAZONAS",
+      "30",
+      "314"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "53",
+      "301"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "54",
+      "294"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "55",
+      "297"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "75",
+      "279"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "96",
+      "297"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "ESCOLA ESTADUAL ANA DIAS DA COSTA",
+      "215",
+      "174"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "ESCOLA ESTADUAL ANA DIAS DA COSTA",
+      "241",
+      "178"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.E. IGARAPE DA FORTALEZA",
+      "E.P.G. PIAUI",
+      "263",
+      "259"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.P.G. PADRE ANGELO BIRACHI",
+      "ESCOLA MUNICIPAL BASICA PARAISO DA CIDADANIA - BIRAGUINHO",
+      "217",
+      "220"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.P.G. PADRE ANGELO BIRACHI",
+      "ESCOLA MUNICIPAL BASICA PARAISO DA CIDADANIA - BIRAGUINHO",
+      "228",
+      "217"
+    ],
+    [
+      "2026",
+      "AP",
+      "SANTANA",
+      "6",
+      "E.P.G. PADRE ANGELO BIRACHI",
+      "ESCOLA MUNICIPAL BASICA PARAISO DA CIDADANIA - BIRAGUINHO",
+      "240",
+      "215"
+    ],
+    [
+      "2026",
+      "BA",
+      "ARACATU",
+      "90",
+      "PRÉDIO ESCOLAR VASCO NETO",
+      "ESCOLA MUNICIPAL JUAREZ FRANCISCO BARBOSA",
+      "164",
+      "244"
+    ],
+    [
+      "2026",
+      "BA",
+      "BOA VISTA DO TUPIM",
+      "42",
+      "CRAS ADELINA FERREIRA GOMES (ANTIGO ZARIF)",
+      "ESCOLA MUNICIPAL FELIPE BRANDÃO DE OLIVEIRA",
+      "248",
+      "336"
+    ],
+    [
+      "2026",
+      "BA",
+      "CHORROCHÓ",
+      "158",
+      "ESCOLA MUNICIPAL FAVO DE MEL",
+      "ANEXO DO COLÉGIO ESTADUAL SÃO JOSÉ",
+      "35",
+      "275"
+    ],
+    [
+      "2026",
+      "BA",
+      "CHORROCHÓ",
+      "158",
+      "ESCOLA MUNICIPAL FAVO DE MEL",
+      "ANEXO DO COLÉGIO ESTADUAL SÃO JOSÉ",
+      "68",
+      "275"
+    ],
+    [
+      "2026",
+      "BA",
+      "CONCEIÇÃO DO ALMEIDA",
+      "184",
+      "ESCOLA DR. DJALMA ROCHA GALVÃO - SEDE",
+      "CRECHE ANTONIO RIBEIRO FALCÃO",
+      "50",
+      "340"
+    ],
+    [
+      "2026",
+      "BA",
+      "CONCEIÇÃO DO ALMEIDA",
+      "184",
+      "ESCOLA DR. DJALMA ROCHA GALVÃO - SEDE",
+      "CRECHE ANTONIO RIBEIRO FALCÃO",
+      "51",
+      "338"
+    ],
+    [
+      "2026",
+      "BA",
+      "CURAÇÁ",
+      "85",
+      "ESCOLA MUNICIPAL MONTEIRO LOBATO",
+      "ESCOLA MUNICIPAL ANTONIO RIBEIRO DOS SANTOS",
+      "104",
+      "333"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITABERABA",
+      "42",
+      "ASSOCIAÇÃO COMUNITÁRIA DE SALINAS",
+      "PREDIO ESCOLAR MUNICIPAL ESMERALDO QUEIROZ",
+      "193",
+      "268"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITABERABA",
+      "42",
+      "ESCOLA MUNICIPAL LUIZ VIANA FILHO",
+      "CEAPE - CENTRO DE APOIO PEDAGÓGICO",
+      "79",
+      "175"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITABERABA",
+      "42",
+      "ESCOLA MUNICIPAL LUIZ VIANA FILHO",
+      "CEAPE - CENTRO DE APOIO PEDAGÓGICO",
+      "120",
+      "177"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITABERABA",
+      "42",
+      "ESCOLA MUNICIPAL LUIZ VIANA FILHO",
+      "CEAPE - CENTRO DE APOIO PEDAGÓGICO",
+      "121",
+      "174"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITANAGRA",
+      "185",
+      "COLÉGIO ANGELINA GARCIA AVENA",
+      "ESCOLA MUNICIPAL RECANTO DO SABER",
+      "86",
+      "375"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITAPARICA",
+      "141",
+      "FÓRUM DESEMBARGADOR ANTÔNIO BENSABATH",
+      "ESCOLA MUNICIPAL MARIA FELIPA",
+      "102",
+      "370"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITAPARICA",
+      "141",
+      "FÓRUM DESEMBARGADOR ANTÔNIO BENSABATH",
+      "ESCOLA MUNICIPAL MARIA FELIPA",
+      "112",
+      "369"
+    ],
+    [
+      "2026",
+      "BA",
+      "ITAPARICA",
+      "141",
+      "FÓRUM DESEMBARGADOR ANTÔNIO BENSABATH",
+      "ESCOLA MUNICIPAL MARIA FELIPA",
+      "127",
+      "370"
+    ],
+    [
+      "2026",
+      "BA",
+      "JAGUARARI",
+      "179",
+      "ESCOLA FLORIANO PEIXOTO",
+      "EXTENÇÃO - ESCOLA MUNCIPAL FLORIANO PEIXOTO",
+      "6",
+      "307"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLEGIO VASCO FILHO",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "262",
+      "344"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLEGIO VASCO FILHO",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "263",
+      "348"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLEGIO VASCO FILHO",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "264",
+      "342"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLÉGIO ANITA RABELLO BARRETO",
+      "COLÉGIO MUNICIPAL UNIÃO DO POVO",
+      "325",
+      "83"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLÉGIO DA POLÍCIA MILITAR LUIS NEVES COTRIM",
+      "ESCOLA FRANZ GEDEON",
+      "326",
+      "144"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "COLÉGIO MUNICIPAL PROFESSORA ALIRIA ARGOLO PEREIRA",
+      "ESCOLA MUNICIPAL ANA SILVA",
+      "327",
+      "52"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESC MUN DR ELIEL CERQUEIRA MENDES",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "265",
+      "349"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESC MUN DR ELIEL CERQUEIRA MENDES",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "266",
+      "350"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESC MUN DR ELIEL CERQUEIRA MENDES",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "267",
+      "347"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESC MUN DR ELIEL CERQUEIRA MENDES",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DA LUZ",
+      "268",
+      "347"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "34",
+      "345"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "35",
+      "344"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "36",
+      "339"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "37",
+      "343"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "38",
+      "344"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "184",
+      "341"
+    ],
+    [
+      "2026",
+      "BA",
+      "JEQUIÉ",
+      "22",
+      "ESCOLA MUNICIPAL ANÍSIO TEIXEIRA",
+      "GRUPO ESCOLAR FERNANDO BARRETO",
+      "211",
+      "341"
+    ],
+    [
+      "2026",
+      "BA",
+      "MACAJUBA",
+      "87",
+      "CENTRO DE REFERÊNCIA DE ASSISTÊNCIA SOCIAL - CRAS",
+      "ESCOLA MUNICIPAL ANTÔNIO CARLOS MAGALHÃES",
+      "19",
+      "220"
+    ],
+    [
+      "2026",
+      "BA",
+      "MACAJUBA",
+      "87",
+      "CENTRO DE REFERÊNCIA DE ASSISTÊNCIA SOCIAL - CRAS",
+      "ESCOLA MUNICIPAL ANTÔNIO CARLOS MAGALHÃES",
+      "24",
+      "217"
+    ],
+    [
+      "2026",
+      "BA",
+      "MANOEL VITORINO",
+      "22",
+      "GINÁSIO TRINTA DE JULHO",
+      "COLÉGIO ESTADUAL PROFESSORA ALMERINDA MEIRA DO CARMO",
+      "128",
+      "394"
+    ],
+    [
+      "2026",
+      "BA",
+      "MANOEL VITORINO",
+      "22",
+      "GINÁSIO TRINTA DE JULHO",
+      "COLÉGIO ESTADUAL PROFESSORA ALMERINDA MEIRA DO CARMO",
+      "129",
+      "395"
+    ],
+    [
+      "2026",
+      "BA",
+      "MANOEL VITORINO",
+      "22",
+      "GINÁSIO TRINTA DE JULHO",
+      "COLÉGIO ESTADUAL PROFESSORA ALMERINDA MEIRA DO CARMO",
+      "130",
+      "394"
+    ],
+    [
+      "2026",
+      "BA",
+      "MANOEL VITORINO",
+      "22",
+      "GINÁSIO TRINTA DE JULHO",
+      "COLÉGIO ESTADUAL PROFESSORA ALMERINDA MEIRA DO CARMO",
+      "131",
+      "393"
+    ],
+    [
+      "2026",
+      "BA",
+      "MIGUEL CALMON",
+      "103",
+      "PREDIO ESCOLAR ARACI DE OLIVEIRA",
+      "COLÉGIO RONAN OLIVEIRA MOTA",
+      "24",
+      "278"
+    ],
+    [
+      "2026",
+      "BA",
+      "MIGUEL CALMON",
+      "103",
+      "PREDIO ESCOLAR ARACI DE OLIVEIRA",
+      "COLÉGIO RONAN OLIVEIRA MOTA",
+      "150",
+      "275"
+    ],
+    [
+      "2026",
+      "BA",
+      "RIACHÃO DAS NEVES",
+      "182",
+      "SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+      "COLÉGIO ESTADUAL RODOLFO DE QUEIROZ",
+      "4",
+      "278"
+    ],
+    [
+      "2026",
+      "BA",
+      "RIACHÃO DAS NEVES",
+      "182",
+      "SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+      "COLÉGIO ESTADUAL RODOLFO DE QUEIROZ",
+      "5",
+      "280"
+    ],
+    [
+      "2026",
+      "BA",
+      "RIACHÃO DAS NEVES",
+      "182",
+      "SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+      "COLÉGIO ESTADUAL RODOLFO DE QUEIROZ",
+      "6",
+      "280"
+    ],
+    [
+      "2026",
+      "BA",
+      "RIACHÃO DAS NEVES",
+      "182",
+      "SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+      "COLÉGIO ESTADUAL RODOLFO DE QUEIROZ",
+      "61",
+      "279"
+    ],
+    [
+      "2026",
+      "BA",
+      "RIACHÃO DAS NEVES",
+      "182",
+      "SECRETARIA MUNICIPAL DE EDUCAÇÃO",
+      "COLÉGIO ESTADUAL RODOLFO DE QUEIROZ",
+      "64",
+      "280"
+    ],
+    [
+      "2026",
+      "BA",
+      "SERRA DOURADA",
+      "190",
+      "POSTO DE SAÚDE MARIA ROSA - ESF",
+      "PREDIO ESCOLAR ADULFO VIEIRA",
+      "50",
+      "265"
+    ],
+    [
+      "2026",
+      "BA",
+      "SERRA DOURADA",
+      "190",
+      "POSTO DE SAÚDE MARIA ROSA - ESF",
+      "PREDIO ESCOLAR ADULFO VIEIRA",
+      "51",
+      "264"
+    ],
+    [
+      "2026",
+      "CE",
+      "FORTALEZA",
+      "117",
+      "CITS PARQUE SÃO JOSÉ - CENTRO DE INCLUSÃO TECNOLÓGICA E SOCIAL",
+      "EEFM IRMAO URBANO GONZALEZ RODRIGUEZ",
+      "194",
+      "356"
+    ],
+    [
+      "2026",
+      "CE",
+      "JARDIM",
+      "119",
+      "CAPELA NOSSA SENHORA DA CONCEIÇÃO",
+      "ESCOLA LUIZ LEITE BRINGEL",
+      "352",
+      "186"
+    ],
+    [
+      "2026",
+      "CE",
+      "PALMÁCIA",
+      "4",
+      "ESCOLA MUNICIPAL RAMILSON HOLANDA LUZ",
+      "CEI ANTÔNIO MARTINS",
+      "170",
+      "299"
+    ],
+    [
+      "2026",
+      "CE",
+      "PALMÁCIA",
+      "4",
+      "ESCOLA MUNICIPAL RAMILSON HOLANDA LUZ",
+      "CEI ANTÔNIO MARTINS",
+      "396",
+      "300"
+    ],
+    [
+      "2026",
+      "CE",
+      "PALMÁCIA",
+      "4",
+      "ESCOLA MUNICIPAL RAMILSON HOLANDA LUZ",
+      "CEI ANTÔNIO MARTINS",
+      "606",
+      "320"
+    ],
+    [
+      "2026",
+      "CE",
+      "QUIXADÁ",
+      "6",
+      "EEF JOSÉ JEAN DA SILVA PEREIRA",
+      "EEF JOSÉ BONIFÁCIO DE SOUSA (ESCOLA MODELO)",
+      "2",
+      "283"
+    ],
+    [
+      "2026",
+      "CE",
+      "QUIXADÁ",
+      "6",
+      "EEF JOSÉ JEAN DA SILVA PEREIRA",
+      "EEF JOSÉ BONIFÁCIO DE SOUSA (ESCOLA MODELO)",
+      "207",
+      "292"
+    ],
+    [
+      "2026",
+      "CE",
+      "QUIXADÁ",
+      "6",
+      "EEF JOSÉ JEAN DA SILVA PEREIRA",
+      "EEF JOSÉ BONIFÁCIO DE SOUSA (ESCOLA MODELO)",
+      "465",
+      "163"
+    ],
+    [
+      "2026",
+      "CE",
+      "QUIXADÁ",
+      "6",
+      "ESCRITÓRIO DO DNOCS",
+      "IFCE - CAMPUS QUIXADÁ",
+      "183",
+      "182"
+    ],
+    [
+      "2026",
+      "ES",
+      "IBATIBA",
+      "10",
+      "EMEF EUNICE PEREIRA SILVEIRA",
+      "EMEF HELENA ALMOCDICE VALADÃO",
+      "67",
+      "290"
+    ],
+    [
+      "2026",
+      "ES",
+      "IBATIBA",
+      "10",
+      "EMEF EUNICE PEREIRA SILVEIRA",
+      "EMEF HELENA ALMOCDICE VALADÃO",
+      "68",
+      "294"
+    ],
+    [
+      "2026",
+      "ES",
+      "IBATIBA",
+      "10",
+      "EMEF EUNICE PEREIRA SILVEIRA",
+      "EMEF HELENA ALMOCDICE VALADÃO",
+      "69",
+      "301"
+    ],
+    [
+      "2026",
+      "ES",
+      "ITAGUAÇU",
+      "16",
+      "EMEF PADRE ALONSO",
+      "IECLB - COMUNIDADE LUTERANA EM PALMEIRA DE SANTA JOANA",
+      "18",
+      "281"
+    ],
+    [
+      "2026",
+      "ES",
+      "ITAGUAÇU",
+      "16",
+      "EMEF PADRE ALONSO",
+      "IECLB - COMUNIDADE LUTERANA EM PALMEIRA DE SANTA JOANA",
+      "19",
+      "293"
+    ],
+    [
+      "2026",
+      "ES",
+      "ITAGUAÇU",
+      "16",
+      "EMEF PADRE ALONSO",
+      "IECLB - COMUNIDADE LUTERANA EM PALMEIRA DE SANTA JOANA",
+      "29",
+      "251"
+    ],
+    [
+      "2026",
+      "ES",
+      "ITAGUAÇU",
+      "16",
+      "EMEF PADRE ALONSO",
+      "IECLB - COMUNIDADE LUTERANA EM PALMEIRA DE SANTA JOANA",
+      "69",
+      "247"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "397",
+      "321"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "398",
+      "327"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "401",
+      "333"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "404",
+      "339"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "405",
+      "334"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "409",
+      "337"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "434",
+      "326"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "CMEI NAZARÉ CUNHA LEÃO - UE-MUN",
+      "COLEGIO ESTADUAL DR MAUA CAVALCANTE SÁVIO - UE-EST",
+      "455",
+      "325"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "578",
+      "296"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "579",
+      "305"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "580",
+      "313"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "581",
+      "314"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "582",
+      "310"
+    ],
+    [
+      "2026",
+      "GO",
+      "ANÁPOLIS",
+      "3",
+      "E.M. PASTOR MIGUEL MOREIRA BRAGA - UE-MUN",
+      "COLEGIO ESTADUAL OSVALDO FRANCISCO DA SILVA - UE-EST",
+      "583",
+      "307"
+    ],
+    [
+      "2026",
+      "GO",
+      "BOM JESUS",
+      "124",
+      "ESCOLA MUNICIPAL GESSI ESTEVES RAMOS - UE-MUN",
+      "ESCOLA MUNICIPAL JOSÉ FRANCISCO DE MELO (ZE BORRACHEIRO) - UE-MUN",
+      "48",
+      "378"
+    ],
+    [
+      "2026",
+      "GO",
+      "BOM JESUS",
+      "124",
+      "ESCOLA MUNICIPAL GESSI ESTEVES RAMOS - UE-MUN",
+      "ESCOLA MUNICIPAL JOSÉ FRANCISCO DE MELO (ZE BORRACHEIRO) - UE-MUN",
+      "49",
+      "385"
+    ],
+    [
+      "2026",
+      "GO",
+      "BOM JESUS",
+      "124",
+      "ESCOLA MUNICIPAL GESSI ESTEVES RAMOS - UE-MUN",
+      "ESCOLA MUNICIPAL JOSÉ FRANCISCO DE MELO (ZE BORRACHEIRO) - UE-MUN",
+      "50",
+      "379"
+    ],
+    [
+      "2026",
+      "GO",
+      "CASTELÂNDIA",
+      "124",
+      "CMEI HELENA MARIA MIGUEL - UE-MUN",
+      "ESCOLA MUNICIPAL JOSE MENDES DE PAULA - UE-MUN",
+      "65",
+      "224"
+    ],
+    [
+      "2026",
+      "GO",
+      "CASTELÂNDIA",
+      "124",
+      "CMEI HELENA MARIA MIGUEL - UE-MUN",
+      "ESCOLA MUNICIPAL JOSE MENDES DE PAULA - UE-MUN",
+      "66",
+      "219"
+    ],
+    [
+      "2026",
+      "GO",
+      "CASTELÂNDIA",
+      "124",
+      "CMEI HELENA MARIA MIGUEL - UE-MUN",
+      "ESCOLA MUNICIPAL JOSE MENDES DE PAULA - UE-MUN",
+      "67",
+      "221"
+    ],
+    [
+      "2026",
+      "GO",
+      "CASTELÂNDIA",
+      "124",
+      "COLEGIO ESTADUAL DONA ELBA FERREIRA GARCIA - UE-EST",
+      "ESCOLA MUNICIPAL JOSE MENDES DE PAULA - UE-MUN",
+      "68",
+      "218"
+    ],
+    [
+      "2026",
+      "GO",
+      "CASTELÂNDIA",
+      "124",
+      "COLEGIO ESTADUAL DONA ELBA FERREIRA GARCIA - UE-EST",
+      "ESCOLA MUNICIPAL JOSE MENDES DE PAULA - UE-MUN",
+      "69",
+      "218"
+    ],
+    [
+      "2026",
+      "GO",
+      "IPIRANGA DE GOIÁS",
+      "76",
+      "COLÉGIO ESPAÇO DO SABER UE- MUN",
+      "COLEGIO ESTADUAL SETE DE SETEMBRO UE-EST",
+      "122",
+      "212"
+    ],
+    [
+      "2026",
+      "GO",
+      "PORANGATU",
+      "55",
+      "ESCOLA MUNICIPAL LUIS ALVES PEREIRA - UE-MUN",
+      "CRAS - CENTRO DE REFERÊNCIA DA ASSISTÊNCIA SOCIAL - LC-MUN",
+      "65",
+      "259"
+    ],
+    [
+      "2026",
+      "GO",
+      "PORANGATU",
+      "55",
+      "ESCOLA MUNICIPAL LUIS ALVES PEREIRA - UE-MUN",
+      "CRAS - CENTRO DE REFERÊNCIA DA ASSISTÊNCIA SOCIAL - LC-MUN",
+      "70",
+      "257"
+    ],
+    [
+      "2026",
+      "GO",
+      "PORTEIRÃO",
+      "124",
+      "CMEI EUGÊNIA VIEIRA TERRA",
+      "ESCOLA MUNICIPAL SETE DE SETEMBRO - UE-MUN",
+      "74",
+      "360"
+    ],
+    [
+      "2026",
+      "GO",
+      "PORTEIRÃO",
+      "124",
+      "CMEI EUGÊNIA VIEIRA TERRA",
+      "ESCOLA MUNICIPAL SETE DE SETEMBRO - UE-MUN",
+      "75",
+      "359"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "94",
+      "291"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "100",
+      "289"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "108",
+      "287"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "112",
+      "287"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "124",
+      "283"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "140",
+      "290"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "158",
+      "292"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "165",
+      "292"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "167",
+      "287"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "171",
+      "287"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "ESCOLA MUNICIPAL ENÉAS FERNANDES DE CARVALHO - UE - MUN",
+      "ESCOLA ESTADUAL AEROPORTO - UE-EST",
+      "174",
+      "285"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "98",
+      "181"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "99",
+      "189"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "101",
+      "187"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "103",
+      "183"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "109",
+      "186"
+    ],
+    [
+      "2026",
+      "GO",
+      "URUAÇU",
+      "50",
+      "INSTITUTO FEDERAL DE GOIAS (IFG) - UE-FED",
+      "COLEGIO ALFREDO NASSER - UE-EST",
+      "173",
+      "179"
+    ],
+    [
+      "2026",
+      "MA",
+      "GRAÇA ARANHA",
+      "108",
+      "UNIDADE INTEGRADA ROSÁRIO ROLINS",
+      "UBS CREOLI DO SINHÁ",
+      "74",
+      "276"
+    ],
+    [
+      "2026",
+      "MA",
+      "GRAÇA ARANHA",
+      "108",
+      "UNIDADE INTEGRADA ROSÁRIO ROLINS",
+      "UBS CREOLI DO SINHÁ",
+      "75",
+      "273"
+    ],
+    [
+      "2026",
+      "MA",
+      "GRAÇA ARANHA",
+      "108",
+      "UNIDADE INTEGRADA ROSÁRIO ROLINS",
+      "UBS CREOLI DO SINHÁ",
+      "76",
+      "278"
+    ],
+    [
+      "2026",
+      "MA",
+      "GRAÇA ARANHA",
+      "108",
+      "UNIDADE INTEGRADA ROSÁRIO ROLINS",
+      "UBS CREOLI DO SINHÁ",
+      "173",
+      "275"
+    ],
+    [
+      "2026",
+      "MA",
+      "LIMA CAMPOS",
+      "67",
+      "CENTRO DE ENSINO JOÃO EPIFÂNIO DA SILVA",
+      "CRECHE PINGO DE GENTE",
+      "6",
+      "183"
+    ],
+    [
+      "2026",
+      "MA",
+      "LIMA CAMPOS",
+      "67",
+      "CENTRO DE ENSINO JOÃO EPIFÂNIO DA SILVA",
+      "CRECHE PINGO DE GENTE",
+      "102",
+      "191"
+    ],
+    [
+      "2026",
+      "MA",
+      "PRESIDENTE VARGAS",
+      "50",
+      "EMEF MARIA LUSIA FRAZÃO SILVA DAMASCENO",
+      "EMEI CHAPEUZINHO VERMELHO",
+      "223",
+      "105"
+    ],
+    [
+      "2026",
+      "MA",
+      "ROSÁRIO",
+      "18",
+      "U.E MIGUEL ARCANGELO MARQUES",
+      "UNIDADE ESCOLAR BENEDITO DE JESUS",
+      "213",
+      "60"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "CRECHE CASTELO MÁGICO",
+      "CENTRO DA CRIANÇA E DO ADOLESCENTE",
+      "217",
+      "343"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "CRECHE CASTELO MÁGICO",
+      "CENTRO DA CRIANÇA E DO ADOLESCENTE",
+      "345",
+      "372"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "CRECHE CASTELO MÁGICO",
+      "CENTRO DA CRIANÇA E DO ADOLESCENTE",
+      "351",
+      "244"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL ABRAÃO BARROS RODRIGUES",
+      "SALÃO PAROQUIAL",
+      "291",
+      "240"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL ABRAÃO BARROS RODRIGUES",
+      "SALÃO PAROQUIAL",
+      "292",
+      "255"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "294",
+      "375"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "295",
+      "372"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "296",
+      "376"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "297",
+      "377"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "298",
+      "373"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "299",
+      "377"
+    ],
+    [
+      "2026",
+      "MA",
+      "SANTA INÊS",
+      "57",
+      "ESCOLA MUNICIPAL JÚLIA SABAK",
+      "ESPAÇO DA PESSOA IDOSA ZECA FELIPE",
+      "300",
+      "377"
+    ],
+    [
+      "2026",
+      "MA",
+      "VARGEM GRANDE",
+      "50",
+      "ESCOLA MUNICIPAL SÃO MIGUEL DO POVOADO BARROCA",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO BÁSICA SOUSA LOBO DO POVOADO BELA VISTA",
+      "84",
+      "194"
+    ],
+    [
+      "2026",
+      "MG",
+      "AIMORÉS",
+      "5",
+      "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "4",
+      "321"
+    ],
+    [
+      "2026",
+      "MG",
+      "AIMORÉS",
+      "5",
+      "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "5",
+      "321"
+    ],
+    [
+      "2026",
+      "MG",
+      "AIMORÉS",
+      "5",
+      "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "6",
+      "316"
+    ],
+    [
+      "2026",
+      "MG",
+      "AIMORÉS",
+      "5",
+      "UNIPAC-UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "UNIPAC - UNIVERSIDADE PRES. ANTONIO CARLOS",
+      "64",
+      "314"
+    ],
+    [
+      "2026",
+      "MG",
+      "ARINOS",
+      "320",
+      "POSTO DE SAUDE",
+      "ESCOLA ESTADUAL MAJOR SAINT CLAIR FERN VALADARES",
+      "31",
+      "260"
+    ],
+    [
+      "2026",
+      "MG",
+      "AUGUSTO DE LIMA",
+      "54",
+      "BARRACA DA IGREJA IMACULADA CONCEIÇÃO (TOMBADOR)",
+      "ESCOLA MUNICIPAL JOAO DIAS PIO",
+      "48",
+      "204"
+    ],
+    [
+      "2026",
+      "MG",
+      "AUGUSTO DE LIMA",
+      "54",
+      "ESCOLA MUNICIPAL FRANCISCO SANTIAGO DA SILVA",
+      "POSTO DE SAÚDE DE MARÍSIA",
+      "49",
+      "231"
+    ],
+    [
+      "2026",
+      "MG",
+      "AUGUSTO DE LIMA",
+      "54",
+      "SALÃO DA BARRACA DA IGREJA NOSSA SENHORA DA CONCEIÇÃO (TEIXEIRAS)",
+      "ESCOLA MUNICIPAL JOAO CAETANO",
+      "9",
+      "217"
+    ],
+    [
+      "2026",
+      "MG",
+      "AUGUSTO DE LIMA",
+      "54",
+      "SALÃO DA BARRACA DA IGREJA NOSSA SENHORA DA CONCEIÇÃO (TEIXEIRAS)",
+      "ESCOLA MUNICIPAL JOAO CAETANO",
+      "10",
+      "211"
+    ],
+    [
+      "2026",
+      "MG",
+      "BUENÓPOLIS",
+      "54",
+      "ESCOLA ESTADUAL PADRE LAERTE ESPERANCA OLIVEIRA",
+      "CRAS - CENTRO DE REFERENCIA DE ASSISTÊNCIA SOCIAL ALCEU DINIZ COUTO",
+      "47",
+      "201"
+    ],
+    [
+      "2026",
+      "MG",
+      "CAIANA",
+      "303",
+      "IGREJA EVANGÉLICA ASSEMBLEIA DE DEUS",
+      "ESCOLA MUNICIPAL PEDRO DE OLIVEIRA",
+      "69",
+      "341"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHAPADA GAÚCHA",
+      "320",
+      "ESCOLA ESTADUAL MOACIR CANDIDO",
+      "ESCOLA MUNICIPAL SANTO AGOSTINHO",
+      "182",
+      "390"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHAPADA GAÚCHA",
+      "320",
+      "ESCOLA ESTADUAL MOACIR CANDIDO",
+      "ESCOLA MUNICIPAL SANTO AGOSTINHO",
+      "194",
+      "393"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHAPADA GAÚCHA",
+      "320",
+      "ESCOLA ESTADUAL MOACIR CANDIDO",
+      "ESCOLA MUNICIPAL SANTO AGOSTINHO",
+      "209",
+      "396"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHIADOR",
+      "170",
+      "BIBLIOTECA DE CHIADOR",
+      "ESCOLA MUNICIPAL SANTA TERESA",
+      "52",
+      "209"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHIADOR",
+      "170",
+      "ESPAÇO DE CONVIVÊNCIA DE ASSISTÊNCIA SOCIAL",
+      "ESCOLA MUNICIPAL DE PENHA LONGA",
+      "6",
+      "262"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHIADOR",
+      "170",
+      "ESPAÇO DE CONVIVÊNCIA DE ASSISTÊNCIA SOCIAL",
+      "ESCOLA MUNICIPAL DE PENHA LONGA",
+      "7",
+      "256"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHIADOR",
+      "170",
+      "UBS DE PENHA LONGA",
+      "ESCOLA MUNICIPAL DE PENHA LONGA",
+      "8",
+      "260"
+    ],
+    [
+      "2026",
+      "MG",
+      "CHIADOR",
+      "170",
+      "UBS DE PENHA LONGA",
+      "ESCOLA MUNICIPAL DE PENHA LONGA",
+      "39",
+      "262"
+    ],
+    [
+      "2026",
+      "MG",
+      "GRÃO MOGOL",
+      "120",
+      "ESCOLA MUNICIPAL SANTOS PANTA",
+      "ESCOLA MUNICIPAL AVELINO PEREIRA",
+      "85",
+      "225"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "20",
+      "328"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "21",
+      "332"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "22",
+      "333"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "23",
+      "333"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "134",
+      "331"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "CRECHE MUNICIPAL GENTE INOCENTE",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "142",
+      "333"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "PRÉ-ESCOLAR PRIMEIROS PASSOS",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "15",
+      "331"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "PRÉ-ESCOLAR PRIMEIROS PASSOS",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "16",
+      "333"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "PRÉ-ESCOLAR PRIMEIROS PASSOS",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "17",
+      "331"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "PRÉ-ESCOLAR PRIMEIROS PASSOS",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "18",
+      "332"
+    ],
+    [
+      "2026",
+      "MG",
+      "IAPU",
+      "128",
+      "PRÉ-ESCOLAR PRIMEIROS PASSOS",
+      "ESCOLA MUNICIPAL JAIR FERNANDES DE MELO",
+      "19",
+      "327"
+    ],
+    [
+      "2026",
+      "MG",
+      "ITAPEVA",
+      "58",
+      "CMEI VEREADOR BENEDITO APARECIDO DA CUNHA",
+      "ESCOLA MUNICIPAL DIRCE MONTEIRO LOPES",
+      "74",
+      "377"
+    ],
+    [
+      "2026",
+      "MG",
+      "ITAPEVA",
+      "58",
+      "CMEI VEREADOR BENEDITO APARECIDO DA CUNHA",
+      "ESCOLA MUNICIPAL DIRCE MONTEIRO LOPES",
+      "76",
+      "381"
+    ],
+    [
+      "2026",
+      "MG",
+      "ITAPEVA",
+      "58",
+      "CMEI VEREADOR BENEDITO APARECIDO DA CUNHA",
+      "ESCOLA MUNICIPAL DIRCE MONTEIRO LOPES",
+      "77",
+      "375"
+    ],
+    [
+      "2026",
+      "MG",
+      "ITAPEVA",
+      "58",
+      "CMEI VEREADOR BENEDITO APARECIDO DA CUNHA",
+      "ESCOLA MUNICIPAL DIRCE MONTEIRO LOPES",
+      "79",
+      "379"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ASSOCIAÇÃO COMUNITARIA DE CABECEIRINHA",
+      "ESCOLA MUNICIPAL DE CABECEIRINHA",
+      "344",
+      "196"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ASSOCIAÇÃO COMUNITÁRIA DE CABECEIRA DE TAMBORIL",
+      "SALÃO PAROQUIAL DE CABECEIRA DE TAMBORIL",
+      "336",
+      "106"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA ESTADUAL DE REMANSINHO",
+      "ESCOLA MUNICIPAL DE REMANSINHO",
+      "172",
+      "254"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA ESTADUAL DE REMANSINHO",
+      "ESCOLA MUNICIPAL DE REMANSINHO",
+      "362",
+      "252"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL BEBIANO NUNES DA MOTA / VEREDA GRANDE",
+      "ASSOCIAÇÃO COMUNITÁRIA DE VEREDA GRANDE 2",
+      "226",
+      "369"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL D. JUDITH JACQUES",
+      "CEMEI MUNDO MÁGICO",
+      "41",
+      "172"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL D. JUDITH JACQUES",
+      "CEMEI MUNDO MÁGICO",
+      "42",
+      "170"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL DE MORADEIRAS",
+      "ASSOCIAÇÃO QUILOMBOLA NOVO ESPAÇO/MORADEIRAS",
+      "248",
+      "265"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL DE MORADEIRAS",
+      "ASSOCIAÇÃO QUILOMBOLA NOVO ESPAÇO/MORADEIRAS",
+      "393",
+      "191"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL DE PARÁ",
+      "ASSOCIAÇÃO PEQUENOS PRODUTORES RURAIS E AGRICULTORES DE PARÁ",
+      "219",
+      "200"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL DR. ROBERTO MONTEIRO FONSECA",
+      "ESCOLA ESTADUAL PRINCESA JANUARIA",
+      "29",
+      "144"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL DR. ROBERTO MONTEIRO FONSECA",
+      "ESCOLA ESTADUAL PRINCESA JANUARIA",
+      "45",
+      "149"
+    ],
+    [
+      "2026",
+      "MG",
+      "JANUÁRIA",
+      "148",
+      "ESCOLA MUNICIPAL VERÍSSIMO FERNANDES- SUSSUARANA",
+      "ANTIGO SALÃO DE FESTAS FAZENDA LARGA IGREJINHA",
+      "230",
+      "295"
+    ],
+    [
+      "2026",
+      "MG",
+      "JOAQUIM FELÍCIO",
+      "54",
+      "UNIDADE BASICA DE SAUDE ANTONIO JUVENTINO LOPES (BARREIRINHO)",
+      "ASSOCIAÇÃO DOS MORADORES DO BARREIRINHO E VACA BRAVA",
+      "58",
+      "170"
+    ],
+    [
+      "2026",
+      "MG",
+      "MAR DE ESPANHA",
+      "170",
+      "ESCOLA ESTADUAL ESTEVAO PINTO",
+      "SALAO PAROQUIAL DE MAR DE ESPANHA",
+      "25",
+      "112"
+    ],
+    [
+      "2026",
+      "MG",
+      "MAR DE ESPANHA",
+      "170",
+      "SALÃO PAROQUIAL DE SAUDADE",
+      "ESCOLA MUNICIPAL RAQUEL MARQUES",
+      "31",
+      "111"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARIANA",
+      "171",
+      "E. M. PROFESSORA CELINA CÉLIA GOMES",
+      "UBS ÁGUAS CLARAS",
+      "67",
+      "350"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARIANA",
+      "171",
+      "E. M. PROFESSORA CELINA CÉLIA GOMES",
+      "UBS ÁGUAS CLARAS",
+      "68",
+      "350"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "159",
+      "284"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "160",
+      "283"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "161",
+      "287"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "162",
+      "287"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "163",
+      "284"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "164",
+      "288"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "165",
+      "286"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "166",
+      "287"
+    ],
+    [
+      "2026",
+      "MG",
+      "MARTINHO CAMPOS",
+      "45",
+      "ESCOLA MUNICIPAL CORONEL PEDRO LINO",
+      "ESCOLA MUNICIPAL GERALDO DE ASSIS",
+      "167",
+      "282"
+    ],
+    [
+      "2026",
+      "MG",
+      "MIRADOURO",
+      "187",
+      "CENTRO DE CONVIVÊNCIA E CULTURA BEM VIVER (CCC BEM VIVER)",
+      "CENTRO PASTORAL",
+      "363",
+      "185"
+    ],
+    [
+      "2026",
+      "MG",
+      "MIRADOURO",
+      "187",
+      "CENTRO DE CONVIVÊNCIA E CULTURA BEM VIVER (CCC BEM VIVER)",
+      "CENTRO PASTORAL",
+      "364",
+      "185"
+    ],
+    [
+      "2026",
+      "MG",
+      "MIRADOURO",
+      "187",
+      "CENTRO DE CONVIVÊNCIA E CULTURA BEM VIVER (CCC BEM VIVER)",
+      "CENTRO PASTORAL",
+      "365",
+      "180"
+    ],
+    [
+      "2026",
+      "MG",
+      "MIRADOURO",
+      "187",
+      "CENTRO DE CONVIVÊNCIA E CULTURA BEM VIVER (CCC BEM VIVER)",
+      "CENTRO PASTORAL",
+      "366",
+      "179"
+    ],
+    [
+      "2026",
+      "MG",
+      "MIRADOURO",
+      "187",
+      "CENTRO DE CONVIVÊNCIA E CULTURA BEM VIVER (CCC BEM VIVER)",
+      "CENTRO PASTORAL",
+      "367",
+      "183"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "335",
+      "362"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "362",
+      "370"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "381",
+      "368"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "393",
+      "363"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "452",
+      "367"
+    ],
+    [
+      "2026",
+      "MG",
+      "MONTES CLAROS",
+      "185",
+      "ESCOLA ESTADUAL SECUNDINO TAVARES",
+      "CEMEI SÃO NORBERTO",
+      "499",
+      "100"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "105",
+      "233"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "106",
+      "228"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "107",
+      "237"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "108",
+      "222"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "109",
+      "218"
+    ],
+    [
+      "2026",
+      "MG",
+      "MUNHOZ",
+      "112",
+      "ESCOLA MUNICIPAL VER. JOSE TOMAZ DE FREITAS",
+      "E.M.E.I. PROFESSORA MARIA ALBA DE FREITAS",
+      "110",
+      "247"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL CAPITÃO ROBERTO JOSÉ FERREIRA",
+      "ESCOLA MUNICIPAL DEJANIRA PASSONE DE OLIVEIRA",
+      "160",
+      "161"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL CAPITÃO ROBERTO JOSÉ FERREIRA",
+      "ESCOLA MUNICIPAL DEJANIRA PASSONE DE OLIVEIRA",
+      "161",
+      "163"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL CAPITÃO ROBERTO JOSÉ FERREIRA",
+      "ESCOLA MUNICIPAL DEJANIRA PASSONE DE OLIVEIRA",
+      "162",
+      "162"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL CAPITÃO ROBERTO JOSÉ FERREIRA",
+      "ESCOLA MUNICIPAL DEJANIRA PASSONE DE OLIVEIRA",
+      "270",
+      "173"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL CAPITÃO ROBERTO JOSÉ FERREIRA",
+      "ESCOLA MUNICIPAL DEJANIRA PASSONE DE OLIVEIRA",
+      "444",
+      "163"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL JOÃO ALVES DE BITTENCOURT",
+      "ESCOLA MUNICIPAL ARISTÓTELES BRAGA",
+      "163",
+      "235"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL JOÃO ALVES DE BITTENCOURT",
+      "ESCOLA MUNICIPAL ARISTÓTELES BRAGA",
+      "164",
+      "240"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL JOÃO ALVES DE BITTENCOURT",
+      "ESCOLA MUNICIPAL ARISTÓTELES BRAGA",
+      "165",
+      "243"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL JOÃO ALVES DE BITTENCOURT",
+      "ESCOLA MUNICIPAL ARISTÓTELES BRAGA",
+      "197",
+      "240"
+    ],
+    [
+      "2026",
+      "MG",
+      "MURIAÉ",
+      "187",
+      "ESCOLA ESTADUAL JOÃO ALVES DE BITTENCOURT",
+      "ESCOLA MUNICIPAL ARISTÓTELES BRAGA",
+      "445",
+      "234"
+    ],
+    [
+      "2026",
+      "MG",
+      "PASSA TEMPO",
+      "208",
+      "ESCOLA MUNICIPAL MESTRE SEVERINO",
+      "SALÃO PAROQUIAL DA AGUADINHA",
+      "11",
+      "131"
+    ],
+    [
+      "2026",
+      "MG",
+      "SANTO ANTÔNIO DO AVENTUREIRO",
+      "170",
+      "SALÃO PAROQUIAL DE SÃO DOMINGOS",
+      "POSTO DE SAUDE DE SÃO DOMINGOS",
+      "85",
+      "91"
+    ],
+    [
+      "2026",
+      "MG",
+      "UNAÍ",
+      "280",
+      "ESCOLA MUNICIPAL PADRE JOSE DE ANCHIETA",
+      "LAPA/SAPEZAL",
+      "210",
+      "122"
+    ],
+    [
+      "2026",
+      "MG",
+      "UNAÍ",
+      "280",
+      "ESCOLA MUNICIPAL PEDRO PEREIRA",
+      "ESCOLA EVA MARIA VIEIRA",
+      "213",
+      "164"
+    ],
+    [
+      "2026",
+      "MS",
+      "MARACAJU",
+      "16",
+      "PARÓQUIA SÃO SEBASTIÃO - NÚCLEO/ASSENTAMENTO CANTA GALO",
+      "SALA PEDRO FERREIRA CORRÊA - NÚCLEO PROJETO CANTA GALO",
+      "56",
+      "70"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "126",
+      "379"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "127",
+      "373"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "128",
+      "377"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "129",
+      "376"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "130",
+      "373"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "131",
+      "384"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "132",
+      "374"
+    ],
+    [
+      "2026",
+      "MT",
+      "CONFRESA",
+      "28",
+      "EEDIEB CREUSLHI DE SOUZA RAMOS",
+      "ESCOLA MUNICIPAL TAPIRAGUAIA",
+      "224",
+      "196"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "1",
+      "314"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "2",
+      "305"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "3",
+      "306"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "4",
+      "308"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "47",
+      "301"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "53",
+      "308"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "62",
+      "307"
+    ],
+    [
+      "2026",
+      "PA",
+      "ANAJÁS",
+      "90",
+      "EE RUI BARBOSA",
+      "EM ROSELY PAIVA",
+      "70",
+      "314"
+    ],
+    [
+      "2026",
+      "PA",
+      "CASTANHAL",
+      "50",
+      "EMEF EMILIA GIMINNEZ",
+      "CAMPUS DA UNIVERSIDADE DO ESTADO DO PARÁ",
+      "345",
+      "362"
+    ],
+    [
+      "2026",
+      "PA",
+      "CASTANHAL",
+      "50",
+      "EMEF EMILIA GIMINNEZ",
+      "CAMPUS DA UNIVERSIDADE DO ESTADO DO PARÁ",
+      "346",
+      "363"
+    ],
+    [
+      "2026",
+      "PA",
+      "CASTANHAL",
+      "50",
+      "EMEF EMILIA GIMINNEZ",
+      "CAMPUS DA UNIVERSIDADE DO ESTADO DO PARÁ",
+      "347",
+      "360"
+    ],
+    [
+      "2026",
+      "PA",
+      "CASTANHAL",
+      "50",
+      "EMEF EMILIA GIMINNEZ",
+      "CAMPUS DA UNIVERSIDADE DO ESTADO DO PARÁ",
+      "348",
+      "359"
+    ],
+    [
+      "2026",
+      "PA",
+      "CASTANHAL",
+      "50",
+      "EMEF EMILIA GIMINNEZ",
+      "CAMPUS DA UNIVERSIDADE DO ESTADO DO PARÁ",
+      "349",
+      "362"
+    ],
+    [
+      "2026",
+      "PA",
+      "COLARES",
+      "8",
+      "EMEF BARÃO DE GUAJARÁ",
+      "EMEF DONATILA BARRIGA",
+      "1",
+      "331"
+    ],
+    [
+      "2026",
+      "PA",
+      "COLARES",
+      "8",
+      "EMEF BARÃO DE GUAJARÁ",
+      "EMEF DONATILA BARRIGA",
+      "262",
+      "326"
+    ],
+    [
+      "2026",
+      "PA",
+      "COLARES",
+      "8",
+      "EMEF PRINCESA LEOPOLDINA",
+      "EMEF FRANCISCO PALHETA",
+      "13",
+      "328"
+    ],
+    [
+      "2026",
+      "PA",
+      "COLARES",
+      "8",
+      "EMEF PRINCESA LEOPOLDINA",
+      "EMEF FRANCISCO PALHETA",
+      "147",
+      "321"
+    ],
+    [
+      "2026",
+      "PA",
+      "PIÇARRA",
+      "62",
+      "EMEF SÃO JOÃO BATISTA",
+      "CMEI CAMINHOS DO SABER",
+      "19",
+      "370"
+    ],
+    [
+      "2026",
+      "PA",
+      "PIÇARRA",
+      "62",
+      "EMEF SÃO JOÃO BATISTA",
+      "CMEI CAMINHOS DO SABER",
+      "67",
+      "373"
+    ],
+    [
+      "2026",
+      "PA",
+      "PIÇARRA",
+      "62",
+      "EMEF SÃO JOÃO BATISTA",
+      "CMEI CAMINHOS DO SABER",
+      "124",
+      "368"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EEEM MACARIO DANTAS (ESTADUAL)",
+      "EMEF PROFESSOR JUVENAL PINHEIRO DOS SANTOS",
+      "28",
+      "301"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EEEM MACARIO DANTAS (ESTADUAL)",
+      "EMEF PROFESSOR JUVENAL PINHEIRO DOS SANTOS",
+      "29",
+      "299"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EEEM MACARIO DANTAS (ESTADUAL)",
+      "EMEF PROFESSOR JUVENAL PINHEIRO DOS SANTOS",
+      "30",
+      "299"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EEEM MACARIO DANTAS (ESTADUAL)",
+      "EMEF PROFESSOR JUVENAL PINHEIRO DOS SANTOS",
+      "31",
+      "297"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EMEF ZIUDÁLIA LEÃO ALENCAR LIMA",
+      "CMEI EURÍDICE NEIVA BEZERRA",
+      "110",
+      "318"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EMEF ZIUDÁLIA LEÃO ALENCAR LIMA",
+      "CMEI EURÍDICE NEIVA BEZERRA",
+      "116",
+      "311"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EMEF ZIUDÁLIA LEÃO ALENCAR LIMA",
+      "CMEI EURÍDICE NEIVA BEZERRA",
+      "126",
+      "316"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EMEFM JANUÁRIO VAZ DA COSTA",
+      "EMEFM VICENTE CORREIA",
+      "66",
+      "330"
+    ],
+    [
+      "2026",
+      "PA",
+      "SÃO GERALDO DO ARAGUAIA",
+      "62",
+      "EMEFM JANUÁRIO VAZ DA COSTA",
+      "EMEFM VICENTE CORREIA",
+      "78",
+      "330"
+    ],
+    [
+      "2026",
+      "PB",
+      "BELÉM",
+      "14",
+      "ESCOLA MUNICIPAL ELVIRA SILVEIRA DA COSTA",
+      "GRUPO MUNICIPAL FRANCISCA LEITE BRAGA",
+      "177",
+      "328"
+    ],
+    [
+      "2026",
+      "PB",
+      "BELÉM",
+      "14",
+      "ESCOLA MUNICIPAL ELVIRA SILVEIRA DA COSTA",
+      "GRUPO MUNICIPAL FRANCISCA LEITE BRAGA",
+      "178",
+      "330"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "ASSOCIAÇÃO PORTO CIDADE",
+      "SECRETARIA DE FINANÇAS",
+      "1",
+      "291"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "ASSOCIAÇÃO PORTO CIDADE",
+      "SECRETARIA DE FINANÇAS",
+      "20",
+      "289"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "ASSOCIAÇÃO PORTO CIDADE",
+      "SECRETARIA DE FINANÇAS",
+      "23",
+      "288"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "ASSOCIAÇÃO PORTO CIDADE",
+      "SECRETARIA DE FINANÇAS",
+      "24",
+      "287"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "ASSOCIAÇÃO PORTO CIDADE",
+      "SECRETARIA DE FINANÇAS",
+      "25",
+      "290"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "27",
+      "309"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "28",
+      "315"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "29",
+      "318"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "30",
+      "321"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "85",
+      "325"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "107",
+      "316"
+    ],
+    [
+      "2026",
+      "PB",
+      "CABEDELO",
+      "57",
+      "COLEGIO ALTEZA",
+      "CENTRO INTEGRADO IMACULADA CONCEIÇÂO",
+      "127",
+      "326"
+    ],
+    [
+      "2026",
+      "PB",
+      "CAIÇARA",
+      "14",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOÃO ALVES DE CARVALHO",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MARIA EUDÉSIA DE CARVALHO",
+      "208",
+      "313"
+    ],
+    [
+      "2026",
+      "PB",
+      "CAIÇARA",
+      "14",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOÃO ALVES DE CARVALHO",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MARIA EUDÉSIA DE CARVALHO",
+      "209",
+      "308"
+    ],
+    [
+      "2026",
+      "PB",
+      "CAIÇARA",
+      "14",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOÃO ALVES DE CARVALHO",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MARIA EUDÉSIA DE CARVALHO",
+      "210",
+      "312"
+    ],
+    [
+      "2026",
+      "PB",
+      "CAIÇARA",
+      "14",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL JOÃO ALVES DE CARVALHO",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL MARIA EUDÉSIA DE CARVALHO",
+      "211",
+      "308"
+    ],
+    [
+      "2026",
+      "PB",
+      "ITABAIANA",
+      "6",
+      "EEEF JOÃO FAGUNDES DE OLIVEIRA",
+      "ESC. MUN. ENS. INF. FUND. MIGUEL ANGELO DA SILVA DANTAS",
+      "76",
+      "210"
+    ],
+    [
+      "2026",
+      "PB",
+      "ITABAIANA",
+      "6",
+      "EEEF JOÃO FAGUNDES DE OLIVEIRA",
+      "ESC. MUN. ENS. INF. FUND. MIGUEL ANGELO DA SILVA DANTAS",
+      "77",
+      "207"
+    ],
+    [
+      "2026",
+      "PB",
+      "ITABAIANA",
+      "6",
+      "EEEF JOÃO FAGUNDES DE OLIVEIRA",
+      "ESC. MUN. ENS. INF. FUND. MIGUEL ANGELO DA SILVA DANTAS",
+      "78",
+      "214"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO BENTO",
+      "69",
+      "ESCOLA MUNICIPAL MARIA DE LOURDES ELIAS DANTAS",
+      "ESCOLA MUNICIPAL ANTÔNIO SOUZA DA SILVA",
+      "36",
+      "308"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO BENTO",
+      "69",
+      "ESCOLA MUNICIPAL MARIA DE LOURDES ELIAS DANTAS",
+      "ESCOLA MUNICIPAL ANTÔNIO SOUZA DA SILVA",
+      "37",
+      "313"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO BENTO",
+      "69",
+      "ESCOLA MUNICIPAL MARIA DE LOURDES ELIAS DANTAS",
+      "ESCOLA MUNICIPAL ANTÔNIO SOUZA DA SILVA",
+      "57",
+      "314"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO BENTO",
+      "69",
+      "ESCOLA MUNICIPAL MARIA DE LOURDES ELIAS DANTAS",
+      "ESCOLA MUNICIPAL ANTÔNIO SOUZA DA SILVA",
+      "75",
+      "322"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO BENTO",
+      "69",
+      "ESCOLA MUNICIPAL MARIA DE LOURDES ELIAS DANTAS",
+      "ESCOLA MUNICIPAL ANTÔNIO SOUZA DA SILVA",
+      "136",
+      "196"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO JOSÉ DOS RAMOS",
+      "6",
+      "EMEIF NOEMIA RODRIGUES DE AMORIM",
+      "ESC. EST. ENS. FUND. MÉD. JOCELYN VELLOSO BORGES",
+      "270",
+      "365"
+    ],
+    [
+      "2026",
+      "PB",
+      "SÃO JOSÉ DOS RAMOS",
+      "6",
+      "EMEIF NOEMIA RODRIGUES DE AMORIM",
+      "ESC. EST. ENS. FUND. MÉD. JOCELYN VELLOSO BORGES",
+      "275",
+      "343"
+    ],
+    [
+      "2026",
+      "PB",
+      "UIRAÚNA",
+      "53",
+      "CÂMARA MUNICIPAL DE UIRAÚNA-PB",
+      "E. M. LICA DUARTE",
+      "2",
+      "319"
+    ],
+    [
+      "2026",
+      "PB",
+      "UIRAÚNA",
+      "53",
+      "PREFEITURA MUNICIPAL DE UIRAÚNA-",
+      "COLEGIO ESTADUAL DE UIRAUNA",
+      "64",
+      "257"
+    ],
+    [
+      "2026",
+      "PB",
+      "VIEIRÓPOLIS",
+      "53",
+      "EEEF MARIA MOREIRA PINTO",
+      "EMEF AGRIPINO FERNANDES DAS CHAGAS",
+      "110",
+      "209"
+    ],
+    [
+      "2026",
+      "PE",
+      "BUÍQUE",
+      "60",
+      "SECRETARIA DE AÇÃO SOCIAL",
+      "CAMARA DE VEREADORES",
+      "5",
+      "378"
+    ],
+    [
+      "2026",
+      "PE",
+      "BUÍQUE",
+      "60",
+      "SECRETARIA DE AÇÃO SOCIAL",
+      "CAMARA DE VEREADORES",
+      "6",
+      "378"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "12",
+      "206"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "13",
+      "206"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "14",
+      "204"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "15",
+      "206"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "16",
+      "204"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "105",
+      "207"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "106",
+      "204"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "109",
+      "205"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "111",
+      "203"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "113",
+      "204"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL BARÃO DE SUASSUNA",
+      "GRUPO MUNICIPAL BARAO DE SUASSUNA",
+      "115",
+      "206"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL EDSON DE ARAÚJO NUNES",
+      "SINDICATO DOS TECELÕES",
+      "134",
+      "346"
+    ],
+    [
+      "2026",
+      "PE",
+      "ESCADA",
+      "19",
+      "ESCOLA MUNICIPAL EDSON DE ARAÚJO NUNES",
+      "SINDICATO DOS TECELÕES",
+      "165",
+      "353"
+    ],
+    [
+      "2026",
+      "PE",
+      "FLORESTA",
+      "72",
+      "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+      "CRECHE MUNICIPAL PROFESSORA NAHY DINIZ FERRAZ",
+      "68",
+      "392"
+    ],
+    [
+      "2026",
+      "PE",
+      "FLORESTA",
+      "72",
+      "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+      "CRECHE MUNICIPAL PROFESSORA NAHY DINIZ FERRAZ",
+      "91",
+      "390"
+    ],
+    [
+      "2026",
+      "PE",
+      "FLORESTA",
+      "72",
+      "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+      "CRECHE MUNICIPAL PROFESSORA NAHY DINIZ FERRAZ",
+      "121",
+      "390"
+    ],
+    [
+      "2026",
+      "PE",
+      "FLORESTA",
+      "72",
+      "UNIDADE BÁSICA DE SAÚDE DR. CANTIDIANO VALGUEIRO DE CARVALHO",
+      "CRECHE MUNICIPAL PROFESSORA NAHY DINIZ FERRAZ",
+      "123",
+      "395"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "167",
+      "356"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "168",
+      "354"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "169",
+      "356"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "170",
+      "355"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "171",
+      "356"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "217",
+      "355"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "219",
+      "353"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "COLÉGIO ÔMEGA",
+      "ESCOLA MUNICIPAL GOV CARLOS WILSON CAMPOS",
+      "321",
+      "350"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "CRECHE ESCOLA NOSSA SENHORA DO O",
+      "ESCOLA ESTADUAL SAO JOSE DO TURURU",
+      "173",
+      "363"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "CRECHE ESCOLA NOSSA SENHORA DO O",
+      "ESCOLA ESTADUAL SAO JOSE DO TURURU",
+      "201",
+      "367"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "CRECHE ESCOLA NOSSA SENHORA DO O",
+      "ESCOLA ESTADUAL SAO JOSE DO TURURU",
+      "243",
+      "364"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "CRECHE ESCOLA NOSSA SENHORA DO O",
+      "ESCOLA ESTADUAL SAO JOSE DO TURURU",
+      "291",
+      "359"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "CRECHE ESCOLA NOSSA SENHORA DO O",
+      "ESCOLA ESTADUAL SAO JOSE DO TURURU",
+      "342",
+      "364"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "ESCOLA MUNICIPAL MARIA JOSÉ BARBOSA",
+      "ESCOLA MUNICIPAL GOVERNADOR MIGUEL ARRAES DE ALENCAR",
+      "226",
+      "359"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "ESCOLA MUNICIPAL MARIA JOSÉ BARBOSA",
+      "ESCOLA MUNICIPAL GOVERNADOR MIGUEL ARRAES DE ALENCAR",
+      "251",
+      "356"
+    ],
+    [
+      "2026",
+      "PE",
+      "PAULISTA",
+      "146",
+      "ESCOLA MUNICIPAL MARIA JOSÉ BARBOSA",
+      "ESCOLA MUNICIPAL GOVERNADOR MIGUEL ARRAES DE ALENCAR",
+      "299",
+      "360"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "83",
+      "CMEI - OSÓRIO LEÔNIDAS DE SIQUEIRA",
+      "ESCOLA MUNICIPAL LEONIDAS OSORIO SIQUEIRA",
+      "450",
+      "366"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "83",
+      "CMEI - OSÓRIO LEÔNIDAS DE SIQUEIRA",
+      "ESCOLA MUNICIPAL LEONIDAS OSORIO SIQUEIRA",
+      "451",
+      "370"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "83",
+      "CMEI - OSÓRIO LEÔNIDAS DE SIQUEIRA",
+      "ESCOLA MUNICIPAL LEONIDAS OSORIO SIQUEIRA",
+      "519",
+      "367"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "83",
+      "CMEI - OSÓRIO LEÔNIDAS DE SIQUEIRA",
+      "ESCOLA MUNICIPAL LEONIDAS OSORIO SIQUEIRA",
+      "545",
+      "369"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "275",
+      "319"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "276",
+      "308"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "277",
+      "323"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "278",
+      "312"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "279",
+      "326"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "280",
+      "309"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "281",
+      "317"
+    ],
+    [
+      "2026",
+      "PE",
+      "PETROLINA",
+      "144",
+      "ESCOLA MUNICIPAL DE EDUCAÇÃO EM TEMPO INTEGRAL LÍVIA CLÉA VIANA COELHO",
+      "ESCOLA ANTONIO CASSIMIRO",
+      "282",
+      "310"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA MUNICIPAL LAGOA ENCANTADA",
+      "ESCOLA LAGOA ENCANTADA",
+      "603",
+      "383"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA MUNICIPAL LAGOA ENCANTADA",
+      "ESCOLA LAGOA ENCANTADA",
+      "604",
+      "387"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA MUNICIPAL LAGOA ENCANTADA",
+      "ESCOLA LAGOA ENCANTADA",
+      "605",
+      "384"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA MUNICIPAL LAGOA ENCANTADA",
+      "ESCOLA LAGOA ENCANTADA",
+      "606",
+      "387"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "735",
+      "399"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "736",
+      "391"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "737",
+      "395"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "738",
+      "392"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "739",
+      "394"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "740",
+      "396"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "741",
+      "396"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "742",
+      "392"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "743",
+      "390"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "744",
+      "390"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "745",
+      "394"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "3",
+      "ESCOLA SÃO JORGE ( SEÇÕES DO ÁLVARO NEGROMONTE)",
+      "ESCOLA SÃO JORGE (SEÇÕES DA ESCOLA MONSENHOR ALVARO NEGROMONTE)",
+      "746",
+      "395"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "4",
+      "CRECHE ESCOLA MUNICIPAL AMADEU CLEMENTINO DA SILVA",
+      "CASA DA AMIZADE",
+      "335",
+      "257"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "4",
+      "CRECHE ESCOLA MUNICIPAL AMADEU CLEMENTINO DA SILVA",
+      "CASA DA AMIZADE",
+      "336",
+      "255"
+    ],
+    [
+      "2026",
+      "PE",
+      "RECIFE",
+      "4",
+      "CRECHE ESCOLA MUNICIPAL AMADEU CLEMENTINO DA SILVA",
+      "CASA DA AMIZADE",
+      "337",
+      "258"
+    ],
+    [
+      "2026",
+      "PI",
+      "BOM JESUS",
+      "15",
+      "ESCOLA MUNICIPAL JOAQUIM ROSAL SOBRINHO",
+      "CRECHE MUNICIPAL TIO PATINHAS",
+      "111",
+      "263"
+    ],
+    [
+      "2026",
+      "PI",
+      "BOM JESUS",
+      "15",
+      "ESCOLA MUNICIPAL JOAQUIM ROSAL SOBRINHO",
+      "CRECHE MUNICIPAL TIO PATINHAS",
+      "118",
+      "214"
+    ],
+    [
+      "2026",
+      "PI",
+      "BOM JESUS",
+      "15",
+      "ESCOLA MUNICIPAL JOAQUIM ROSAL SOBRINHO",
+      "CRECHE MUNICIPAL TIO PATINHAS",
+      "129",
+      "220"
+    ],
+    [
+      "2026",
+      "PI",
+      "BOM JESUS",
+      "15",
+      "ESCOLA MUNICIPAL JOAQUIM ROSAL SOBRINHO",
+      "CRECHE MUNICIPAL TIO PATINHAS",
+      "132",
+      "219"
+    ],
+    [
+      "2026",
+      "PI",
+      "BOM JESUS",
+      "15",
+      "ESCOLA MUNICIPAL JOAQUIM ROSAL SOBRINHO",
+      "CRECHE MUNICIPAL TIO PATINHAS",
+      "148",
+      "218"
+    ],
+    [
+      "2026",
+      "PI",
+      "CAMPINAS DO PIAUÍ",
+      "90",
+      "UNIDADE ESCOLAR ASSIS CARVALHO",
+      "UNIDADE BÁSICA DE SAÚDE DO POVOADO ALTO FORMOSO",
+      "101",
+      "181"
+    ],
+    [
+      "2026",
+      "PI",
+      "CAPITÃO GERVÁSIO OLIVEIRA",
+      "69",
+      "GRUPO ESCOLAR MODESTO RIBEIRO",
+      "UNIDADE BÁSICA DE SAÚDE DO ANGICO BRANCO",
+      "38",
+      "247"
+    ],
+    [
+      "2026",
+      "PI",
+      "CURRAIS",
+      "15",
+      "GRUPO ESCOLAR MARCOS ANTÔNIO ARANTES COSTAS",
+      "ANEXO PARÁ-BATINS - ESCOLA ESTADUAL HÉLIO FIGUEIREDO DA FONSECA",
+      "20",
+      "224"
+    ],
+    [
+      "2026",
+      "PI",
+      "CURRAIS",
+      "15",
+      "GRUPO ESCOLAR MARCOS ANTÔNIO ARANTES COSTAS",
+      "ANEXO PARÁ-BATINS - ESCOLA ESTADUAL HÉLIO FIGUEIREDO DA FONSECA",
+      "57",
+      "303"
+    ],
+    [
+      "2026",
+      "PI",
+      "CURRAIS",
+      "15",
+      "GRUPO ESCOLAR MARCOS ANTÔNIO ARANTES COSTAS",
+      "ANEXO PARÁ-BATINS - ESCOLA ESTADUAL HÉLIO FIGUEIREDO DA FONSECA",
+      "114",
+      "149"
+    ],
+    [
+      "2026",
+      "PI",
+      "CURRAIS",
+      "15",
+      "UNIDADE ESCOLAR CINOBILINA ARAUJO ELVAS",
+      "GRUPO ESCOLAR FRANCISCO GABRIEL",
+      "21",
+      "116"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "9",
+      "281"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "10",
+      "284"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "33",
+      "282"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "37",
+      "283"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "38",
+      "282"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "40",
+      "276"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "CRECHE MUNICIPAL VOVÓ LOURDINHA",
+      "NUCLEO DE ENSINO SUPLETIVO CARLOS FRANCO",
+      "61",
+      "281"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "POSTO DE SAÚDE MARIA OLIVEIRA",
+      "ESCOLA MUNICIPAL EDUARDA BATISTA DE CASTRO",
+      "7",
+      "246"
+    ],
+    [
+      "2026",
+      "PI",
+      "GUADALUPE",
+      "46",
+      "POSTO DE SAÚDE MARIA OLIVEIRA",
+      "ESCOLA MUNICIPAL EDUARDA BATISTA DE CASTRO",
+      "8",
+      "245"
+    ],
+    [
+      "2026",
+      "PI",
+      "OEIRAS",
+      "5",
+      "SECRETARIA DE AGRICULTURA",
+      "SECRETARIA MUNICIPAL DE EDUCACAO",
+      "126",
+      "93"
+    ],
+    [
+      "2026",
+      "PI",
+      "SÃO LOURENÇO DO PIAUÍ",
+      "13",
+      "CENTRO DE REFERÊNCIA E ASSISTÊNCIA SOCIAL (CRAS)",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL",
+      "209",
+      "280"
+    ],
+    [
+      "2026",
+      "PI",
+      "SÃO LOURENÇO DO PIAUÍ",
+      "13",
+      "CENTRO DE REFERÊNCIA E ASSISTÊNCIA SOCIAL (CRAS)",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL",
+      "250",
+      "284"
+    ],
+    [
+      "2026",
+      "PI",
+      "SÃO LOURENÇO DO PIAUÍ",
+      "13",
+      "UNIDADE ESCOLAR ANTONIO DAMASCENO SOARES",
+      "POSTO DE SAÚDE MÃE JULIANA",
+      "77",
+      "88"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "43",
+      "353"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "44",
+      "357"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "110",
+      "358"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "152",
+      "353"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "184",
+      "362"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "230",
+      "352"
+    ],
+    [
+      "2026",
+      "PR",
+      "ALMIRANTE TAMANDARÉ",
+      "171",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "ESCOLA MUNICIPAL ALVORADA",
+      "275",
+      "345"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL CAMPINA DA LAGOA",
+      "32",
+      "294"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL CAMPINA DA LAGOA",
+      "33",
+      "297"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL CAMPINA DA LAGOA",
+      "34",
+      "295"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL ALBERTO SANTOS DUMONT",
+      "98",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL ALBERTO SANTOS DUMONT",
+      "99",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL ALBERTO SANTOS DUMONT",
+      "103",
+      "320"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPINA DA LAGOA",
+      "169",
+      "ESCOLA MUNICIPAL ROBERTO BRZEZINSKI",
+      "COLÉGIO ESTADUAL ALBERTO SANTOS DUMONT",
+      "104",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "47",
+      "346"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "48",
+      "345"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "49",
+      "347"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "50",
+      "346"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "51",
+      "349"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "52",
+      "344"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "145",
+      "348"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAMPO LARGO",
+      "9",
+      "ESCOLA MUNICIPAL ANDERSON PAULART JUNIOR",
+      "COLÉGIO ESTADUAL LENIRO RIBEIRO BITTENCOURT",
+      "204",
+      "343"
+    ],
+    [
+      "2026",
+      "PR",
+      "CANDÓI",
+      "203",
+      "SALÃO COMUNITÁRIO DO RIO NOVO",
+      "ESCOLA RURAL MUNICIPAL MIGUEL MARTIM",
+      "214",
+      "278"
+    ],
+    [
+      "2026",
+      "PR",
+      "CANDÓI",
+      "203",
+      "SALÃO COMUNITÁRIO DO RIO NOVO",
+      "ESCOLA RURAL MUNICIPAL MIGUEL MARTIM",
+      "215",
+      "280"
+    ],
+    [
+      "2026",
+      "PR",
+      "CAPANEMA",
+      "107",
+      "ESCOLA RURAL MUNICIPAL CAMPOS SALLES",
+      "ESCOLA ESTADUAL DUAS BARRAS",
+      "44",
+      "240"
+    ],
+    [
+      "2026",
+      "PR",
+      "CIANORTE",
+      "88",
+      "COLÉGIO ESTADUAL ITACELINA BITTENCOURT",
+      "CENTRO SOCIAL URBANO ANTONIO LIMA",
+      "1",
+      "255"
+    ],
+    [
+      "2026",
+      "PR",
+      "CIANORTE",
+      "88",
+      "COLÉGIO ESTADUAL ITACELINA BITTENCOURT",
+      "CENTRO SOCIAL URBANO ANTONIO LIMA",
+      "3",
+      "247"
+    ],
+    [
+      "2026",
+      "PR",
+      "CIANORTE",
+      "88",
+      "COLÉGIO ESTADUAL ITACELINA BITTENCOURT",
+      "CENTRO SOCIAL URBANO ANTONIO LIMA",
+      "4",
+      "244"
+    ],
+    [
+      "2026",
+      "PR",
+      "CIANORTE",
+      "88",
+      "COLÉGIO ESTADUAL ITACELINA BITTENCOURT",
+      "CENTRO SOCIAL URBANO ANTONIO LIMA",
+      "83",
+      "245"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "COLÉGIO ESTADUAL ZULMIRA MARCHESI SILVA",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "15",
+      "242"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "COLÉGIO ESTADUAL ZULMIRA MARCHESI SILVA",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "16",
+      "219"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "COLÉGIO ESTADUAL ZULMIRA MARCHESI SILVA",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "17",
+      "211"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "COLÉGIO ESTADUAL ZULMIRA MARCHESI SILVA",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "114",
+      "247"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "ESCOLA MUNICIPAL ANGELO MAZZAROTTO",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "22",
+      "223"
+    ],
+    [
+      "2026",
+      "PR",
+      "CORNÉLIO PROCÓPIO",
+      "26",
+      "ESCOLA MUNICIPAL ANGELO MAZZAROTTO",
+      "FECOP - FUNDAÇÃO DE ESPORTES DE CORNÉLIO PROCÓPIO",
+      "23",
+      "220"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "CMEI NEUZA CLECI DE LIMA",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "106",
+      "215"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "CMEI NEUZA CLECI DE LIMA",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "141",
+      "213"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA KUAA MBO - ALDEIA INDÍGENA TEKOHA ANHETETE",
+      "ESCOLA RURAL MUNICIPAL FERDINANDO MASSAROLLO",
+      "94",
+      "239"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA KUAA MBO - ALDEIA INDÍGENA TEKOHA ANHETETE",
+      "ESCOLA RURAL MUNICIPAL FERDINANDO MASSAROLLO",
+      "136",
+      "251"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA MUNICIPAL PRESIDENTE KENNEDY",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "98",
+      "211"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA MUNICIPAL PRESIDENTE KENNEDY",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "99",
+      "214"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA MUNICIPAL PRESIDENTE KENNEDY",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "100",
+      "211"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA MUNICIPAL PRESIDENTE KENNEDY",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "101",
+      "215"
+    ],
+    [
+      "2026",
+      "PR",
+      "DIAMANTE D'OESTE",
+      "129",
+      "ESCOLA MUNICIPAL PRESIDENTE KENNEDY",
+      "COLÉGIO ESTADUAL DIAMANTE D'OESTE",
+      "105",
+      "216"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "72",
+      "296"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "73",
+      "297"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "74",
+      "300"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "75",
+      "302"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "76",
+      "296"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "77",
+      "300"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "90",
+      "301"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "95",
+      "301"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "96",
+      "302"
+    ],
+    [
+      "2026",
+      "PR",
+      "FRANCISCO ALVES",
+      "97",
+      "CMEI PROFESSORA EDILANE CALDEIRA CORTEZ DE FREITAS",
+      "COLEGIO ESTADUAL VICENTE TOMAZINI",
+      "97",
+      "302"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "1",
+      "314"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "5",
+      "317"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "6",
+      "312"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "7",
+      "319"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "8",
+      "313"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "38",
+      "309"
+    ],
+    [
+      "2026",
+      "PR",
+      "GUARACI",
+      "64",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL PEQUENOPOLIS",
+      "COLÉGIO ESTADUAL CARMELA DUTRA",
+      "47",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "IBIPORÃ",
+      "80",
+      "COLEGIO ESTADUAL UNIDADE POLO - KVALAS",
+      "ESCOLA MUNICIPAL PREFEITO MARIO DE MENEZES",
+      "91",
+      "287"
+    ],
+    [
+      "2026",
+      "PR",
+      "IBIPORÃ",
+      "80",
+      "COLEGIO ESTADUAL UNIDADE POLO - KVALAS",
+      "ESCOLA MUNICIPAL PREFEITO MARIO DE MENEZES",
+      "95",
+      "289"
+    ],
+    [
+      "2026",
+      "PR",
+      "IBIPORÃ",
+      "80",
+      "COLEGIO ESTADUAL UNIDADE POLO - KVALAS",
+      "ESCOLA MUNICIPAL PREFEITO MARIO DE MENEZES",
+      "111",
+      "287"
+    ],
+    [
+      "2026",
+      "PR",
+      "IBIPORÃ",
+      "80",
+      "COLEGIO ESTADUAL UNIDADE POLO - KVALAS",
+      "ESCOLA MUNICIPAL PREFEITO MARIO DE MENEZES",
+      "119",
+      "288"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "1",
+      "307"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "2",
+      "308"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "3",
+      "317"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "4",
+      "325"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "5",
+      "325"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "6",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "123",
+      "315"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "154",
+      "316"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "189",
+      "321"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "210",
+      "320"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "245",
+      "305"
+    ],
+    [
+      "2026",
+      "PR",
+      "LARANJEIRAS DO SUL",
+      "45",
+      "COLEGIO ESTADUAL PROFESSOR GILDO ALUISIO SCHUCK",
+      "PAVILHÃO DA IGREJA MATRIZ SANTANA",
+      "265",
+      "302"
+    ],
+    [
+      "2026",
+      "PR",
+      "NOVA CANTU",
+      "169",
+      "ESCOLA MUNICIPAL CASTRO ALVES",
+      "COLÉGIO ESTADUAL JOÃO FARIAS DA COSTA",
+      "50",
+      "275"
+    ],
+    [
+      "2026",
+      "PR",
+      "NOVA CANTU",
+      "169",
+      "ESCOLA MUNICIPAL CASTRO ALVES",
+      "COLÉGIO ESTADUAL JOÃO FARIAS DA COSTA",
+      "51",
+      "276"
+    ],
+    [
+      "2026",
+      "PR",
+      "NOVA CANTU",
+      "169",
+      "ESCOLA MUNICIPAL CASTRO ALVES",
+      "COLÉGIO ESTADUAL JOÃO FARIAS DA COSTA",
+      "52",
+      "273"
+    ],
+    [
+      "2026",
+      "PR",
+      "PIÊN",
+      "144",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL VIDA NOVA",
+      "ESCOLA RURAL MUNICIPAL SANTA ISABEL",
+      "372",
+      "322"
+    ],
+    [
+      "2026",
+      "PR",
+      "PIÊN",
+      "144",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL VIDA NOVA",
+      "ESCOLA RURAL MUNICIPAL SANTA ISABEL",
+      "373",
+      "334"
+    ],
+    [
+      "2026",
+      "PR",
+      "PIÊN",
+      "144",
+      "CENTRO MUNICIPAL DE EDUCAÇÃO INFANTIL VIDA NOVA",
+      "ESCOLA RURAL MUNICIPAL SANTA ISABEL",
+      "424",
+      "60"
+    ],
+    [
+      "2026",
+      "PR",
+      "PONTA GROSSA",
+      "139",
+      "CMEI - HAYDE ERCILIA LAROCCA",
+      "ESCOLA MUNICIPAL PROFESSORA IDALIA GÕES",
+      "250",
+      "301"
+    ],
+    [
+      "2026",
+      "PR",
+      "PONTA GROSSA",
+      "139",
+      "CMEI - HAYDE ERCILIA LAROCCA",
+      "ESCOLA MUNICIPAL PROFESSORA IDALIA GÕES",
+      "313",
+      "311"
+    ],
+    [
+      "2026",
+      "PR",
+      "PONTA GROSSA",
+      "139",
+      "CMEI - HAYDE ERCILIA LAROCCA",
+      "ESCOLA MUNICIPAL PROFESSORA IDALIA GÕES",
+      "328",
+      "293"
+    ],
+    [
+      "2026",
+      "PR",
+      "PONTA GROSSA",
+      "139",
+      "CMEI - HAYDE ERCILIA LAROCCA",
+      "ESCOLA MUNICIPAL PROFESSORA IDALIA GÕES",
+      "490",
+      "111"
+    ],
+    [
+      "2026",
+      "PR",
+      "PORTO AMAZONAS",
+      "13",
+      "ESCOLA MUNICIPAL BENEDITA VIEIRA IATZSEKI",
+      "COLÉGIO ESTADUAL OLÍVIO BELICH",
+      "68",
+      "297"
+    ],
+    [
+      "2026",
+      "PR",
+      "PORTO AMAZONAS",
+      "13",
+      "ESCOLA MUNICIPAL BENEDITA VIEIRA IATZSEKI",
+      "COLÉGIO ESTADUAL OLÍVIO BELICH",
+      "69",
+      "296"
+    ],
+    [
+      "2026",
+      "PR",
+      "PORTO AMAZONAS",
+      "13",
+      "ESCOLA MUNICIPAL BENEDITA VIEIRA IATZSEKI",
+      "COLÉGIO ESTADUAL OLÍVIO BELICH",
+      "70",
+      "297"
+    ],
+    [
+      "2026",
+      "PR",
+      "PORTO AMAZONAS",
+      "13",
+      "ESCOLA MUNICIPAL BENEDITA VIEIRA IATZSEKI",
+      "COLÉGIO ESTADUAL OLÍVIO BELICH",
+      "71",
+      "298"
+    ],
+    [
+      "2026",
+      "PR",
+      "PORTO AMAZONAS",
+      "13",
+      "ESCOLA MUNICIPAL BENEDITA VIEIRA IATZSEKI",
+      "COLÉGIO ESTADUAL OLÍVIO BELICH",
+      "74",
+      "297"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "ASSOCIACAO COMUNITARIA ALTA FLORESTA",
+      "ESCOLA MUNICIPAL SEVERINO DA SILVA",
+      "182",
+      "269"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "ASSOCIACAO COMUNITARIA ALTA FLORESTA",
+      "ESCOLA MUNICIPAL SEVERINO DA SILVA",
+      "200",
+      "270"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "CMEI DONA LAURA SCHMEING",
+      "CERBI - ESCOLA MUNICIPAL RIO BONITO DO IGUAÇU",
+      "208",
+      "313"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "CMEI DONA LAURA SCHMEING",
+      "CERBI - ESCOLA MUNICIPAL RIO BONITO DO IGUAÇU",
+      "220",
+      "315"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "CMEI DONA LAURA SCHMEING",
+      "CERBI - ESCOLA MUNICIPAL RIO BONITO DO IGUAÇU",
+      "232",
+      "315"
+    ],
+    [
+      "2026",
+      "PR",
+      "RIO BONITO DO IGUAÇU",
+      "45",
+      "CMEI DONA LAURA SCHMEING",
+      "CERBI - ESCOLA MUNICIPAL RIO BONITO DO IGUAÇU",
+      "236",
+      "311"
+    ],
+    [
+      "2026",
+      "PR",
+      "SANTO ANTÔNIO DA PLATINA",
+      "22",
+      "CENTRO DE CONVIVÊNCIA DO IDOSO",
+      "ESCOLA ESTADUAL JOAQUIM DE CIMA",
+      "69",
+      "151"
+    ],
+    [
+      "2026",
+      "PR",
+      "SANTO ANTÔNIO DO SUDOESTE",
+      "83",
+      "CENTRO COMUNITARIO DO KM 05",
+      "COLEGIO ESTADUAL D PEDRO II",
+      "34",
+      "216"
+    ],
+    [
+      "2026",
+      "PR",
+      "SANTO INÁCIO",
+      "159",
+      "CMEI BOM PASTOR",
+      "ESCOLA MUNICIPAL OMAR DE OLIVEIRA",
+      "61",
+      "352"
+    ],
+    [
+      "2026",
+      "PR",
+      "SANTO INÁCIO",
+      "159",
+      "CMEI BOM PASTOR",
+      "ESCOLA MUNICIPAL OMAR DE OLIVEIRA",
+      "62",
+      "355"
+    ],
+    [
+      "2026",
+      "PR",
+      "SANTO INÁCIO",
+      "159",
+      "CMEI BOM PASTOR",
+      "ESCOLA MUNICIPAL OMAR DE OLIVEIRA",
+      "63",
+      "349"
+    ],
+    [
+      "2026",
+      "RN",
+      "BODÓ",
+      "20",
+      "ESCOLA ESTADUAL SÉRVULO PEREIRA DE ARAÚJO",
+      "CENTRO DE CONVIVÊNCIA DE IDOSOS",
+      "188",
+      "380"
+    ],
+    [
+      "2026",
+      "RN",
+      "BODÓ",
+      "20",
+      "ESCOLA ESTADUAL SÉRVULO PEREIRA DE ARAÚJO",
+      "CENTRO DE CONVIVÊNCIA DE IDOSOS",
+      "190",
+      "377"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "CENTRO ESPECIALIZADO DE REABILITAÇÃO MANOEL FRANCISCO DAS CHAGAS",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "7",
+      "284"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "CENTRO ESPECIALIZADO DE REABILITAÇÃO MANOEL FRANCISCO DAS CHAGAS",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "8",
+      "283"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "CENTRO ESPECIALIZADO DE REABILITAÇÃO MANOEL FRANCISCO DAS CHAGAS",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "28",
+      "286"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "CENTRO ESPECIALIZADO DE REABILITAÇÃO MANOEL FRANCISCO DAS CHAGAS",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "41",
+      "282"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "JARDIM DE INFANCIA HUGOLINO DEOLIVEIRA",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "3",
+      "281"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "JARDIM DE INFANCIA HUGOLINO DEOLIVEIRA",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "4",
+      "282"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "JARDIM DE INFANCIA HUGOLINO DEOLIVEIRA",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "5",
+      "283"
+    ],
+    [
+      "2026",
+      "RN",
+      "CARAÚBAS",
+      "36",
+      "JARDIM DE INFANCIA HUGOLINO DEOLIVEIRA",
+      "ESCOLA ESTADUAL SEBASTIAO GURGEL",
+      "6",
+      "281"
+    ],
+    [
+      "2026",
+      "RN",
+      "CURRAIS NOVOS",
+      "20",
+      "ESCOLA MUNICIPAL PROFESSOR HUMBERTO GAMA",
+      "ESCOLA MUNICIPAL PROF FRANCISCO ROSA",
+      "128",
+      "296"
+    ],
+    [
+      "2026",
+      "RN",
+      "CURRAIS NOVOS",
+      "20",
+      "ESCOLA MUNICIPAL PROFESSOR HUMBERTO GAMA",
+      "ESCOLA MUNICIPAL PROF FRANCISCO ROSA",
+      "129",
+      "293"
+    ],
+    [
+      "2026",
+      "RN",
+      "CURRAIS NOVOS",
+      "20",
+      "ESCOLA MUNICIPAL PROFESSOR HUMBERTO GAMA",
+      "ESCOLA MUNICIPAL PROF FRANCISCO ROSA",
+      "136",
+      "294"
+    ],
+    [
+      "2026",
+      "RN",
+      "CURRAIS NOVOS",
+      "20",
+      "ESCOLA MUNICIPAL PROFESSOR HUMBERTO GAMA",
+      "ESCOLA MUNICIPAL PROF FRANCISCO ROSA",
+      "144",
+      "295"
+    ],
+    [
+      "2026",
+      "RN",
+      "CURRAIS NOVOS",
+      "20",
+      "ESCOLA MUNICIPAL PROFESSOR HUMBERTO GAMA",
+      "ESCOLA MUNICIPAL PROF FRANCISCO ROSA",
+      "147",
+      "298"
+    ],
+    [
+      "2026",
+      "RN",
+      "DOUTOR SEVERIANO",
+      "43",
+      "ESCOLA ESTADUAL CORONEL JOAO PESSOA",
+      "ESCOLA MUNICIPAL SONHO INFANTIL",
+      "10",
+      "176"
+    ],
+    [
+      "2026",
+      "RN",
+      "DOUTOR SEVERIANO",
+      "43",
+      "ESCOLA ESTADUAL CORONEL JOAO PESSOA",
+      "ESCOLA MUNICIPAL SONHO INFANTIL",
+      "66",
+      "175"
+    ],
+    [
+      "2026",
+      "RN",
+      "DOUTOR SEVERIANO",
+      "43",
+      "ESCOLA ESTADUAL CORONEL JOAO PESSOA",
+      "ESCOLA MUNICIPAL SONHO INFANTIL",
+      "82",
+      "176"
+    ],
+    [
+      "2026",
+      "RN",
+      "LAGOA NOVA",
+      "20",
+      "ESCOLA MUNICIPAL JOÃO XXIII",
+      "ESCOLA ESTADUAL MANOEL LUIS DE MARIA",
+      "157",
+      "327"
+    ],
+    [
+      "2026",
+      "RN",
+      "LAGOA NOVA",
+      "20",
+      "ESCOLA MUNICIPAL JOÃO XXIII",
+      "ESCOLA ESTADUAL MANOEL LUIS DE MARIA",
+      "161",
+      "326"
+    ],
+    [
+      "2026",
+      "RN",
+      "LAGOA NOVA",
+      "20",
+      "ESCOLA MUNICIPAL JOÃO XXIII",
+      "ESCOLA ESTADUAL MANOEL LUIS DE MARIA",
+      "184",
+      "320"
+    ],
+    [
+      "2026",
+      "RN",
+      "LAGOA NOVA",
+      "20",
+      "ESCOLA MUNICIPAL JOÃO XXIII",
+      "ESCOLA ESTADUAL MANOEL LUIS DE MARIA",
+      "185",
+      "326"
+    ],
+    [
+      "2026",
+      "RN",
+      "LAGOA NOVA",
+      "20",
+      "ESCOLA MUNICIPAL JOÃO XXIII",
+      "ESCOLA ESTADUAL MANOEL LUIS DE MARIA",
+      "216",
+      "234"
+    ],
+    [
+      "2026",
+      "RN",
+      "UPANEMA",
+      "49",
+      "CAMARA MUNICIPAL DE VEREADORES",
+      "ESCOLA MUNICIPAL PROFA. MARIA GORETE DE CARVALHO MACEDO",
+      "32",
+      "385"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "381",
+      "308"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "382",
+      "309"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "383",
+      "312"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "384",
+      "311"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "385",
+      "311"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "386",
+      "308"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "387",
+      "305"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "388",
+      "306"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "389",
+      "307"
+    ],
+    [
+      "2026",
+      "RO",
+      "PORTO VELHO",
+      "2",
+      "CRECHE SANTA MARCELINA",
+      "ESCOLA SANTA MARCELINA",
+      "542",
+      "303"
+    ],
+    [
+      "2026",
+      "RS",
+      "CATUÍPE",
+      "23",
+      "ESCOLA MUN. DE ENS. FUNDAMENTAL SAO JOAO BATISTA DE LA SALLE",
+      "GINÁSIO DE ESPORTES DA COMUNIDADE DO REASSENTAMENTO NOVA ESPERANÇA",
+      "370",
+      "81"
+    ],
+    [
+      "2026",
+      "RS",
+      "MANOEL VIANA",
+      "79",
+      "BIBLIOTECA MUNICIPAL DE MANOEL VIANA",
+      "ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL ALBERTO PASQUALINI",
+      "62",
+      "296"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "8",
+      "237"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "71",
+      "233"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "128",
+      "232"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "142",
+      "234"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "161",
+      "238"
+    ],
+    [
+      "2026",
+      "RS",
+      "PELOTAS",
+      "164",
+      "ESC. MUN. BALBINO MASCARENHAS",
+      "INST. FED. DE EDUC, CIÊNCIAS E TECNOL. SUL-RIO-GRANDENSE (IFSUL) PEL",
+      "943",
+      "236"
+    ],
+    [
+      "2026",
+      "RS",
+      "ROLANTE",
+      "55",
+      "SALÃO DA CAPELA SÃO MIGUEL DO MORRO GRANDE",
+      "E.M.E.F. PADRE REUS",
+      "266",
+      "144"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "EMEI TANCREDO NEVES",
+      "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+      "8",
+      "255"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "EMEI TANCREDO NEVES",
+      "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+      "81",
+      "254"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "EMEI TANCREDO NEVES",
+      "ESCOLA MUNICIPAL DE ENSINO FUND. JOSE BONIFACIO",
+      "118",
+      "250"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "ESC. EST. DE ENS. FUND. DR. MÁRIO VIEIRA MARQUES-CIEP",
+      "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+      "84",
+      "307"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "ESC. EST. DE ENS. FUND. DR. MÁRIO VIEIRA MARQUES-CIEP",
+      "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+      "105",
+      "304"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+      "POSTO DE SAÚDE FLORESTA",
+      "130",
+      "303"
+    ],
+    [
+      "2026",
+      "RS",
+      "SÃO LUIZ GONZAGA",
+      "52",
+      "ESCOLA MUN. DE ENSINO FUND. ERNESTINA AMARAL LANGSCH",
+      "POSTO DE SAÚDE FLORESTA",
+      "176",
+      "310"
+    ],
+    [
+      "2026",
+      "RS",
+      "URUGUAIANA",
+      "57",
+      "CENTRO ESPORTIVO MUNICIPAL NOVA ESPERANÇA",
+      "EEEF REPÚBLICA DO URUGUAI",
+      "97",
+      "358"
+    ],
+    [
+      "2026",
+      "RS",
+      "URUGUAIANA",
+      "57",
+      "CENTRO ESPORTIVO MUNICIPAL NOVA ESPERANÇA",
+      "EEEF REPÚBLICA DO URUGUAI",
+      "185",
+      "357"
+    ],
+    [
+      "2026",
+      "RS",
+      "URUGUAIANA",
+      "57",
+      "CENTRO ESPORTIVO MUNICIPAL NOVA ESPERANÇA",
+      "EEEF REPÚBLICA DO URUGUAI",
+      "231",
+      "359"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "ESCOLA MUNICIPAL JOSÉ MOACYR MENDONÇA - ANEXO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "180",
+      "369"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "ESCOLA MUNICIPAL JOSÉ MOACYR MENDONÇA - ANEXO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "181",
+      "363"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "ESCOLA MUNICIPAL JOSÉ MOACYR MENDONÇA - ANEXO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "182",
+      "363"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "ESCOLA MUNICIPAL JOSÉ MOACYR MENDONÇA - ANEXO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "183",
+      "363"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "ESCOLA MUNICIPAL JOSÉ MOACYR MENDONÇA - ANEXO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "184",
+      "365"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "UNIVERSIDADE ABERTA DO BRASIL (UAB) - POLO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "185",
+      "367"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "UNIVERSIDADE ABERTA DO BRASIL (UAB) - POLO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "186",
+      "363"
+    ],
+    [
+      "2026",
+      "SE",
+      "BREJO GRANDE",
+      "15",
+      "UNIVERSIDADE ABERTA DO BRASIL (UAB) - POLO",
+      "COLÉGIO ESTADUAL DR. LUIZ GARCIA",
+      "189",
+      "367"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "93",
+      "279"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "131",
+      "279"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "149",
+      "281"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "171",
+      "277"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "178",
+      "276"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "230",
+      "280"
+    ],
+    [
+      "2026",
+      "SE",
+      "ESTÂNCIA",
+      "6",
+      "ESCOLA MUN. DR. HUMBERTO DA SILVEIRA FERREIRA",
+      "CENTRO DE FORMAÇÃO LUZ E VIDA",
+      "239",
+      "276"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "91",
+      "318"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "94",
+      "323"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "100",
+      "320"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "102",
+      "321"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "103",
+      "320"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "107",
+      "321"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO MAGNUS",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "119",
+      "316"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO SABER 2",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "123",
+      "323"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO SABER 2",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "126",
+      "320"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "COLEGIO SABER 2",
+      "NIVALDA LIMA FIGUEIREDO, ESCOLA MUNICIPAL PROFESSORA",
+      "127",
+      "316"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANA",
+      "9",
+      "JOSÉ FILADELFO ARAÚJO, ESCOLA MUNICIPAL - POVOADO CARRILHO",
+      "ACÁCIA DA SILVA SANTOS, ESCOLA MUNICIPAL PROFª (ANTIGO MARIA VIEIRA)",
+      "285",
+      "374"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "120",
+      "367"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "121",
+      "360"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "122",
+      "361"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "123",
+      "366"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "185",
+      "367"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "(CRECHE) STA. JOANA D'ARC, ESCOLA MUNICIPAL",
+      "FRANCISCO MOREIRA DOS SANTOS, ESCOLA MUNICIPAL",
+      "196",
+      "367"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "ANEXO DA ESCOLA MUNICIPAL TENNYSON FONTES DE SOUZA",
+      "TENNYSON FONTES DE SOUZA, ESCOLA MUNICIPAL",
+      "195",
+      "154"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "LÍRIO DOS VALES, ESCOLA MUNICIPAL",
+      "147",
+      "320"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "LÍRIO DOS VALES, ESCOLA MUNICIPAL",
+      "148",
+      "314"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "LÍRIO DOS VALES, ESCOLA MUNICIPAL",
+      "149",
+      "318"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "JOSÉ LIMA DE CARVALHO, ESCOLA MUNICIPAL",
+      "153",
+      "334"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "JOSÉ LIMA DE CARVALHO, ESCOLA MUNICIPAL",
+      "154",
+      "337"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "JOSÉ LIMA DE CARVALHO, ESCOLA MUNICIPAL",
+      "155",
+      "340"
+    ],
+    [
+      "2026",
+      "SE",
+      "ITABAIANINHA",
+      "30",
+      "PASSOS PORTO, ESCOLA MUNICIPAL",
+      "JOSÉ LIMA DE CARVALHO, ESCOLA MUNICIPAL",
+      "156",
+      "337"
+    ],
+    [
+      "2026",
+      "SE",
+      "NOSSA SENHORA DO SOCORRO",
+      "34",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DO SOCORRO",
+      "SECRETARIA DO TRABALHO E EMPREGO (ANEXO PARÓQUIA SÃO JOÃO BATISTA)",
+      "318",
+      "377"
+    ],
+    [
+      "2026",
+      "SE",
+      "NOSSA SENHORA DO SOCORRO",
+      "34",
+      "ESCOLA MUNICIPAL NOSSA SENHORA DO SOCORRO",
+      "SECRETARIA DO TRABALHO E EMPREGO (ANEXO PARÓQUIA SÃO JOÃO BATISTA)",
+      "371",
+      "374"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "CRECHE MUNICIPAL MARINALVA MOREIRA (SEÇÕES 223 À 226 E 238)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "223",
+      "282"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "CRECHE MUNICIPAL MARINALVA MOREIRA (SEÇÕES 223 À 226 E 238)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "224",
+      "284"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "CRECHE MUNICIPAL MARINALVA MOREIRA (SEÇÕES 223 À 226 E 238)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "225",
+      "289"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "CRECHE MUNICIPAL MARINALVA MOREIRA (SEÇÕES 223 À 226 E 238)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "226",
+      "281"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "CRECHE MUNICIPAL MARINALVA MOREIRA (SEÇÕES 223 À 226 E 238)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "238",
+      "293"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "ESCOLA FUNDAMENTAL POETA SANTO SOUZA (SEÇÕES 218 À 222)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "218",
+      "280"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "ESCOLA FUNDAMENTAL POETA SANTO SOUZA (SEÇÕES 218 À 222)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "219",
+      "290"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "ESCOLA FUNDAMENTAL POETA SANTO SOUZA (SEÇÕES 218 À 222)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "220",
+      "288"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "ESCOLA FUNDAMENTAL POETA SANTO SOUZA (SEÇÕES 218 À 222)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "221",
+      "304"
+    ],
+    [
+      "2026",
+      "SE",
+      "RIACHUELO",
+      "13",
+      "ESCOLA FUNDAMENTAL POETA SANTO SOUZA (SEÇÕES 218 À 222)",
+      "COLÉGIO ESTADUAL PROF. MARIA DE LOURDES GOIS",
+      "222",
+      "290"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "59",
+      "326"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "60",
+      "325"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "61",
+      "328"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "62",
+      "326"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "63",
+      "327"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "64",
+      "327"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "75",
+      "326"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "COLÉGIO ESTADUAL DR. ANTONIO GARCIA FILHO",
+      "76",
+      "327"
+    ],
+    [
+      "2026",
+      "SE",
+      "UMBAÚBA",
+      "35",
+      "COLÉGIO AGRÍCOLA ULISSES GUIMARÃES",
+      "EMEF JOAQUIM MACEDO SILVA",
+      "155",
+      "312"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "EMEF REVERENDO DEIRO FELICIO ANDRADE",
+      "EMEF PROFESSOR SIDNEY SANTUCCI",
+      "586",
+      "377"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "EMEF REVERENDO DEIRO FELICIO ANDRADE",
+      "EMEF PROFESSOR SIDNEY SANTUCCI",
+      "604",
+      "186"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "449",
+      "343"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "461",
+      "342"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "466",
+      "350"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "471",
+      "348"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "482",
+      "343"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "495",
+      "342"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "504",
+      "345"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "514",
+      "347"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "526",
+      "343"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "537",
+      "343"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "550",
+      "347"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "562",
+      "343"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "FIEB - ITB PROFESSOR MUNIR JOSÉ",
+      "EMEF FIORAVANTE BARLETA",
+      "577",
+      "344"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "102",
+      "383"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "103",
+      "376"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "104",
+      "382"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "105",
+      "379"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "106",
+      "380"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "174",
+      "378"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "212",
+      "381"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "266",
+      "380"
+    ],
+    [
+      "2026",
+      "SP",
+      "BARUERI",
+      "199",
+      "PROFESSORA MARIA MEDUNECKAS",
+      "EE JARDIM MARIA HELENA I(ANTIGO PD ELIDIO MANTOVANI)",
+      "275",
+      "382"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "12",
+      "275"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "13",
+      "277"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "14",
+      "276"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "15",
+      "275"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "16",
+      "272"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "17",
+      "276"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "18",
+      "272"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "19",
+      "278"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "20",
+      "275"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "21",
+      "271"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "171",
+      "274"
+    ],
+    [
+      "2026",
+      "SP",
+      "PRESIDENTE PRUDENTE",
+      "402",
+      "E.E. FLORIVALDO LEAL",
+      "FACULDADE DE CIÊNCIAS E TECNOLOGIA - UNESP",
+      "201",
+      "271"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "185",
+      "387"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "186",
+      "384"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "187",
+      "392"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "188",
+      "391"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "189",
+      "388"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "190",
+      "387"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "239",
+      "389"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "257",
+      "389"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "306",
+      "389"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "339",
+      "389"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "420",
+      "387"
+    ],
+    [
+      "2026",
+      "SP",
+      "SÃO PAULO",
+      "256",
+      "EE. CONSELHEIRO RUY BARBOSA",
+      "RECANTO NOSSA SENHORA DE LOURDES",
+      "432",
+      "391"
+    ],
+    [
+      "2026",
+      "TO",
+      "ARAPOEMA",
+      "31",
+      "TEMPLO CIADSETA",
+      "MERCADINHO PEREIRA - SEU TOTO",
+      "18",
+      "104"
+    ],
+    [
+      "2026",
+      "TO",
+      "ARAPOEMA",
+      "31",
+      "TEMPLO DO KM 19",
+      "ESCOLA MUNICIPAL JOSÉ DE ANCHIETA",
+      "19",
+      "141"
+    ],
+    [
+      "2026",
+      "TO",
+      "FIGUEIRÓPOLIS",
+      "14",
+      "ESCOLA MUNICIPAL PROFESSORA EDILEUZA BARBOSA DA SILVA SANTOS",
+      "COLÉGIO ESTADUAL CÂNDIDO FIGUEIRA",
+      "183",
+      "258"
+    ],
+    [
+      "2026",
+      "TO",
+      "FIGUEIRÓPOLIS",
+      "14",
+      "ESCOLA MUNICIPAL PROFESSORA EDILEUZA BARBOSA DA SILVA SANTOS",
+      "COLÉGIO ESTADUAL CÂNDIDO FIGUEIRA",
+      "187",
+      "260"
+    ],
+    [
+      "2026",
+      "TO",
+      "MIRACEMA DO TOCANTINS",
+      "5",
+      "CMEI VOVÓ LUÍZA BUCAR",
+      "ESC. MUN. VILMAR VASCONCELOS FEITOSA",
+      "44",
+      "208"
+    ],
+    [
+      "2026",
+      "TO",
+      "MIRACEMA DO TOCANTINS",
+      "5",
+      "CMEI VOVÓ LUÍZA BUCAR",
+      "ESC. MUN. VILMAR VASCONCELOS FEITOSA",
+      "68",
+      "190"
+    ],
+    [
+      "2026",
+      "TO",
+      "MIRACEMA DO TOCANTINS",
+      "5",
+      "CMEI VOVÓ LUÍZA BUCAR",
+      "ESC. MUN. VILMAR VASCONCELOS FEITOSA",
+      "88",
+      "192"
+    ],
+    [
+      "2026",
+      "TO",
+      "MIRACEMA DO TOCANTINS",
+      "5",
+      "CMEI VOVÓ LUÍZA BUCAR",
+      "ESC. MUN. VILMAR VASCONCELOS FEITOSA",
+      "121",
+      "188"
+    ],
+    [
+      "2026",
+      "TO",
+      "RIO DA CONCEIÇÃO",
+      "25",
+      "ESCOLA MUNICIPAL PROFESSOR AURELINO RODRIGUES DE ARAÚJO",
+      "ESCOLA ESTADUAL VIRGILIO FERREIRA DE FRANCA",
+      "31",
+      "239"
+    ],
+    [
+      "2026",
+      "TO",
+      "RIO DA CONCEIÇÃO",
+      "25",
+      "ESCOLA MUNICIPAL PROFESSOR AURELINO RODRIGUES DE ARAÚJO",
+      "ESCOLA ESTADUAL VIRGILIO FERREIRA DE FRANCA",
+      "32",
+      "232"
+    ],
+    [
+      "2026",
+      "TO",
+      "RIO DA CONCEIÇÃO",
+      "25",
+      "ESCOLA MUNICIPAL PROFESSOR AURELINO RODRIGUES DE ARAÚJO",
+      "ESCOLA ESTADUAL VIRGILIO FERREIRA DE FRANCA",
+      "58",
+      "237"
+    ],
+    [
+      "2026",
+      "TO",
+      "RIO DA CONCEIÇÃO",
+      "25",
+      "ESCOLA MUNICIPAL PROFESSOR AURELINO RODRIGUES DE ARAÚJO",
+      "ESCOLA ESTADUAL VIRGILIO FERREIRA DE FRANCA",
+      "79",
+      "236"
+    ],
+    [
+      "2026",
+      "TO",
+      "SAMPAIO",
+      "21",
+      "ESCOLA MUNICIPAL PRIMEIRO DE JUNHO",
+      "SECRETARIA MUNICIPAL DE SAÚDE",
+      "103",
+      "326"
+    ],
+    [
+      "2026",
+      "TO",
+      "TALISMÃ",
+      "14",
+      "ESCOLA MUNICIPAL ADÃO GOMES DE MELO",
+      "COLÉGIO ESTADUAL DE TALISMÃ",
+      "79",
+      "208"
+    ],
+    [
+      "2026",
+      "TO",
+      "TALISMÃ",
+      "14",
+      "ESCOLA MUNICIPAL ADÃO GOMES DE MELO",
+      "COLÉGIO ESTADUAL DE TALISMÃ",
+      "180",
+      "190"
+    ],
+    [
+      "2026",
+      "TO",
+      "TALISMÃ",
+      "14",
+      "ESCOLA MUNICIPAL ADÃO GOMES DE MELO",
+      "COLÉGIO ESTADUAL DE TALISMÃ",
+      "188",
+      "196"
+    ]
+  ],
+  "rowsSha256": "c416d75109f9557d934e6bbc6debf3add332196647b721396b2b2e94dbcdf305"
+}
