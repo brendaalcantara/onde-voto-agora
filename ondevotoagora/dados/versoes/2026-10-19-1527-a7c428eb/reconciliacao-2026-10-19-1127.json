@@ -1,0 +1,1717 @@
+{
+  "geradoEm": "2026-10-19T18:39:14.968Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-19-1127/secoes.csv",
+    "registros": 554,
+    "sha256": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-19-1527-a7c428eb/secoes.csv",
+    "registros": 444,
+    "sha256": "a7c428ebcfb6bb54d1ffe9385bb8d5dfbb4918412ccaefb379584b1cfcc4f317"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 359,
+    "apenasNaVersaoAnterior": 195,
+    "apenasNaVersaoAtual": 85,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "32",
+      "secao": "919"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "62",
+      "secao": "555"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "62",
+      "secao": "580"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "62",
+      "secao": "631"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "62",
+      "secao": "1020"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "687"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "65",
+      "secao": "667"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "65",
+      "secao": "673"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "65",
+      "secao": "680"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "65",
+      "secao": "691"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "65",
+      "secao": "698"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "667"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "750"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "752"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "766"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "772"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "781"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "707"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "715"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "737"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "756"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "816"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "811"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "821"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "822"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "825"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "739"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "757"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "764"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "782"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "786"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "795"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "797"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "788"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "792"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "722"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "729"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "742"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "760"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "70",
+      "secao": "777"
+    },
+    {
+      "uf": "AM",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "zona": "22",
+      "secao": "37"
+    },
+    {
+      "uf": "AM",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "zona": "22",
+      "secao": "46"
+    },
+    {
+      "uf": "AM",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "zona": "22",
+      "secao": "86"
+    },
+    {
+      "uf": "AM",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "zona": "22",
+      "secao": "97"
+    },
+    {
+      "uf": "AM",
+      "municipio": "SÃO PAULO DE OLIVENÇA",
+      "zona": "22",
+      "secao": "110"
+    },
+    {
+      "uf": "GO",
+      "municipio": "BOM JESUS",
+      "zona": "124",
+      "secao": "48"
+    },
+    {
+      "uf": "GO",
+      "municipio": "BOM JESUS",
+      "zona": "124",
+      "secao": "49"
+    },
+    {
+      "uf": "GO",
+      "municipio": "BOM JESUS",
+      "zona": "124",
+      "secao": "50"
+    },
+    {
+      "uf": "GO",
+      "municipio": "CASTELÂNDIA",
+      "zona": "124",
+      "secao": "65"
+    },
+    {
+      "uf": "GO",
+      "municipio": "CASTELÂNDIA",
+      "zona": "124",
+      "secao": "66"
+    },
+    {
+      "uf": "GO",
+      "municipio": "CASTELÂNDIA",
+      "zona": "124",
+      "secao": "67"
+    },
+    {
+      "uf": "GO",
+      "municipio": "CASTELÂNDIA",
+      "zona": "124",
+      "secao": "68"
+    },
+    {
+      "uf": "GO",
+      "municipio": "CASTELÂNDIA",
+      "zona": "124",
+      "secao": "69"
+    },
+    {
+      "uf": "GO",
+      "municipio": "PORTEIRÃO",
+      "zona": "124",
+      "secao": "74"
+    },
+    {
+      "uf": "GO",
+      "municipio": "PORTEIRÃO",
+      "zona": "124",
+      "secao": "75"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "94"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "100"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "108"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "112"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "124"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "140"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "158"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "165"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "167"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "171"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "174"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "98"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "99"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "101"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "103"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "109"
+    },
+    {
+      "uf": "GO",
+      "municipio": "URUAÇU",
+      "zona": "50",
+      "secao": "173"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CHIADOR",
+      "zona": "170",
+      "secao": "52"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CHIADOR",
+      "zona": "170",
+      "secao": "6"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CHIADOR",
+      "zona": "170",
+      "secao": "7"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CHIADOR",
+      "zona": "170",
+      "secao": "8"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CHIADOR",
+      "zona": "170",
+      "secao": "39"
+    },
+    {
+      "uf": "MG",
+      "municipio": "GRÃO MOGOL",
+      "zona": "120",
+      "secao": "85"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAPEVA",
+      "zona": "58",
+      "secao": "74"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAPEVA",
+      "zona": "58",
+      "secao": "76"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAPEVA",
+      "zona": "58",
+      "secao": "77"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAPEVA",
+      "zona": "58",
+      "secao": "79"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MAR DE ESPANHA",
+      "zona": "170",
+      "secao": "25"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MAR DE ESPANHA",
+      "zona": "170",
+      "secao": "31"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "159"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "160"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "161"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "162"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "163"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "164"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "165"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "166"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MARTINHO CAMPOS",
+      "zona": "45",
+      "secao": "167"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MIRADOURO",
+      "zona": "187",
+      "secao": "363"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MIRADOURO",
+      "zona": "187",
+      "secao": "364"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MIRADOURO",
+      "zona": "187",
+      "secao": "365"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MIRADOURO",
+      "zona": "187",
+      "secao": "366"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MIRADOURO",
+      "zona": "187",
+      "secao": "367"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "160"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "161"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "162"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "270"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "444"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "163"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "164"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "165"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "197"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MURIAÉ",
+      "zona": "187",
+      "secao": "445"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PASSA TEMPO",
+      "zona": "208",
+      "secao": "11"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SANTO ANTÔNIO DO AVENTUREIRO",
+      "zona": "170",
+      "secao": "85"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "4",
+      "secao": "335"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "4",
+      "secao": "336"
+    },
+    {
+      "uf": "PE",
+      "municipio": "RECIFE",
+      "zona": "4",
+      "secao": "337"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "32"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "33"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "34"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "98"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "99"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "103"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CAMPINA DA LAGOA",
+      "zona": "169",
+      "secao": "104"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "15"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "16"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "17"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "114"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "22"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CORNÉLIO PROCÓPIO",
+      "zona": "26",
+      "secao": "23"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "106"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "141"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "94"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "136"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "98"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "99"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "100"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "101"
+    },
+    {
+      "uf": "PR",
+      "municipio": "DIAMANTE D'OESTE",
+      "zona": "129",
+      "secao": "105"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IBIPORÃ",
+      "zona": "80",
+      "secao": "91"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IBIPORÃ",
+      "zona": "80",
+      "secao": "95"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IBIPORÃ",
+      "zona": "80",
+      "secao": "111"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IBIPORÃ",
+      "zona": "80",
+      "secao": "119"
+    },
+    {
+      "uf": "PR",
+      "municipio": "NOVA CANTU",
+      "zona": "169",
+      "secao": "50"
+    },
+    {
+      "uf": "PR",
+      "municipio": "NOVA CANTU",
+      "zona": "169",
+      "secao": "51"
+    },
+    {
+      "uf": "PR",
+      "municipio": "NOVA CANTU",
+      "zona": "169",
+      "secao": "52"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PIÊN",
+      "zona": "144",
+      "secao": "372"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PIÊN",
+      "zona": "144",
+      "secao": "373"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PIÊN",
+      "zona": "144",
+      "secao": "424"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PONTA GROSSA",
+      "zona": "139",
+      "secao": "250"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PONTA GROSSA",
+      "zona": "139",
+      "secao": "313"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PONTA GROSSA",
+      "zona": "139",
+      "secao": "328"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PONTA GROSSA",
+      "zona": "139",
+      "secao": "490"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PORTO AMAZONAS",
+      "zona": "13",
+      "secao": "68"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PORTO AMAZONAS",
+      "zona": "13",
+      "secao": "69"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PORTO AMAZONAS",
+      "zona": "13",
+      "secao": "70"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PORTO AMAZONAS",
+      "zona": "13",
+      "secao": "71"
+    },
+    {
+      "uf": "PR",
+      "municipio": "PORTO AMAZONAS",
+      "zona": "13",
+      "secao": "74"
+    },
+    {
+      "uf": "PR",
+      "municipio": "SANTO ANTÔNIO DA PLATINA",
+      "zona": "22",
+      "secao": "69"
+    },
+    {
+      "uf": "RS",
+      "municipio": "ROLANTE",
+      "zona": "55",
+      "secao": "266"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "120"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "121"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "122"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "123"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "185"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "196"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "195"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "147"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "148"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "149"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "153"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "154"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "155"
+    },
+    {
+      "uf": "SE",
+      "municipio": "ITABAIANINHA",
+      "zona": "30",
+      "secao": "156"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "586"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "604"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "449"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "461"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "466"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "471"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "482"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "495"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "504"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "514"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "526"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "537"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "550"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "562"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "577"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "102"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "103"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "104"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "105"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "106"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "174"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "212"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "266"
+    },
+    {
+      "uf": "SP",
+      "municipio": "BARUERI",
+      "zona": "199",
+      "secao": "275"
+    },
+    {
+      "uf": "TO",
+      "municipio": "SAMPAIO",
+      "zona": "21",
+      "secao": "103"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "AM",
+      "municipio": "BARREIRINHA",
+      "zona": "26",
+      "secao": "12"
+    },
+    {
+      "uf": "AM",
+      "municipio": "BARREIRINHA",
+      "zona": "26",
+      "secao": "13"
+    },
+    {
+      "uf": "AM",
+      "municipio": "BARREIRINHA",
+      "zona": "26",
+      "secao": "19"
+    },
+    {
+      "uf": "AM",
+      "municipio": "TABATINGA",
+      "zona": "36",
+      "secao": "82"
+    },
+    {
+      "uf": "AM",
+      "municipio": "TABATINGA",
+      "zona": "36",
+      "secao": "109"
+    },
+    {
+      "uf": "BA",
+      "municipio": "LAGOA REAL",
+      "zona": "63",
+      "secao": "64"
+    },
+    {
+      "uf": "BA",
+      "municipio": "LAGOA REAL",
+      "zona": "63",
+      "secao": "65"
+    },
+    {
+      "uf": "MA",
+      "municipio": "MORROS",
+      "zona": "110",
+      "secao": "277"
+    },
+    {
+      "uf": "MA",
+      "municipio": "MORROS",
+      "zona": "110",
+      "secao": "297"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "37"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "38"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "182"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "213"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "9"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "42"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "59"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "89"
+    },
+    {
+      "uf": "MA",
+      "municipio": "TUTÓIA",
+      "zona": "40",
+      "secao": "35"
+    },
+    {
+      "uf": "MA",
+      "municipio": "TUTÓIA",
+      "zona": "40",
+      "secao": "36"
+    },
+    {
+      "uf": "MA",
+      "municipio": "TUTÓIA",
+      "zona": "40",
+      "secao": "92"
+    },
+    {
+      "uf": "MA",
+      "municipio": "TUTÓIA",
+      "zona": "40",
+      "secao": "124"
+    },
+    {
+      "uf": "MA",
+      "municipio": "TUTÓIA",
+      "zona": "40",
+      "secao": "270"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "49"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "50"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "51"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "93"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "98"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "51"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "52"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "53"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "54"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "55"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "56"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "63"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "66"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "68"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CAPITÃO ANDRADE",
+      "zona": "138",
+      "secao": "33"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CAPITÃO ANDRADE",
+      "zona": "138",
+      "secao": "37"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "256"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "290"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "315"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "344"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "368"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "384"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "389"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "399"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "409"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARMO DA MATA",
+      "zona": "197",
+      "secao": "177"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARMO DA MATA",
+      "zona": "197",
+      "secao": "178"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARMO DA MATA",
+      "zona": "197",
+      "secao": "179"
+    },
+    {
+      "uf": "MG",
+      "municipio": "DESTERRO DO MELO",
+      "zona": "25",
+      "secao": "135"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "110"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "173"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "42"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "43"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "44"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "47"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "77"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "85"
+    },
+    {
+      "uf": "MG",
+      "municipio": "NOVA ERA",
+      "zona": "193",
+      "secao": "91"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RESSAQUINHA",
+      "zona": "25",
+      "secao": "32"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SENHORA DOS REMÉDIOS",
+      "zona": "25",
+      "secao": "68"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SENHORA DOS REMÉDIOS",
+      "zona": "25",
+      "secao": "133"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "362"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "400"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "402"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "404"
+    },
+    {
+      "uf": "PA",
+      "municipio": "BREVES",
+      "zona": "15",
+      "secao": "49"
+    },
+    {
+      "uf": "PA",
+      "municipio": "BREVES",
+      "zona": "15",
+      "secao": "50"
+    },
+    {
+      "uf": "PA",
+      "municipio": "BREVES",
+      "zona": "15",
+      "secao": "154"
+    },
+    {
+      "uf": "PA",
+      "municipio": "BREVES",
+      "zona": "15",
+      "secao": "264"
+    },
+    {
+      "uf": "PA",
+      "municipio": "BREVES",
+      "zona": "15",
+      "secao": "308"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "326"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "327"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "328"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "329"
+    },
+    {
+      "uf": "RO",
+      "municipio": "GUAJARÁ-MIRIM",
+      "zona": "1",
+      "secao": "191"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PAROBÉ",
+      "zona": "55",
+      "secao": "278"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "136"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "156"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "167"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "196"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "211"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "zona": "122",
+      "secao": "215"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}

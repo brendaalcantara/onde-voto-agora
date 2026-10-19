@@ -1,9 +1,6 @@
 name: Atualizar OndeVotoAgora com dados do TSE
 
 on:
-  schedule:
-    # 06:35, 11:35, 15:35 e 20:35 em America/Bahia (UTC-3).
-    - cron: '35 9,14,18,23 * * *'
   workflow_dispatch:
 
 permissions: {}

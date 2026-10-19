@@ -76,28 +76,32 @@ test("distingue atualização do painel de mudança na lista", () => {
 
 test("não cria outra versão quando a exportação é idêntica à atual", async () => {
   const tempDirectory = await mkdtemp(join(tmpdir(), "ondevotoagora-tse-test-"));
-  const sourceVersion = join(siteDirectory, "dados/versoes/2026-10-19-1127");
+  const catalog = JSON.parse(await readFile(join(siteDirectory, "dados/versoes.json"), "utf8"));
+  const currentVersion = catalog.versions.find((version) => version.id === catalog.currentVersionId);
+  assert.ok(currentVersion, "o catálogo deve apontar para uma versão atual");
   const zipPath = join(tempDirectory, "origem.zip");
   const csvPath = join(tempDirectory, "secoes.csv");
   const capturePath = join(tempDirectory, "captura.json");
   const outputPath = join(tempDirectory, "github-output.txt");
   try {
     await Promise.all([
-      copyFile(join(sourceVersion, "origem.zip"), zipPath),
-      copyFile(join(sourceVersion, "secoes.csv"), csvPath),
+      copyFile(join(siteDirectory, currentVersion.sourceArchive), zipPath),
+      copyFile(join(siteDirectory, currentVersion.csv), csvPath),
     ]);
     const [zipBytes, csvBytes] = await Promise.all([readFile(zipPath), readFile(csvPath)]);
     const hash = (value) => createHash("sha256").update(value).digest("hex");
+    const validation = validateTseCsv(new TextDecoder("windows-1252", { fatal: true }).decode(csvBytes), currentVersion.records);
+    const archiveTimestamp = `${currentVersion.panelUpdatedAt.slice(0, 10).replaceAll("-", "")}_${currentVersion.panelUpdatedAt.slice(11, 19).replaceAll(":", "")}`;
     const capture = {
       source: "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
-      archiveUrl: "https://cdn.tse.jus.br/estatistica/sead/odsele/arquivos_gerados/eleitorado_eleicao_2026/20261019_112700/abc123/secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
+      archiveUrl: `https://cdn.tse.jus.br/estatistica/sead/odsele/arquivos_gerados/eleitorado_eleicao_2026/${archiveTimestamp}/abc123/secoes_eleitorais_alteradas_2t-pais_2026.csv.zip`,
       archiveName: "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
       archiveEntry: "secoes_eleitorais_alteradas_2t-pais_2026.csv",
-      panelUpdatedAt: "2026-10-19T11:27:00-03:00",
-      capturedAt: "2026-10-19T14:43:14.000Z",
+      panelUpdatedAt: currentVersion.panelUpdatedAt,
+      capturedAt: new Date(Date.parse(currentVersion.panelUpdatedAt) + 10 * 60_000).toISOString(),
       filters: EXPECTED_FILTERS,
-      expectedRows: 554,
-      validation: { rows: 554, errors: 0, duplicateKeys: 0, statesWithRows: 22 },
+      expectedRows: validation.rows,
+      validation: { rows: validation.rows, errors: 0, duplicateKeys: validation.duplicateKeys, statesWithRows: validation.statesWithRows },
       csvSha256: hash(csvBytes),
       zipSha256: hash(zipBytes),
       zipBytes: zipBytes.length,

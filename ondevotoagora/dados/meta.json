@@ -1,28 +1,28 @@
 {
+  "id": "2026-10-19-1527-a7c428eb",
   "eleicao": 2026,
   "turnoInicial": 1,
   "turnoFinal": 2,
   "siteAtualizadoEm": "2026-10-19",
-  "dadosConsultadosEm": null,
-  "registrosBase": 554,
-  "arquivoFonte": "dados/versoes/2026-10-19-1127/secoes.csv",
-  "dataArquivoNoZip": "2026-10-19T11:29:00",
-  "arquivoZip": "dados/versoes/2026-10-19-1127/origem.zip",
-  "sha256ArquivoZip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
-  "sha256ArquivoCsv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
+  "dadosConsultadosEm": "2026-10-19T15:35:39-03:00",
+  "registrosBase": 444,
+  "arquivoFonte": "dados/versoes/2026-10-19-1527-a7c428eb/secoes.csv",
+  "dataArquivoNoZip": "2026-10-19T15:30:00",
+  "sha256ArquivoCsv": "a7c428ebcfb6bb54d1ffe9385bb8d5dfbb4918412ccaefb379584b1cfcc4f317",
+  "sha256ArquivoZip": "0ec2bcf96d3b18580839402597a3299aa0d629e01b11764296ef6e0444e0b93a",
+  "arquivoZip": "dados/versoes/2026-10-19-1527-a7c428eb/origem.zip",
   "fonteOficialAtual": {
     "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
-    "arquivoCaptura": "dados/versoes/2026-10-19-1127/fonte-tse.json",
-    "sha256ArquivoCaptura": "1b8b60b4a8395cba6f79a748875c7d9375cdc82a94fc8d17facc2e1c6f2752ef",
-    "sha256Csv": "601de0dc6dceab82df2ab20ea264b2c68bdb184c18d3edebd4b51e555ed869b4",
-    "sha256Zip": "6ee8f7af63854737fb35b29dbda0077ea351ead18d53b0558dfbf4beba7f0dfd",
+    "arquivoCaptura": "dados/versoes/2026-10-19-1527-a7c428eb/fonte-tse.json",
+    "sha256ArquivoCaptura": "3eca73132ab15c4e8848c5d6b55a70b69695fa5a6c0d81eddfc645842b52259b",
+    "sha256ArquivoZip": "0ec2bcf96d3b18580839402597a3299aa0d629e01b11764296ef6e0444e0b93a",
+    "sha256Csv": "a7c428ebcfb6bb54d1ffe9385bb8d5dfbb4918412ccaefb379584b1cfcc4f317",
     "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
-    "capturadaEm": null,
-    "painelAtualizacaoInformada": "2026-10-19T11:27:00-03:00",
-    "painelRegistrosInformados": 554,
-    "registros": 554,
+    "capturadaEm": "2026-10-19T15:35:39-03:00",
+    "painelAtualizacaoInformada": "2026-10-19T15:27:00-03:00",
+    "painelRegistrosInformados": 444,
+    "registros": 444,
     "paginasConferidas": null,
-    "validacao": "554 linhas, 0 erros, 0 chaves duplicadas; 22 UFs com registros",
     "filtros": {
       "electionYear": 2026,
       "country": "Brasil",
@@ -32,7 +32,7 @@
       "zone": "Todas",
       "votingPlace": "Todos"
     },
-    "metodo": "Extração do CSV do ZIP oficial e validação estrutural. Horário interno do CSV (11h29) registrado separadamente da atualização do painel (11h27)."
+    "metodo": "Arquivo ZIP oficial: 444 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 22 UFs com registros."
   },
   "fonte": {
     "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
@@ -40,6 +40,6 @@
     "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
   },
-  "mensagemParaEleitor": "Lista do TSE: 554 seções. Painel atualizado em 19/10/2026 às 11h27.",
-  "observacao": "A nova lista oficial substitui a consulta ativa anterior de 774 linhas, que continua preservada no histórico. A diferença entre versões não é interpretada como cancelamento de seções."
+  "mensagemParaEleitor": "Lista do TSE: 444 seções. Painel atualizado em 19/10/2026 às 15h27; consulta feita em 19/10/2026 às 15h35.",
+  "observacao": "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
 }
