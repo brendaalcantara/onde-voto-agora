@@ -1,0 +1,54 @@
+{
+  "geradoEm": "2026-10-20T09:42:25.494Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-19-2027-2fa0dcdd/secoes.csv",
+    "registros": 438,
+    "sha256": "2fa0dcdded0d160bf9b83b6a39b549b25ae9ec9dd15e5cb20fd2ec95f59a343b"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-20-0627-5baaf59b/secoes.csv",
+    "registros": 441,
+    "sha256": "5baaf59b24363ec4cad781e3d790ee9fbaeb41596fdc135d2fc3babba0d80172"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 438,
+    "apenasNaVersaoAnterior": 0,
+    "apenasNaVersaoAtual": 3,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "CE",
+      "municipio": "IPUEIRAS",
+      "zona": "40",
+      "secao": "169"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "204"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "234"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}

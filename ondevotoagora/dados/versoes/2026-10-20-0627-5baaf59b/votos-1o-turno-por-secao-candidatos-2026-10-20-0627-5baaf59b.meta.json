@@ -1,0 +1,36 @@
+{
+  "geradoEm": "2026-10-20T09:42:25.294Z",
+  "urlArquivo": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+  "resourceId": "01ea4ccd-f443-469c-9f29-c69ff97f7d4c",
+  "sha256Zip": "2d42006d0f6c6e00bad83f5c23cd3d78cd3e3182dbc1ad6718222b6b132c23e1",
+  "tamanhoZipBytes": 161616519,
+  "datasGeracao": [
+    "06/10/2026"
+  ],
+  "instantesGeracao": [
+    "06/10/2026 14:03:43"
+  ],
+  "linhasCsv": 3800511,
+  "linhasPresidentePrimeiroTurno": 3800511,
+  "secoesNaLista": 441,
+  "candidaturasComparadas": [
+    {
+      "code": "13",
+      "name": "LUIZ INÁCIO LULA DA SILVA"
+    },
+    {
+      "code": "22",
+      "name": "FLAVIO NANTES BOLSONARO"
+    }
+  ],
+  "coberturaComparacao": {
+    "resultadosDisponiveis": 441,
+    "resultadosIndisponiveis": 0,
+    "linhasLulaAusentes": 0,
+    "linhasFlavioAusentes": 0,
+    "secoesComDuplicidadeDosCandidatosComparados": 0,
+    "secoesSemCorrespondenciaDeResultado": 0,
+    "secoesComResultadoMasComparacaoIncompleta": 0,
+    "zeroInferidoPorAusencia": false
+  }
+}

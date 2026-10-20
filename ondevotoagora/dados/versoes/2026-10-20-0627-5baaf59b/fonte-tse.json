@@ -1,0 +1,30 @@
+{
+  "source": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+  "panel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
+  "panelUpdatedAt": "2026-10-20T06:27:00-03:00",
+  "captureAt": "2026-10-20T06:40:23-03:00",
+  "archiveFileTimestamp": "2026-10-20T06:33:00",
+  "captureMethod": "ZIP integral solicitado ao painel oficial do TSE e validado localmente no workflow.",
+  "archiveName": "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
+  "archiveEntry": "secoes_eleitorais_alteradas_2t-pais_2026.csv",
+  "archiveUrl": "https://cdn.tse.jus.br/estatistica/sead/odsele/arquivos_gerados/eleitorado_eleicao_2026/20261020_062737/322d82cff85b40f2f8fc5be12989f18f/secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
+  "filters": {
+    "electionYear": 2026,
+    "country": "Brasil",
+    "region": "Todas",
+    "state": "Todas",
+    "municipality": "Todos",
+    "zone": "Todas",
+    "votingPlace": "Todos"
+  },
+  "expectedRows": 441,
+  "validation": {
+    "rows": 441,
+    "errors": 0,
+    "duplicateKeys": 0,
+    "statesWithRows": 23
+  },
+  "csvSha256": "5baaf59b24363ec4cad781e3d790ee9fbaeb41596fdc135d2fc3babba0d80172",
+  "zipSha256": "30c74ecaa35286f3c33ff74b9c25b1d3dfe956a5ee579934dfe5f7e67763ab3c",
+  "zipBytes": 8458
+}

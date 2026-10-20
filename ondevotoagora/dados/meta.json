@@ -1,27 +1,27 @@
 {
-  "id": "2026-10-19-2027-2fa0dcdd",
+  "id": "2026-10-20-0627-5baaf59b",
   "eleicao": 2026,
   "turnoInicial": 1,
   "turnoFinal": 2,
-  "siteAtualizadoEm": "2026-10-19",
-  "dadosConsultadosEm": "2026-10-19T20:48:47-03:00",
-  "registrosBase": 438,
-  "arquivoFonte": "dados/versoes/2026-10-19-2027-2fa0dcdd/secoes.csv",
-  "dataArquivoNoZip": "2026-10-19T20:37:22",
-  "sha256ArquivoCsv": "2fa0dcdded0d160bf9b83b6a39b549b25ae9ec9dd15e5cb20fd2ec95f59a343b",
-  "sha256ArquivoZip": "176f7c16e43b94e498664c664a1aa6b31caf738acbba3cf5ace64ef037b41f8b",
-  "arquivoZip": "dados/versoes/2026-10-19-2027-2fa0dcdd/origem.zip",
+  "siteAtualizadoEm": "2026-10-20",
+  "dadosConsultadosEm": "2026-10-20T06:40:23-03:00",
+  "registrosBase": 441,
+  "arquivoFonte": "dados/versoes/2026-10-20-0627-5baaf59b/secoes.csv",
+  "dataArquivoNoZip": "2026-10-20T06:33:00",
+  "sha256ArquivoCsv": "5baaf59b24363ec4cad781e3d790ee9fbaeb41596fdc135d2fc3babba0d80172",
+  "sha256ArquivoZip": "30c74ecaa35286f3c33ff74b9c25b1d3dfe956a5ee579934dfe5f7e67763ab3c",
+  "arquivoZip": "dados/versoes/2026-10-20-0627-5baaf59b/origem.zip",
   "fonteOficialAtual": {
     "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
-    "arquivoCaptura": "dados/versoes/2026-10-19-2027-2fa0dcdd/fonte-tse.json",
-    "sha256ArquivoCaptura": "181dce9d0e986d5857b687e864af8f93684897895bb353b09eb6921b5119a48b",
-    "sha256ArquivoZip": "176f7c16e43b94e498664c664a1aa6b31caf738acbba3cf5ace64ef037b41f8b",
-    "sha256Csv": "2fa0dcdded0d160bf9b83b6a39b549b25ae9ec9dd15e5cb20fd2ec95f59a343b",
+    "arquivoCaptura": "dados/versoes/2026-10-20-0627-5baaf59b/fonte-tse.json",
+    "sha256ArquivoCaptura": "f559fe5c75f3a5994f875886a7fff72c1669a1edd2fc065e47a67ce7ee9fbf7b",
+    "sha256ArquivoZip": "30c74ecaa35286f3c33ff74b9c25b1d3dfe956a5ee579934dfe5f7e67763ab3c",
+    "sha256Csv": "5baaf59b24363ec4cad781e3d790ee9fbaeb41596fdc135d2fc3babba0d80172",
     "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
-    "capturadaEm": "2026-10-19T20:48:47-03:00",
-    "painelAtualizacaoInformada": "2026-10-19T20:27:00-03:00",
-    "painelRegistrosInformados": 438,
-    "registros": 438,
+    "capturadaEm": "2026-10-20T06:40:23-03:00",
+    "painelAtualizacaoInformada": "2026-10-20T06:27:00-03:00",
+    "painelRegistrosInformados": 441,
+    "registros": 441,
     "paginasConferidas": null,
     "filtros": {
       "electionYear": 2026,
@@ -32,7 +32,7 @@
       "zone": "Todas",
       "votingPlace": "Todos"
     },
-    "metodo": "Arquivo ZIP oficial: 438 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 23 UFs com registros."
+    "metodo": "Arquivo ZIP oficial: 441 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 23 UFs com registros."
   },
   "fonte": {
     "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
@@ -40,6 +40,6 @@
     "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
   },
-  "mensagemParaEleitor": "Lista do TSE: 438 seções. Painel atualizado em 19/10/2026 às 20h27; consulta feita em 19/10/2026 às 20h48.",
+  "mensagemParaEleitor": "Lista do TSE: 441 seções. Painel atualizado em 20/10/2026 às 06h27; consulta feita em 20/10/2026 às 06h40.",
   "observacao": "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
 }
