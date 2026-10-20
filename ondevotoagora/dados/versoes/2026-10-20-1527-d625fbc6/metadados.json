@@ -1,0 +1,45 @@
+{
+  "id": "2026-10-20-1527-d625fbc6",
+  "eleicao": 2026,
+  "turnoInicial": 1,
+  "turnoFinal": 2,
+  "siteAtualizadoEm": "2026-10-20",
+  "dadosConsultadosEm": "2026-10-20T16:01:43-03:00",
+  "registrosBase": 453,
+  "arquivoFonte": "dados/versoes/2026-10-20-1527-d625fbc6/secoes.csv",
+  "dataArquivoNoZip": "2026-10-20T15:34:00",
+  "sha256ArquivoCsv": "d625fbc67d81845a30b576e4cd1f74aa4cc3445eab3e97b50733102e7fb160d1",
+  "sha256ArquivoZip": "fda77cefb1dcdf414ffebc5dd1646d2c8d69dbf224832eafcb9220c4469ba750",
+  "arquivoZip": "dados/versoes/2026-10-20-1527-d625fbc6/origem.zip",
+  "fonteOficialAtual": {
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "arquivoCaptura": "dados/versoes/2026-10-20-1527-d625fbc6/fonte-tse.json",
+    "sha256ArquivoCaptura": "185e4d5cfa085a330bda4b05866151f4c37ad0278b3b498d0451a4fc0159d008",
+    "sha256ArquivoZip": "fda77cefb1dcdf414ffebc5dd1646d2c8d69dbf224832eafcb9220c4469ba750",
+    "sha256Csv": "d625fbc67d81845a30b576e4cd1f74aa4cc3445eab3e97b50733102e7fb160d1",
+    "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
+    "capturadaEm": "2026-10-20T16:01:43-03:00",
+    "painelAtualizacaoInformada": "2026-10-20T15:27:00-03:00",
+    "painelRegistrosInformados": 453,
+    "registros": 453,
+    "paginasConferidas": null,
+    "filtros": {
+      "electionYear": 2026,
+      "country": "Brasil",
+      "region": "Todas",
+      "state": "Todas",
+      "municipality": "Todos",
+      "zone": "Todas",
+      "votingPlace": "Todos"
+    },
+    "metodo": "Arquivo ZIP oficial: 453 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 22 UFs com registros."
+  },
+  "fonte": {
+    "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
+    "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
+    "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
+  },
+  "mensagemParaEleitor": "Lista do TSE: 453 seções. Painel atualizado em 20/10/2026 às 15h27; consulta feita em 20/10/2026 às 16h01.",
+  "observacao": "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
+}

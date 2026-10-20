@@ -1,0 +1,295 @@
+{
+  "geradoEm": "2026-10-20T19:03:56.793Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-20-1127-905d1595/secoes.csv",
+    "registros": 442,
+    "sha256": "905d159530ec967ccb2ae24e476e43c45e71213f557fd45c13e1f6e2bd12aea5"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-20-1527-d625fbc6/secoes.csv",
+    "registros": 453,
+    "sha256": "d625fbc67d81845a30b576e4cd1f74aa4cc3445eab3e97b50733102e7fb160d1"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 426,
+    "apenasNaVersaoAnterior": 16,
+    "apenasNaVersaoAtual": 27,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "GO",
+      "municipio": "IPIRANGA DE GOIÁS",
+      "zona": "76",
+      "secao": "122"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "20"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "21"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "22"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "23"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "134"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "142"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "15"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "16"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "17"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "18"
+    },
+    {
+      "uf": "MG",
+      "municipio": "IAPU",
+      "zona": "128",
+      "secao": "19"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CIANORTE",
+      "zona": "88",
+      "secao": "1"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CIANORTE",
+      "zona": "88",
+      "secao": "3"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CIANORTE",
+      "zona": "88",
+      "secao": "4"
+    },
+    {
+      "uf": "PR",
+      "municipio": "CIANORTE",
+      "zona": "88",
+      "secao": "83"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "CE",
+      "municipio": "SANTANA DO CARIRI",
+      "zona": "53",
+      "secao": "58"
+    },
+    {
+      "uf": "CE",
+      "municipio": "SANTANA DO CARIRI",
+      "zona": "53",
+      "secao": "77"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "158"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "159"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "160"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "161"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "162"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "163"
+    },
+    {
+      "uf": "ES",
+      "municipio": "IBITIRAMA",
+      "zona": "18",
+      "secao": "164"
+    },
+    {
+      "uf": "MG",
+      "municipio": "INHAPIM",
+      "zona": "128",
+      "secao": "139"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "72"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "109"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "133"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "120"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "128"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "135"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "179"
+    },
+    {
+      "uf": "MT",
+      "municipio": "CUIABÁ",
+      "zona": "1",
+      "secao": "1010"
+    },
+    {
+      "uf": "MT",
+      "municipio": "CUIABÁ",
+      "zona": "1",
+      "secao": "1011"
+    },
+    {
+      "uf": "MT",
+      "municipio": "CUIABÁ",
+      "zona": "1",
+      "secao": "1012"
+    },
+    {
+      "uf": "MT",
+      "municipio": "CUIABÁ",
+      "zona": "1",
+      "secao": "1013"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SANTARÉM",
+      "zona": "83",
+      "secao": "270"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SANTARÉM",
+      "zona": "83",
+      "secao": "272"
+    },
+    {
+      "uf": "PR",
+      "municipio": "INÁCIO MARTINS",
+      "zona": "34",
+      "secao": "182"
+    },
+    {
+      "uf": "PR",
+      "municipio": "INÁCIO MARTINS",
+      "zona": "34",
+      "secao": "211"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IRATI",
+      "zona": "34",
+      "secao": "112"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IRATI",
+      "zona": "34",
+      "secao": "113"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
