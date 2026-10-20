@@ -1,0 +1,103 @@
+{
+  "geradoEm": "2026-10-20T14:38:53.440Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-20-0627-5baaf59b/secoes.csv",
+    "registros": 441,
+    "sha256": "5baaf59b24363ec4cad781e3d790ee9fbaeb41596fdc135d2fc3babba0d80172"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-20-1127-905d1595/secoes.csv",
+    "registros": 442,
+    "sha256": "905d159530ec967ccb2ae24e476e43c45e71213f557fd45c13e1f6e2bd12aea5"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 436,
+    "apenasNaVersaoAnterior": 5,
+    "apenasNaVersaoAtual": 6,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AP",
+      "municipio": "AMAPÁ",
+      "zona": "1",
+      "secao": "1"
+    },
+    {
+      "uf": "AP",
+      "municipio": "PRACUÚBA",
+      "zona": "1",
+      "secao": "41"
+    },
+    {
+      "uf": "AP",
+      "municipio": "PRACUÚBA",
+      "zona": "1",
+      "secao": "44"
+    },
+    {
+      "uf": "AP",
+      "municipio": "PRACUÚBA",
+      "zona": "1",
+      "secao": "46"
+    },
+    {
+      "uf": "AP",
+      "municipio": "PRACUÚBA",
+      "zona": "1",
+      "secao": "48"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "MA",
+      "municipio": "BACURI",
+      "zona": "107",
+      "secao": "115"
+    },
+    {
+      "uf": "MA",
+      "municipio": "BACURI",
+      "zona": "107",
+      "secao": "155"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RIO PIRACICABA",
+      "zona": "150",
+      "secao": "215"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RIO PIRACICABA",
+      "zona": "150",
+      "secao": "216"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RIO PIRACICABA",
+      "zona": "150",
+      "secao": "217"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RIO PIRACICABA",
+      "zona": "150",
+      "secao": "218"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
