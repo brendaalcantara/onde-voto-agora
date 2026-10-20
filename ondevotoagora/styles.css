@@ -247,6 +247,47 @@ h1 {
 .footer-inner { display: grid; justify-items: center; gap: 0.65rem; padding-block: 1.1rem; text-align: center; }
 .footer-inner p { margin: 0; font-size: 0.95rem; }
 .footer-disclaimer { color: #d3e0e4; }
+.site-share { display: grid; justify-items: start; gap: 0.45rem; margin-top: 0.65rem; }
+.site-share-controls, .share-options { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.share-options { align-items: center; padding: 0.6rem; background: #fff; border: 1px solid #a8b9c1; border-radius: 9px; }
+.share-action {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--navy-dark);
+  background: #fff;
+  border: 2px solid #526a79;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 750;
+  text-decoration: none;
+  cursor: pointer;
+}
+.share-icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.share-icon.is-hidden { display: none; }
+.copy-confirmation { display: none; color: #168347; }
+.copy-confirmation.is-visible { display: inline-block; }
+.copy-confirmation[hidden] { display: none; }
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+.share-action:hover { color: var(--navy-dark); background: #e7f0f1; }
+.share-action--primary { color: #fff; background: var(--navy); border-color: var(--navy); }
+.share-action--primary:hover { color: #fff; background: #1a6572; }
+.share-status { max-width: 65ch; margin: 0; color: #344d5e; font-size: 0.9rem !important; }
+.share-status { min-height: 1.4em; }
 .footer-credit { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.35rem; }
 .footer-credit a { font-weight: 700; text-decoration-thickness: 0.08em; text-underline-offset: 0.18em; }
 .footer-credit a:hover { color: #d3e0e4; }

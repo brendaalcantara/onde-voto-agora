@@ -43,6 +43,7 @@ jobs:
           mkdir -p _site/assets _site/dados
           cp ondevotoagora/index.html _site/index.html
           cp ondevotoagora/app.js _site/app.js
+          cp ondevotoagora/share.js _site/share.js
           cp ondevotoagora/csv-utils.mjs _site/csv-utils.mjs
           cp ondevotoagora/styles.css _site/styles.css
           cp ondevotoagora/historico.html _site/historico.html
