@@ -1,0 +1,249 @@
+{
+  "geradoEm": "2026-10-21T13:43:34.430Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-20-2027-39302d06/secoes.csv",
+    "registros": 471,
+    "sha256": "39302d06f85720c9cc69c98f25531d58209a731c55df655857ba413e1b036aaa"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-21-0627-6f5ae16a/secoes.csv",
+    "registros": 438,
+    "sha256": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 438,
+    "apenasNaVersaoAnterior": 33,
+    "apenasNaVersaoAtual": 0,
+    "registrosCompartilhadosComCamposAlterados": 1,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 1,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 1,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "BA",
+      "municipio": "MIGUEL CALMON",
+      "zona": "103",
+      "secao": "24"
+    },
+    {
+      "uf": "BA",
+      "municipio": "MIGUEL CALMON",
+      "zona": "103",
+      "secao": "150"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "37"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "38"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "182"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "zona": "84",
+      "secao": "213"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AIMORÉS",
+      "zona": "5",
+      "secao": "4"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AIMORÉS",
+      "zona": "5",
+      "secao": "5"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AIMORÉS",
+      "zona": "5",
+      "secao": "6"
+    },
+    {
+      "uf": "MG",
+      "municipio": "AIMORÉS",
+      "zona": "5",
+      "secao": "64"
+    },
+    {
+      "uf": "MG",
+      "municipio": "DESTERRO DO MELO",
+      "zona": "25",
+      "secao": "135"
+    },
+    {
+      "uf": "MG",
+      "municipio": "RESSAQUINHA",
+      "zona": "25",
+      "secao": "32"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SENHORA DOS REMÉDIOS",
+      "zona": "25",
+      "secao": "68"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SENHORA DOS REMÉDIOS",
+      "zona": "25",
+      "secao": "133"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "43"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "44"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "110"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "152"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "184"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "230"
+    },
+    {
+      "uf": "PR",
+      "municipio": "ALMIRANTE TAMANDARÉ",
+      "zona": "171",
+      "secao": "275"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "1"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "2"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "3"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "4"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "5"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "6"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "123"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "154"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "189"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "210"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "245"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "265"
+    }
+  ],
+  "apenasNaVersaoAtual": [],
+  "registrosCompartilhadosComCamposAlterados": [
+    {
+      "chave": "RS/PAROBE/55/278",
+      "municipio": "PAROBÉ",
+      "uf": "RS",
+      "zona": "55",
+      "secao": "278",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "CENTRO MUNICIPAL DE EDUCAÇÃO AMBIENTAL JOÃO MARQUES DE SOUZA (ESA)",
+          "atual": "CENTRO MUNIC, EDUCAÇÃO AMBIENTAL JOÃO MARQUES SOUZA (ESA) POÇO FUNDO"
+        }
+      ]
+    }
+  ]
+}

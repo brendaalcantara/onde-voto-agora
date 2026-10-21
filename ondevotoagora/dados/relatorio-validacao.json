@@ -1,37 +1,62 @@
 {
-  "geradoEm": "2026-10-18T12:54:22.803Z",
+  "geradoEm": "2026-10-21T14:19:25.010Z",
   "fonteOficialAtual": {
-    "arquivo": "dados/fonte-oficial.csv",
-    "encontrada": false,
-    "sha256": null,
-    "linhas": null,
-    "validacao": null,
-    "procedencia": null,
+    "arquivo": "dados/versoes/2026-10-21-0627-6f5ae16a/secoes.csv",
+    "encontrada": true,
+    "sha256": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad",
+    "linhas": 438,
+    "validacao": {
+      "linhasAnalisadas": 438,
+      "registrosLidos": 438,
+      "erros": [],
+      "duplicatas": []
+    },
+    "procedencia": {
+      "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      "arquivoCaptura": "dados/versoes/2026-10-21-0627-6f5ae16a/fonte-tse.json",
+      "sha256ArquivoCaptura": "ff9eb65dd82e01003528fb77137425c81940fb21eaed5356166c8ce2e47c98a2",
+      "sha256Csv": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad",
+      "formato": "CSV fornecido pela usuária e validado contra os filtros, a contagem e a atualização informados no painel oficial do TSE",
+      "capturadaEm": "2026-10-21T13:43:02.745Z",
+      "painelAtualizacaoInformada": "2026-10-21T06:27:00-03:00",
+      "painelRegistrosInformados": 438,
+      "registros": 438,
+      "filtros": {
+        "electionYear": 2026,
+        "country": "Brasil",
+        "region": "Todas",
+        "state": "Todas",
+        "municipality": "Todos",
+        "zone": "Todas",
+        "votingPlace": "Todos"
+      },
+      "nomeArquivoFornecido": "secoes_eleitorais_alteradas_2t-pais_2026-2.csv",
+      "bytesArquivoFornecido": 47073,
+      "sha256ArquivoFornecido": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad",
+      "metodo": "CSV fornecido pela usuária: 438 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 22 UFs com registros. A contagem e os filtros coincidem com o painel oficial."
+    },
     "errosProcedencia": []
   },
   "baseLocal": {
     "arquivo": "dados/secoes.csv",
-    "sha256": "3a6562976ffcd599d96a101b9ae3f5b2527db9f95aaed4805b19ae24b5f56f17",
-    "linhasDeclaradas": 4288,
+    "sha256": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad",
+    "linhasDeclaradas": 438,
     "validacao": {
-      "linhasAnalisadas": 4288,
-      "registrosLidos": 4288,
+      "linhasAnalisadas": 438,
+      "registrosLidos": 438,
       "erros": [],
       "duplicatas": []
     }
   },
   "comparacao": {
-    "reconciliada": false,
-    "status": "bloqueada_fonte_oficial_atual_ausente",
-    "quantidadeFaltanteNaBase": null,
-    "registrosNovosNaFonteFaltantesNaBase": null,
-    "quantidadeAusenteDaFonteAtual": null,
-    "quantidadeAlterada": null,
-    "registrosAusentesDaFonteAtual": null,
-    "registrosAlterados": null
+    "reconciliada": true,
+    "quantidadeFaltanteNaBase": 0,
+    "registrosNovosNaFonteFaltantesNaBase": [],
+    "quantidadeAusenteDaFonteAtual": 0,
+    "registrosAusentesDaFonteAtual": [],
+    "quantidadeAlterada": 0,
+    "registrosAlterados": []
   },
-  "aprovado": false,
-  "erros": [
-    "Fonte oficial atual ausente: dados/fonte-oficial.csv. Não é possível identificar inclusões, alterações ou ausências em relação à lista atual."
-  ]
+  "aprovado": true,
+  "erros": []
 }
