@@ -1,0 +1,157 @@
+{
+  "geradoEm": "2026-10-21T00:07:26.752Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-20-1527-d625fbc6/secoes.csv",
+    "registros": 453,
+    "sha256": "d625fbc67d81845a30b576e4cd1f74aa4cc3445eab3e97b50733102e7fb160d1"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-20-2027-39302d06/secoes.csv",
+    "registros": 471,
+    "sha256": "39302d06f85720c9cc69c98f25531d58209a731c55df655857ba413e1b036aaa"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 452,
+    "apenasNaVersaoAnterior": 1,
+    "apenasNaVersaoAtual": 19,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "MG",
+      "municipio": "UNAÍ",
+      "zona": "280",
+      "secao": "210"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "161"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "162"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "163"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "223"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "247"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "40"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "41"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "42"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "43"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "44"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "45"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "228"
+    },
+    {
+      "uf": "RS",
+      "municipio": "SANTA MARIA",
+      "zona": "135",
+      "secao": "3"
+    },
+    {
+      "uf": "RS",
+      "municipio": "SANTA MARIA",
+      "zona": "135",
+      "secao": "290"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "320",
+      "secao": "357"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "320",
+      "secao": "366"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "320",
+      "secao": "384"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "320",
+      "secao": "395"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
