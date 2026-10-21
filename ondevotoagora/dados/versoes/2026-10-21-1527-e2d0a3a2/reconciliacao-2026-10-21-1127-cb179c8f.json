@@ -1,0 +1,457 @@
+{
+  "geradoEm": "2026-10-21T20:03:35.611Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-21-1127-cb179c8f/secoes.csv",
+    "registros": 383,
+    "sha256": "cb179c8f945884e52b1e1eabb2baab68a5b4c982283722570c571a5d85062d5f"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-21-1527-e2d0a3a2/secoes.csv",
+    "registros": 343,
+    "sha256": "e2d0a3a292c2142f6c4e7dbabdcc3412cc6ecaabb9ec070d60092718863e25aa"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 328,
+    "apenasNaVersaoAnterior": 55,
+    "apenasNaVersaoAtual": 15,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AL",
+      "municipio": "PÃO DE AÇÚCAR",
+      "zona": "11",
+      "secao": "85"
+    },
+    {
+      "uf": "CE",
+      "municipio": "IPUEIRAS",
+      "zona": "40",
+      "secao": "169"
+    },
+    {
+      "uf": "MA",
+      "municipio": "PRESIDENTE VARGAS",
+      "zona": "50",
+      "secao": "223"
+    },
+    {
+      "uf": "MA",
+      "municipio": "VARGEM GRANDE",
+      "zona": "50",
+      "secao": "84"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CAIANA",
+      "zona": "303",
+      "secao": "69"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "161"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "162"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "163"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "223"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "72",
+      "secao": "247"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "40"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "41"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "42"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "43"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "44"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "45"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CÓRREGO NOVO",
+      "zona": "72",
+      "secao": "228"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "110"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ITAMARANDIBA",
+      "zona": "135",
+      "secao": "173"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SANTA JULIANA",
+      "zona": "340",
+      "secao": "94"
+    },
+    {
+      "uf": "MG",
+      "municipio": "SANTA JULIANA",
+      "zona": "340",
+      "secao": "96"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "72"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "109"
+    },
+    {
+      "uf": "MG",
+      "municipio": "TRÊS CORAÇÕES",
+      "zona": "272",
+      "secao": "133"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "120"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "128"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "135"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ÁGUAS VERMELHAS",
+      "zona": "213",
+      "secao": "179"
+    },
+    {
+      "uf": "PE",
+      "municipio": "TACAIMBÓ",
+      "zona": "44",
+      "secao": "107"
+    },
+    {
+      "uf": "PE",
+      "municipio": "TACAIMBÓ",
+      "zona": "44",
+      "secao": "112"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "326"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "327"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "328"
+    },
+    {
+      "uf": "PR",
+      "municipio": "MARINGÁ",
+      "zona": "192",
+      "secao": "329"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "8"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "71"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "128"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "142"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "161"
+    },
+    {
+      "uf": "RS",
+      "municipio": "PELOTAS",
+      "zona": "164",
+      "secao": "943"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "12"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "13"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "14"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "15"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "16"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "17"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "18"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "19"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "20"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "21"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "171"
+    },
+    {
+      "uf": "SP",
+      "municipio": "PRESIDENTE PRUDENTE",
+      "zona": "402",
+      "secao": "201"
+    },
+    {
+      "uf": "SP",
+      "municipio": "SÃO PAULO",
+      "zona": "326",
+      "secao": "820"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "BA",
+      "municipio": "PILÃO ARCADO",
+      "zona": "195",
+      "secao": "143"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DO RAMALHO",
+      "zona": "71",
+      "secao": "91"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DO RAMALHO",
+      "zona": "71",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "91"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "146"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "174"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "196"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "218"
+    },
+    {
+      "uf": "MG",
+      "municipio": "PARACATU",
+      "zona": "203",
+      "secao": "237"
+    },
+    {
+      "uf": "SP",
+      "municipio": "IBITINGA",
+      "zona": "49",
+      "secao": "38"
+    },
+    {
+      "uf": "SP",
+      "municipio": "IBITINGA",
+      "zona": "49",
+      "secao": "39"
+    },
+    {
+      "uf": "SP",
+      "municipio": "IBITINGA",
+      "zona": "49",
+      "secao": "40"
+    },
+    {
+      "uf": "SP",
+      "municipio": "IBITINGA",
+      "zona": "49",
+      "secao": "41"
+    },
+    {
+      "uf": "SP",
+      "municipio": "IBITINGA",
+      "zona": "49",
+      "secao": "42"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}

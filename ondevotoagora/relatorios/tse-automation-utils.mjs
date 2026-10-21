@@ -31,18 +31,20 @@ export function parsePanelSnapshot(bodyText) {
     throw new Error("A data, hora ou contagem exibida pelo painel parece inválida.");
   }
   for (const filter of [
-    "Ano: 2026", "País: Todos", "Região: Todas", "UF: Todas",
+    "Ano: 2026", "Região: Todas", "UF: Todas",
     "Município: Todos", "Zona: Todas", "Local de votação: Todos",
   ]) {
     if (!text.includes(filter)) throw new Error(`O painel não confirmou o filtro nacional esperado: ${filter}.`);
   }
+  const countryFilter = /País:\s*(Brasil|Todos)/i.exec(text)?.[1];
+  if (!countryFilter) throw new Error("O painel não confirmou o filtro nacional esperado: País Brasil ou Todos.");
   if (!/Seções eleitorais alteradas no segundo turno/i.test(text)) {
     throw new Error("A página aberta não parece ser o relatório nacional de seções alteradas.");
   }
   return {
     panelUpdatedAt: updatedAt,
     expectedRows: total,
-    filters: { ...EXPECTED_FILTERS },
+    filters: { ...EXPECTED_FILTERS, country: countryFilter },
   };
 }
 

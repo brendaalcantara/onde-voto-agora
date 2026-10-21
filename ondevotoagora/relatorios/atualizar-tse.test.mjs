@@ -26,7 +26,17 @@ test("reconhece timestamp, filtros nacionais e contagem do painel", () => {
   `);
   assert.equal(snapshot.panelUpdatedAt, "2026-10-19T11:27:00-03:00");
   assert.equal(snapshot.expectedRows, 554);
+  assert.equal(snapshot.filters.country, "Todos");
   assert.equal(snapshot.filters.state, "Todas");
+});
+test("preserva País Brasil quando esse é o filtro efetivamente exibido no painel", () => {
+  const snapshot = parsePanelSnapshot(`
+    Seções eleitorais alteradas no segundo turno
+    Última atualização: 19.10.2026 - 11:27
+    Ano: 2026 País: Brasil Região: Todas UF: Todas Município: Todos Zona: Todas Local de votação: Todos
+    linha(s) 1 - 20 de 554
+  `);
+  assert.equal(snapshot.filters.country, "Brasil");
 });
 test("recusa painel que não esteja em escopo nacional ou ano esperado", () => {
   assert.throws(() => parsePanelSnapshot(`
@@ -148,7 +158,7 @@ test("aceita CSV local explícito sem ZIP e confere nome, tamanho, hash e contag
       sourceFileSha256: hash(csvBytes),
       panelUpdatedAt: currentVersion.panelUpdatedAt,
       capturedAt: new Date(Date.parse(currentVersion.panelUpdatedAt) + 10 * 60_000).toISOString(),
-      filters: EXPECTED_FILTERS,
+      filters: { ...EXPECTED_FILTERS, country: "Todos" },
       expectedRows: validation.rows,
       validation: { rows: validation.rows, errors: 0, duplicateKeys: validation.duplicateKeys, statesWithRows: validation.statesWithRows },
       csvSha256: hash(csvBytes),
@@ -174,6 +184,13 @@ test("aceita CSV local explícito sem ZIP e confere nome, tamanho, hash e contag
     result = runCheckOnly();
     assert.notEqual(result.status, 0, "contagem divergente do painel precisa interromper a publicação");
     assert.match(`${result.stdout}\n${result.stderr}`, /painel informa .* linhas, mas o CSV tem/);
+
+    await writeFile(capturePath, `${JSON.stringify({ ...capture, expectedRows: validation.rows })}\n`, "utf8");
+    const nonBrazilBytes = Buffer.from(csvBytes.toString("latin1").replace(";Brasil;", ";Exterior;"), "latin1");
+    await writeFile(csvPath, nonBrazilBytes);
+    result = runCheckOnly();
+    assert.notEqual(result.status, 0, "País Todos só pode ser aceito quando todas as linhas forem do Brasil");
+    assert.match(`${result.stdout}\n${result.stderr}`, /ano, país e cobertura nacional/);
   } finally {
     await rm(tempDirectory, { recursive: true, force: true });
   }

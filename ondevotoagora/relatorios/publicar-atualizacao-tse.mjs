@@ -53,7 +53,10 @@ function assertSafeCapture(capture, csvBytes, zipBytes, validation, sourceMode) 
       assert.equal(capture[archiveField], undefined, `A captura local não pode declarar ${archiveField}.`);
     }
   }
-  assert.deepEqual(capture.filters, EXPECTED_FILTERS, "A captura precisa conter todos os filtros nacionais esperados.");
+  const expectedFilters = sourceMode === "local-csv" && capture.filters?.country === "Todos"
+    ? { ...EXPECTED_FILTERS, country: "Todos" }
+    : EXPECTED_FILTERS;
+  assert.deepEqual(capture.filters, expectedFilters, "A captura precisa conter os filtros nacionais observados e esperados.");
   assert.equal(validation.duplicateKeys, 0, "O CSV contém chaves de seção duplicadas.");
   assert.equal(capture.validation?.errors, 0);
   assert.equal(capture.validation?.duplicateKeys, validation.duplicateKeys);
