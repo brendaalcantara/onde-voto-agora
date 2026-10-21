@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { createReadStream } from "node:fs";
 import { access, copyFile, mkdir, readFile, rename, rm, stat, writeFile, appendFile } from "node:fs/promises";
 import { spawnSync } from "node:child_process";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { compareCaptureToVersion, EXPECTED_FILTERS, validateTseArchiveUrl, validateTseCsv } from "./tse-automation-utils.mjs";
 
@@ -34,18 +34,33 @@ async function sha256File(path) {
   return hash.digest("hex");
 }
 
-function assertSafeCapture(capture, csvBytes, zipBytes, validation) {
+function assertSafeCapture(capture, csvBytes, zipBytes, validation, sourceMode) {
   assert.equal(capture.source, "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas");
-  assert.equal(capture.archiveName, "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip");
-  validateTseArchiveUrl(capture.archiveUrl);
+  if (sourceMode === "tse-zip") {
+    assert.equal(capture.archiveName, "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip");
+    validateTseArchiveUrl(capture.archiveUrl);
+    assert.ok(zipBytes, "O modo padrão do TSE exige o ZIP integral da fonte.");
+    assert.equal(capture.zipSha256, sha256(zipBytes), "O hash do ZIP não confere com a captura.");
+    assert.equal(capture.zipBytes, zipBytes.length, "O tamanho do ZIP não confere com a captura.");
+  } else {
+    const fileName = capture.sourceFileName;
+    assert.equal(typeof fileName, "string", "A captura local precisa registrar o nome original do CSV.");
+    assert.equal(basename(fileName), fileName, "Registre apenas o nome do arquivo, sem caminho local.");
+    assert.match(fileName, /\.csv$/i, "O arquivo fornecido precisa ter extensão CSV.");
+    assert.equal(capture.sourceFileBytes, csvBytes.length, "O tamanho do CSV fornecido não confere com a captura.");
+    assert.equal(capture.sourceFileSha256, sha256(csvBytes), "O hash do CSV fornecido não confere com a captura.");
+    for (const archiveField of ["archiveName", "archiveEntry", "archiveUrl", "archiveFileTimestamp", "zipSha256", "zipBytes"]) {
+      assert.equal(capture[archiveField], undefined, `A captura local não pode declarar ${archiveField}.`);
+    }
+  }
   assert.deepEqual(capture.filters, EXPECTED_FILTERS, "A captura precisa conter todos os filtros nacionais esperados.");
+  assert.equal(validation.duplicateKeys, 0, "O CSV contém chaves de seção duplicadas.");
   assert.equal(capture.validation?.errors, 0);
-  assert.equal(capture.validation?.duplicateKeys, 0);
+  assert.equal(capture.validation?.duplicateKeys, validation.duplicateKeys);
+  assert.equal(capture.validation?.statesWithRows, validation.statesWithRows);
   assert.equal(capture.validation?.rows, validation.rows);
   assert.equal(capture.expectedRows, validation.rows);
   assert.equal(capture.csvSha256, sha256(csvBytes), "O hash do CSV extraído não confere com a captura.");
-  assert.equal(capture.zipSha256, sha256(zipBytes), "O hash do ZIP não confere com a captura.");
-  assert.equal(capture.zipBytes, zipBytes.length, "O tamanho do ZIP não confere com a captura.");
   assert.ok(Number.isFinite(Date.parse(capture.panelUpdatedAt)), "A captura não tem horário válido informado pelo TSE.");
   assert.ok(Number.isFinite(Date.parse(capture.capturedAt)), "A captura não tem horário de consulta válido.");
 }
@@ -79,25 +94,34 @@ async function setWorkflowOutputs(values) {
   await appendFile(process.env.GITHUB_OUTPUT, lines, "utf8");
 }
 
-for (const path of [capturePath, originZipPath, sourceCsvPath, catalogPath, activeMetadataPath, activeCsvPath]) await access(path);
-const [captureBytes, zipBytes, csvBytes, catalog, activeMetadata] = await Promise.all([
-  readFile(capturePath), readFile(originZipPath), readFile(sourceCsvPath),
+for (const path of [capturePath, sourceCsvPath, catalogPath, activeMetadataPath, activeCsvPath]) await access(path);
+const [captureBytes, csvBytes, catalog, activeMetadata] = await Promise.all([
+  readFile(capturePath), readFile(sourceCsvPath),
   readFile(catalogPath, "utf8").then(JSON.parse), readFile(activeMetadataPath, "utf8").then(JSON.parse),
 ]);
 const capture = JSON.parse(captureBytes.toString("utf8"));
+const sourceMode = capture.sourceMode ?? "tse-zip";
+if (!["tse-zip", "local-csv"].includes(sourceMode)) throw new Error(`Modalidade de fonte inválida: ${sourceMode}.`);
+let zipBytes = null;
+if (sourceMode === "tse-zip") {
+  await access(originZipPath);
+  zipBytes = await readFile(originZipPath);
+}
 const csvText = new TextDecoder("windows-1252", { fatal: true }).decode(csvBytes);
 const validation = validateTseCsv(csvText, capture.expectedRows);
-assertSafeCapture(capture, csvBytes, zipBytes, validation);
-if (capture.archiveEntry !== "secoes_eleitorais_alteradas_2t-pais_2026.csv") {
-  throw new Error("O ZIP não identifica o CSV nacional oficial esperado.");
-}
-const zipCheck = spawnSync("unzip", ["-t", originZipPath], { encoding: "utf8", maxBuffer: 2 * 1024 * 1024 });
-if (zipCheck.error) throw zipCheck.error;
-if (zipCheck.status !== 0) throw new Error(`O ZIP da fonte oficial está corrompido: ${zipCheck.stderr.trim()}`);
-const extractedCsv = spawnSync("unzip", ["-p", originZipPath, capture.archiveEntry], { maxBuffer: 50 * 1024 * 1024 });
-if (extractedCsv.error) throw extractedCsv.error;
-if (extractedCsv.status !== 0 || !extractedCsv.stdout.equals(csvBytes)) {
-  throw new Error("O CSV entregue à rotina não corresponde aos bytes do CSV dentro do ZIP oficial.");
+assertSafeCapture(capture, csvBytes, zipBytes, validation, sourceMode);
+if (sourceMode === "tse-zip") {
+  if (capture.archiveEntry !== "secoes_eleitorais_alteradas_2t-pais_2026.csv") {
+    throw new Error("O ZIP não identifica o CSV nacional oficial esperado.");
+  }
+  const zipCheck = spawnSync("unzip", ["-t", originZipPath], { encoding: "utf8", maxBuffer: 2 * 1024 * 1024 });
+  if (zipCheck.error) throw zipCheck.error;
+  if (zipCheck.status !== 0) throw new Error(`O ZIP da fonte oficial está corrompido: ${zipCheck.stderr.trim()}`);
+  const extractedCsv = spawnSync("unzip", ["-p", originZipPath, capture.archiveEntry], { maxBuffer: 50 * 1024 * 1024 });
+  if (extractedCsv.error) throw extractedCsv.error;
+  if (extractedCsv.status !== 0 || !extractedCsv.stdout.equals(csvBytes)) {
+    throw new Error("O CSV entregue à rotina não corresponde aos bytes do CSV dentro do ZIP oficial.");
+  }
 }
 
 const currentVersion = catalog.versions?.find((version) => version.id === catalog.currentVersionId);
@@ -155,24 +179,33 @@ try {
   const sourceCapturePath = join(stagingDirectory, "fonte-tse.json");
   const versionMetadataPath = join(stagingDirectory, "metadados.json");
   await writeFile(versionCsvPath, csvBytes, { flag: "wx" });
-  await copyFile(originZipPath, versionZipPath);
+  if (sourceMode === "tse-zip") await copyFile(originZipPath, versionZipPath);
 
   const capturedSource = {
     source: capture.source,
+    sourceMode,
     panel: "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     panelUpdatedAt: capture.panelUpdatedAt,
     captureAt: capture.capturedAt,
-    archiveFileTimestamp: capture.archiveFileTimestamp ?? null,
-    captureMethod: "ZIP integral solicitado ao painel oficial do TSE e validado localmente no workflow.",
-    archiveName: capture.archiveName,
-    archiveEntry: capture.archiveEntry,
-    archiveUrl: capture.archiveUrl,
+    captureMethod: sourceMode === "local-csv"
+      ? "CSV fornecido pela usuária; bytes, nome, hash, esquema, filtros, contagem e atualização do painel oficial conferidos localmente."
+      : "ZIP integral solicitado ao painel oficial do TSE e validado localmente no workflow.",
     filters: capture.filters,
     expectedRows: capture.expectedRows,
     validation: capture.validation,
     csvSha256,
-    zipSha256: capture.zipSha256,
-    zipBytes: capture.zipBytes,
+    ...(sourceMode === "local-csv" ? {
+      sourceFileName: capture.sourceFileName,
+      sourceFileBytes: capture.sourceFileBytes,
+      sourceFileSha256: capture.sourceFileSha256,
+    } : {
+      archiveFileTimestamp: capture.archiveFileTimestamp ?? null,
+      archiveName: capture.archiveName,
+      archiveEntry: capture.archiveEntry,
+      archiveUrl: capture.archiveUrl,
+      zipSha256: capture.zipSha256,
+      zipBytes: capture.zipBytes,
+    }),
   };
   await writeJson(sourceCapturePath, capturedSource);
   const sourceCaptureHash = await sha256File(sourceCapturePath);
@@ -183,16 +216,26 @@ try {
     url: capture.source,
     arquivoCaptura: relativeSourcePath,
     sha256ArquivoCaptura: sourceCaptureHash,
-    sha256ArquivoZip: capture.zipSha256,
     sha256Csv: csvSha256,
-    formato: "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
+    formato: sourceMode === "local-csv"
+      ? "CSV fornecido pela usuária e validado contra os filtros, a contagem e a atualização informados no painel oficial do TSE"
+      : "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
     capturadaEm: capture.capturedAt,
     painelAtualizacaoInformada: capture.panelUpdatedAt,
     painelRegistrosInformados: capture.expectedRows,
     registros: capture.expectedRows,
-    paginasConferidas: null,
     filtros: capture.filters,
-    metodo: `Arquivo ZIP oficial: ${validation.rows} linhas válidas, 0 erros estruturais e 0 chaves duplicadas; ${validation.statesWithRows} UFs com registros.`,
+    ...(sourceMode === "local-csv" ? {
+      nomeArquivoFornecido: capture.sourceFileName,
+      bytesArquivoFornecido: capture.sourceFileBytes,
+      sha256ArquivoFornecido: capture.sourceFileSha256,
+    } : {
+      sha256ArquivoZip: capture.zipSha256,
+      paginasConferidas: null,
+    }),
+    metodo: sourceMode === "local-csv"
+      ? `CSV fornecido pela usuária: ${validation.rows} linhas válidas, 0 erros estruturais e 0 chaves duplicadas; ${validation.statesWithRows} UFs com registros. A contagem e os filtros coincidem com o painel oficial.`
+      : `Arquivo ZIP oficial: ${validation.rows} linhas válidas, 0 erros estruturais e 0 chaves duplicadas; ${validation.statesWithRows} UFs com registros.`,
   };
   const sourceMetadataForSite = {
     id: versionId,
@@ -203,10 +246,12 @@ try {
     dadosConsultadosEm: capture.capturedAt,
     registrosBase: validation.rows,
     arquivoFonte: relativeCsvPath,
-    dataArquivoNoZip: capture.archiveFileTimestamp ?? null,
     sha256ArquivoCsv: csvSha256,
-    sha256ArquivoZip: capture.zipSha256,
-    arquivoZip: relativeZipPath,
+    ...(sourceMode === "tse-zip" ? {
+      dataArquivoNoZip: capture.archiveFileTimestamp ?? null,
+      sha256ArquivoZip: capture.zipSha256,
+      arquivoZip: relativeZipPath,
+    } : {}),
     fonteOficialAtual: sourceMetadata,
     fonte: {
       nome: "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
@@ -215,7 +260,9 @@ try {
       noticiaUrl: activeMetadata.fonte?.noticiaUrl,
     },
     mensagemParaEleitor: `Lista do TSE: ${validation.rows} seções. Painel atualizado em ${isoToBrt(capture.panelUpdatedAt)}; consulta feita em ${isoToBrt(capture.capturedAt)}.`,
-    observacao: "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos.",
+    observacao: sourceMode === "local-csv"
+      ? "O CSV foi fornecido pela usuária e validado contra o painel oficial do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
+      : "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos.",
   };
   await writeJson(versionMetadataPath, sourceMetadataForSite);
 
@@ -295,18 +342,22 @@ try {
     csv: relativeCsvPath,
     comparison: `dados/versoes/${versionId}/comparacao.json`,
     sourceCapture: relativeSourcePath,
-    sourceArchive: relativeZipPath,
     reconciliation: `dados/versoes/${versionId}/${reconciliationName}`,
     reconcilesWith: currentVersion.id,
     panelUpdatedAt: capture.panelUpdatedAt,
     capturedAt: capture.capturedAt,
-    fileTimestamp,
     sourceUrl: capture.source,
     sourceSha256: sourceCaptureHash,
     csvSha256,
-    sourceZipSha256: capture.zipSha256,
+    ...(sourceMode === "tse-zip" ? {
+      sourceArchive: relativeZipPath,
+      fileTimestamp,
+      sourceZipSha256: capture.zipSha256,
+    } : {}),
     resultsZipSha256: comparison.resultados.sha256ZipAnalisado,
-    note: "Exportação integral oficial do TSE. Ausências entre versões são diferenças entre capturas, não confirmação de cancelamento.",
+    note: sourceMode === "local-csv"
+      ? "CSV fornecido pela usuária e conferido com a contagem, os filtros e a atualização do painel oficial. Ausências entre versões são diferenças entre capturas, não confirmação de cancelamento."
+      : "Exportação integral oficial do TSE. Ausências entre versões são diferenças entre capturas, não confirmação de cancelamento.",
   };
 
   await rename(stagingDirectory, versionDirectory);

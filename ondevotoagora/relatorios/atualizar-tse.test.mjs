@@ -80,14 +80,17 @@ test("não cria outra versão quando a exportação é idêntica à atual", asyn
   const currentVersion = catalog.versions.find((version) => version.id === catalog.currentVersionId);
   assert.ok(currentVersion, "o catálogo deve apontar para uma versão atual");
   const zipPath = join(tempDirectory, "origem.zip");
+  const archiveEntry = "secoes_eleitorais_alteradas_2t-pais_2026.csv";
+  const archiveCsvPath = join(tempDirectory, archiveEntry);
   const csvPath = join(tempDirectory, "secoes.csv");
   const capturePath = join(tempDirectory, "captura.json");
   const outputPath = join(tempDirectory, "github-output.txt");
   try {
-    await Promise.all([
-      copyFile(join(siteDirectory, currentVersion.sourceArchive), zipPath),
-      copyFile(join(siteDirectory, currentVersion.csv), csvPath),
-    ]);
+    await copyFile(join(siteDirectory, currentVersion.csv), csvPath);
+    await copyFile(csvPath, archiveCsvPath);
+    const zipCreation = spawnSync("zip", ["-q", zipPath, archiveEntry], { cwd: tempDirectory, encoding: "utf8" });
+    assert.equal(zipCreation.error, undefined, zipCreation.error?.message);
+    assert.equal(zipCreation.status, 0, `${zipCreation.stdout}\n${zipCreation.stderr}`);
     const [zipBytes, csvBytes] = await Promise.all([readFile(zipPath), readFile(csvPath)]);
     const hash = (value) => createHash("sha256").update(value).digest("hex");
     const validation = validateTseCsv(new TextDecoder("windows-1252", { fatal: true }).decode(csvBytes), currentVersion.records);
@@ -96,7 +99,7 @@ test("não cria outra versão quando a exportação é idêntica à atual", asyn
       source: "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
       archiveUrl: `https://cdn.tse.jus.br/estatistica/sead/odsele/arquivos_gerados/eleitorado_eleicao_2026/${archiveTimestamp}/abc123/secoes_eleitorais_alteradas_2t-pais_2026.csv.zip`,
       archiveName: "secoes_eleitorais_alteradas_2t-pais_2026.csv.zip",
-      archiveEntry: "secoes_eleitorais_alteradas_2t-pais_2026.csv",
+      archiveEntry,
       panelUpdatedAt: currentVersion.panelUpdatedAt,
       capturedAt: new Date(Date.parse(currentVersion.panelUpdatedAt) + 10 * 60_000).toISOString(),
       filters: EXPECTED_FILTERS,
@@ -120,6 +123,57 @@ test("não cria outra versão quando a exportação é idêntica à atual", asyn
     assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
     assert.match(await readFile(outputPath, "utf8"), /changed=false\nneeds_update=false/);
     assert.match(result.stdout, /"status": "unchanged"/);
+  } finally {
+    await rm(tempDirectory, { recursive: true, force: true });
+  }
+});
+
+test("aceita CSV local explícito sem ZIP e confere nome, tamanho, hash e contagem", async () => {
+  const tempDirectory = await mkdtemp(join(tmpdir(), "ondevotoagora-tse-local-csv-test-"));
+  const catalog = JSON.parse(await readFile(join(siteDirectory, "dados/versoes.json"), "utf8"));
+  const currentVersion = catalog.versions.find((version) => version.id === catalog.currentVersionId);
+  assert.ok(currentVersion, "o catálogo deve apontar para uma versão atual");
+  const csvPath = join(tempDirectory, "secoes.csv");
+  const capturePath = join(tempDirectory, "captura.json");
+  try {
+    await copyFile(join(siteDirectory, currentVersion.csv), csvPath);
+    const csvBytes = await readFile(csvPath);
+    const hash = (value) => createHash("sha256").update(value).digest("hex");
+    const validation = validateTseCsv(new TextDecoder("windows-1252", { fatal: true }).decode(csvBytes), currentVersion.records);
+    const capture = {
+      sourceMode: "local-csv",
+      source: "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      sourceFileName: "secoes_eleitorais_alteradas_2t-pais_2026-2.csv",
+      sourceFileBytes: csvBytes.length,
+      sourceFileSha256: hash(csvBytes),
+      panelUpdatedAt: currentVersion.panelUpdatedAt,
+      capturedAt: new Date(Date.parse(currentVersion.panelUpdatedAt) + 10 * 60_000).toISOString(),
+      filters: EXPECTED_FILTERS,
+      expectedRows: validation.rows,
+      validation: { rows: validation.rows, errors: 0, duplicateKeys: validation.duplicateKeys, statesWithRows: validation.statesWithRows },
+      csvSha256: hash(csvBytes),
+    };
+    const runCheckOnly = () => spawnSync(process.execPath, [
+      resolve(siteDirectory, "relatorios/publicar-atualizacao-tse.mjs"),
+      `--capture-dir=${tempDirectory}`,
+      "--check-only",
+    ], { encoding: "utf8", timeout: 30_000 });
+
+    await writeFile(capturePath, `${JSON.stringify(capture)}\n`, "utf8");
+    let result = runCheckOnly();
+    assert.equal(result.error, undefined, result.error?.message);
+    assert.equal(result.status, 0, `${result.stdout}\n${result.stderr}`);
+    assert.match(result.stdout, /"status": "unchanged"/);
+
+    await writeFile(capturePath, `${JSON.stringify({ ...capture, sourceFileSha256: "0".repeat(64) })}\n`, "utf8");
+    result = runCheckOnly();
+    assert.notEqual(result.status, 0, "hash informado incorretamente precisa interromper a publicação");
+    assert.match(`${result.stdout}\n${result.stderr}`, /hash do CSV fornecido/);
+
+    await writeFile(capturePath, `${JSON.stringify({ ...capture, expectedRows: validation.rows - 1 })}\n`, "utf8");
+    result = runCheckOnly();
+    assert.notEqual(result.status, 0, "contagem divergente do painel precisa interromper a publicação");
+    assert.match(`${result.stdout}\n${result.stderr}`, /painel informa .* linhas, mas o CSV tem/);
   } finally {
     await rm(tempDirectory, { recursive: true, force: true });
   }
