@@ -1,0 +1,499 @@
+{
+  "geradoEm": "2026-10-21T14:43:41.919Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-21-0627-6f5ae16a/secoes.csv",
+    "registros": 438,
+    "sha256": "6f5ae16a570d8eab93df17b41204e19c901d6ffa5cf3c24c9184d10c1152a7ad"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-21-1127-cb179c8f/secoes.csv",
+    "registros": 383,
+    "sha256": "cb179c8f945884e52b1e1eabb2baab68a5b4c982283722570c571a5d85062d5f"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 372,
+    "apenasNaVersaoAnterior": 66,
+    "apenasNaVersaoAtual": 11,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "CE",
+      "municipio": "QUIXADÁ",
+      "zona": "6",
+      "secao": "2"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXADÁ",
+      "zona": "6",
+      "secao": "207"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXADÁ",
+      "zona": "6",
+      "secao": "465"
+    },
+    {
+      "uf": "MA",
+      "municipio": "BACURI",
+      "zona": "107",
+      "secao": "115"
+    },
+    {
+      "uf": "MA",
+      "municipio": "BACURI",
+      "zona": "107",
+      "secao": "155"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "217"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "345"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "351"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "291"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "292"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "293"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "294"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "295"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "296"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "297"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "298"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "299"
+    },
+    {
+      "uf": "MA",
+      "municipio": "SANTA INÊS",
+      "zona": "57",
+      "secao": "300"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "49"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "50"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "51"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "93"
+    },
+    {
+      "uf": "MG",
+      "municipio": "BELA VISTA DE MINAS",
+      "zona": "193",
+      "secao": "98"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "51"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "52"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "53"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "54"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "55"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "56"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "63"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "66"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CALDAS",
+      "zona": "345",
+      "secao": "68"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "335"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "362"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "381"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "393"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "452"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MONTES CLAROS",
+      "zona": "185",
+      "secao": "499"
+    },
+    {
+      "uf": "PI",
+      "municipio": "CAPITÃO GERVÁSIO OLIVEIRA",
+      "zona": "69",
+      "secao": "38"
+    },
+    {
+      "uf": "PI",
+      "municipio": "CURRAIS",
+      "zona": "15",
+      "secao": "20"
+    },
+    {
+      "uf": "PI",
+      "municipio": "CURRAIS",
+      "zona": "15",
+      "secao": "57"
+    },
+    {
+      "uf": "PI",
+      "municipio": "CURRAIS",
+      "zona": "15",
+      "secao": "114"
+    },
+    {
+      "uf": "PI",
+      "municipio": "CURRAIS",
+      "zona": "15",
+      "secao": "21"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "86"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "213"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "151"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "153"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "160"
+    },
+    {
+      "uf": "PI",
+      "municipio": "JOÃO COSTA",
+      "zona": "20",
+      "secao": "165"
+    },
+    {
+      "uf": "PI",
+      "municipio": "OEIRAS",
+      "zona": "5",
+      "secao": "126"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "20"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "21"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "22"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "129"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "27"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "130"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "174"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "63"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "14"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "15"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO JOÃO DO PIAUÍ",
+      "zona": "20",
+      "secao": "16"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO LOURENÇO DO PIAUÍ",
+      "zona": "13",
+      "secao": "209"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO LOURENÇO DO PIAUÍ",
+      "zona": "13",
+      "secao": "250"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO LOURENÇO DO PIAUÍ",
+      "zona": "13",
+      "secao": "77"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ITAGUATINS",
+      "zona": "11",
+      "secao": "5"
+    },
+    {
+      "uf": "TO",
+      "municipio": "ITAGUATINS",
+      "zona": "11",
+      "secao": "112"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "749"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "771"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "799"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "827"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "851"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "882"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "906"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "935"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "963"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "998"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "58",
+      "secao": "1023"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
