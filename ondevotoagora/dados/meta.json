@@ -1,36 +1,53 @@
 {
-  "id": "2026-10-21-1527-e2d0a3a2",
+  "id": "2026-10-22-0628-c761c610",
   "eleicao": 2026,
   "turnoInicial": 1,
   "turnoFinal": 2,
-  "siteAtualizadoEm": "2026-10-21",
-  "dadosConsultadosEm": "2026-10-21T19:45:19Z",
-  "registrosBase": 343,
-  "arquivoFonte": "dados/versoes/2026-10-21-1527-e2d0a3a2/secoes.csv",
-  "sha256ArquivoCsv": "e2d0a3a292c2142f6c4e7dbabdcc3412cc6ecaabb9ec070d60092718863e25aa",
+  "siteAtualizadoEm": "2026-10-22",
+  "dadosConsultadosEm": "2026-10-22T13:00:07.000Z",
+  "registrosBase": 326,
+  "arquivoFonte": "dados/versoes/2026-10-22-0628-c761c610/secoes.csv",
+  "sha256ArquivoCsv": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
   "fonteOficialAtual": {
     "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
-    "arquivoCaptura": "dados/versoes/2026-10-21-1527-e2d0a3a2/fonte-tse.json",
-    "sha256ArquivoCaptura": "49f69437b3ee66e7c9e13190fed4d8374739d9733fbbad262f275ddb8c8bad6e",
-    "sha256Csv": "e2d0a3a292c2142f6c4e7dbabdcc3412cc6ecaabb9ec070d60092718863e25aa",
-    "formato": "CSV fornecido pela usuária e validado contra os filtros, a contagem e a atualização informados no painel oficial do TSE",
-    "capturadaEm": "2026-10-21T19:45:19Z",
-    "painelAtualizacaoInformada": "2026-10-21T15:27:00-03:00",
-    "painelRegistrosInformados": 343,
-    "registros": 343,
+    "arquivoCaptura": "dados/versoes/2026-10-22-0628-c761c610/fonte-tse.json",
+    "sha256ArquivoCaptura": "ae1d202a85d2026eb14f11bbaad885d9984b518d32e27814db50bcb820547b33",
+    "sha256Csv": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+    "formato": "CSV derivado localmente do arquivo bruto fornecido pela usuária; seleção e hashes do bruto e do derivado documentados na captura da fonte.",
+    "capturadaEm": "2026-10-22T13:00:07.000Z",
+    "painelAtualizacaoInformada": "2026-10-22T06:28:00-03:00",
+    "painelRegistrosInformados": 326,
+    "registros": 326,
     "filtros": {
       "electionYear": 2026,
-      "country": "Todos",
+      "country": "Brasil",
       "region": "Todas",
       "state": "Todas",
       "municipality": "Todos",
       "zone": "Todas",
       "votingPlace": "Todos"
     },
-    "nomeArquivoFornecido": "secoes_eleitorais_alteradas_2t-pais_2026-3.csv",
-    "bytesArquivoFornecido": 35921,
-    "sha256ArquivoFornecido": "e2d0a3a292c2142f6c4e7dbabdcc3412cc6ecaabb9ec070d60092718863e25aa",
-    "metodo": "CSV fornecido pela usuária: 343 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 20 UFs com registros. A contagem e os filtros coincidem com o painel oficial."
+    "nomeArquivoFornecido": "subconjunto-326-de-secoes_eleitorais_alteradas_2t-pais_2026-4.csv",
+    "bytesArquivoFornecido": 34078,
+    "sha256ArquivoFornecido": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+    "metodo": "Arquivo bruto CP1252: 517.179 linhas. Aplicada a regra nm_pais=Brasil e nm_local_votacao_final não vazio, resultando em 326 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; a contagem coincide com o painel oficial observado. O conteúdo não foi comparado byte a byte com o ZIP de exportação.",
+    "origemArquivoBruto": {
+      "sourceFileName": "secoes_eleitorais_alteradas_2t-pais_2026-4.csv",
+      "sourceFileBytes": 35549104,
+      "sourceFileSha256": "3bc3d521e6d96e76ad4711b0080dfee75b479973537ef5592f08b60fee756513",
+      "parsedRows": 517179,
+      "encoding": "Windows-1252"
+    },
+    "transformacao": {
+      "rule": "nm_pais == Brasil e nm_local_votacao_final não vazio",
+      "inputRows": 517179,
+      "outputRows": 326,
+      "excludedRows": 516853,
+      "outputEncoding": "Windows-1252",
+      "outputSha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+      "outputBytes": 34078,
+      "userConfirmedOutputCount": 326
+    }
   },
   "fonte": {
     "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
@@ -38,6 +55,6 @@
     "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
   },
-  "mensagemParaEleitor": "Lista do TSE: 343 seções. Painel atualizado em 21/10/2026 às 15h27; consulta feita em 21/10/2026 às 16h45.",
-  "observacao": "O CSV foi fornecido pela usuária e validado contra o painel oficial do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
+  "mensagemParaEleitor": "Lista do TSE: 326 seções. Painel atualizado em 22/10/2026 às 06h28; consulta feita em 22/10/2026 às 10h00.",
+  "observacao": "Lista derivada localmente do CSV bruto fornecido pela usuária. O histórico preserva cada captura; diferenças entre versões não confirmam cancelamentos. A contagem derivada coincide com as 326 linhas visíveis no painel oficial."
 }

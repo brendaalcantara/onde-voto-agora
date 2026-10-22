@@ -1,0 +1,60 @@
+{
+  "source": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+  "sourceMode": "local-csv-derived",
+  "panel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
+  "panelUpdatedAt": "2026-10-22T06:28:00-03:00",
+  "captureAt": "2026-10-22T13:00:07.000Z",
+  "captureMethod": "Lista derivada por filtro determinístico do CSV bruto fornecido pela usuária. Os 326 registros resultantes coincidem com a contagem visível no painel oficial do TSE; o conteúdo não foi conferido byte a byte com o ZIP gerado pelo painel.",
+  "filters": {
+    "electionYear": 2026,
+    "country": "Brasil",
+    "region": "Todas",
+    "state": "Todas",
+    "municipality": "Todos",
+    "zone": "Todas",
+    "votingPlace": "Todos"
+  },
+  "expectedRows": 326,
+  "validation": {
+    "rows": 326,
+    "errors": 0,
+    "duplicateKeys": 0,
+    "statesWithRows": 20
+  },
+  "csvSha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+  "sourceFileName": "subconjunto-326-de-secoes_eleitorais_alteradas_2t-pais_2026-4.csv",
+  "sourceFileBytes": 34078,
+  "sourceFileSha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+  "rawInput": {
+    "sourceFileName": "secoes_eleitorais_alteradas_2t-pais_2026-4.csv",
+    "sourceFileBytes": 35549104,
+    "sourceFileSha256": "3bc3d521e6d96e76ad4711b0080dfee75b479973537ef5592f08b60fee756513",
+    "parsedRows": 517179,
+    "encoding": "Windows-1252"
+  },
+  "transformation": {
+    "rule": "nm_pais == Brasil e nm_local_votacao_final não vazio",
+    "inputRows": 517179,
+    "outputRows": 326,
+    "excludedRows": 516853,
+    "outputEncoding": "Windows-1252",
+    "outputSha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328",
+    "outputBytes": 34078,
+    "userConfirmedOutputCount": 326
+  },
+  "panelEvidence": {
+    "source": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+    "panelUpdatedAt": "2026-10-22T06:28:00-03:00",
+    "observedAt": "2026-10-22T10:00:07-03:00",
+    "rowsVisible": 326,
+    "filters": {
+      "electionYear": 2026,
+      "country": "Brasil",
+      "region": "Todas",
+      "state": "Todas",
+      "municipality": "Todos",
+      "zone": "Todas",
+      "votingPlace": "Todos"
+    }
+  }
+}

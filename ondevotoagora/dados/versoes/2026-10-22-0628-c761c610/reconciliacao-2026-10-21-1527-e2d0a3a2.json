@@ -1,0 +1,664 @@
+{
+  "geradoEm": "2026-10-22T13:38:06.681Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-21-1527-e2d0a3a2/secoes.csv",
+    "registros": 343,
+    "sha256": "e2d0a3a292c2142f6c4e7dbabdcc3412cc6ecaabb9ec070d60092718863e25aa"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-22-0628-c761c610/secoes.csv",
+    "registros": 326,
+    "sha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 287,
+    "apenasNaVersaoAnterior": 56,
+    "apenasNaVersaoAtual": 39,
+    "registrosCompartilhadosComCamposAlterados": 4,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 4,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 4,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "AM",
+      "municipio": "ITAMARATI",
+      "zona": "69",
+      "secao": "14"
+    },
+    {
+      "uf": "AM",
+      "municipio": "ITAMARATI",
+      "zona": "69",
+      "secao": "21"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DO RAMALHO",
+      "zona": "71",
+      "secao": "91"
+    },
+    {
+      "uf": "BA",
+      "municipio": "SERRA DO RAMALHO",
+      "zona": "71",
+      "secao": "92"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "55"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "56"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "57"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "58"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "59"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "183"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "233"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "241"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "305"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "37"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "38"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "75"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "76"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "77"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "125"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ARAGUARI",
+      "zona": "16",
+      "secao": "148"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "256"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "290"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "315"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "344"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "368"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "384"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "389"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "399"
+    },
+    {
+      "uf": "MG",
+      "municipio": "CARATINGA",
+      "zona": "71",
+      "secao": "409"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "344"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "336"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "172"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "362"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "226"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "41"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "42"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "248"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "393"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "219"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "29"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "45"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "230"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "362"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "400"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "402"
+    },
+    {
+      "uf": "MG",
+      "municipio": "UBAPORANGA",
+      "zona": "71",
+      "secao": "404"
+    },
+    {
+      "uf": "PR",
+      "municipio": "INÁCIO MARTINS",
+      "zona": "34",
+      "secao": "182"
+    },
+    {
+      "uf": "PR",
+      "municipio": "INÁCIO MARTINS",
+      "zona": "34",
+      "secao": "211"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IRATI",
+      "zona": "34",
+      "secao": "112"
+    },
+    {
+      "uf": "PR",
+      "municipio": "IRATI",
+      "zona": "34",
+      "secao": "113"
+    },
+    {
+      "uf": "PR",
+      "municipio": "SANTO INÁCIO",
+      "zona": "159",
+      "secao": "61"
+    },
+    {
+      "uf": "PR",
+      "municipio": "SANTO INÁCIO",
+      "zona": "159",
+      "secao": "62"
+    },
+    {
+      "uf": "PR",
+      "municipio": "SANTO INÁCIO",
+      "zona": "159",
+      "secao": "63"
+    },
+    {
+      "uf": "RS",
+      "municipio": "CATUÍPE",
+      "zona": "23",
+      "secao": "370"
+    },
+    {
+      "uf": "RS",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "zona": "52",
+      "secao": "130"
+    },
+    {
+      "uf": "RS",
+      "municipio": "SÃO LUIZ GONZAGA",
+      "zona": "52",
+      "secao": "176"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "529"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "550"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "591"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "649"
+    },
+    {
+      "uf": "AM",
+      "municipio": "MANAUS",
+      "zona": "63",
+      "secao": "709"
+    },
+    {
+      "uf": "PA",
+      "municipio": "PIÇARRA",
+      "zona": "62",
+      "secao": "129"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "74"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "81"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "154"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "121"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "71"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "139"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "187"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "259"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "305"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "348"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "188"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "349"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "127"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "131"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "136"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "143"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "151"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "157"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "164"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "169"
+    },
+    {
+      "uf": "PI",
+      "municipio": "BARRAS",
+      "zona": "6",
+      "secao": "171"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "1"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "2"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "3"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "4"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "5"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "6"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "123"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "154"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "189"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "210"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "245"
+    },
+    {
+      "uf": "PR",
+      "municipio": "LARANJEIRAS DO SUL",
+      "zona": "45",
+      "secao": "265"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": [
+    {
+      "chave": "ES/MANTENOPOLIS/36/169",
+      "municipio": "MANTENÓPOLIS",
+      "uf": "ES",
+      "zona": "36",
+      "secao": "169",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "POSTO DE SAUDE DE SANTA LUZIA",
+          "atual": "ANTIGO POSTO DE SAUDE DE SANTA LUZIA"
+        }
+      ]
+    },
+    {
+      "chave": "ES/MANTENOPOLIS/36/172",
+      "municipio": "MANTENÓPOLIS",
+      "uf": "ES",
+      "zona": "36",
+      "secao": "172",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "POSTO DE SAUDE DE SANTA LUZIA",
+          "atual": "ANTIGO POSTO DE SAUDE DE SANTA LUZIA"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SANTA MARIA/135/3",
+      "municipio": "SANTA MARIA",
+      "uf": "RS",
+      "zona": "135",
+      "secao": "3",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E,M,F,I, JOAO FRANCISCATO",
+          "atual": "ESCOLA MUNICIPAL DE ENSINO INFANTIL JOAO FRANCISCATTO"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SANTA MARIA/135/290",
+      "municipio": "SANTA MARIA",
+      "uf": "RS",
+      "zona": "135",
+      "secao": "290",
+      "campos": [
+        {
+          "campo": "local novo",
+          "anterior": "E,M,F,I, JOAO FRANCISCATO",
+          "atual": "ESCOLA MUNICIPAL DE ENSINO INFANTIL JOAO FRANCISCATTO"
+        }
+      ]
+    }
+  ]
+}
