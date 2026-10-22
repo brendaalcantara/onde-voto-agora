@@ -1,0 +1,373 @@
+{
+  "geradoEm": "2026-10-22T19:00:19.088Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-22-0628-c761c610/secoes.csv",
+    "registros": 326,
+    "sha256": "c761c610abd9dfa750e7603f84b73d037d77dd0043d2d2e6bbdef6342a7e6328"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-22-1527-4056050e/secoes.csv",
+    "registros": 308,
+    "sha256": "4056050e1c4cdd6d69ef582234262c486984217f89d253e36920595408f3a756"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 289,
+    "apenasNaVersaoAnterior": 37,
+    "apenasNaVersaoAtual": 19,
+    "registrosCompartilhadosComCamposAlterados": 0,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 0,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 0
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "362"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "364"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "365"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "367"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "368"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "371"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "372"
+    },
+    {
+      "uf": "MT",
+      "municipio": "VÁRZEA GRANDE",
+      "zona": "20",
+      "secao": "377"
+    },
+    {
+      "uf": "PA",
+      "municipio": "COLARES",
+      "zona": "8",
+      "secao": "1"
+    },
+    {
+      "uf": "PA",
+      "municipio": "COLARES",
+      "zona": "8",
+      "secao": "262"
+    },
+    {
+      "uf": "PA",
+      "municipio": "COLARES",
+      "zona": "8",
+      "secao": "13"
+    },
+    {
+      "uf": "PA",
+      "municipio": "COLARES",
+      "zona": "8",
+      "secao": "147"
+    },
+    {
+      "uf": "PA",
+      "municipio": "PIÇARRA",
+      "zona": "62",
+      "secao": "129"
+    },
+    {
+      "uf": "PA",
+      "municipio": "PIÇARRA",
+      "zona": "62",
+      "secao": "19"
+    },
+    {
+      "uf": "PA",
+      "municipio": "PIÇARRA",
+      "zona": "62",
+      "secao": "67"
+    },
+    {
+      "uf": "PA",
+      "municipio": "PIÇARRA",
+      "zona": "62",
+      "secao": "124"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "28"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "29"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "30"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "31"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "110"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "116"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "126"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "66"
+    },
+    {
+      "uf": "PA",
+      "municipio": "SÃO GERALDO DO ARAGUAIA",
+      "zona": "62",
+      "secao": "78"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "74"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "81"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "154"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "121"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "71"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "139"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "187"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "259"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "305"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "348"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "188"
+    },
+    {
+      "uf": "PA",
+      "municipio": "VIGIA",
+      "zona": "8",
+      "secao": "349"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "CE",
+      "municipio": "ARACATI",
+      "zona": "8",
+      "secao": "224"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ENTRE RIOS DE MINAS",
+      "zona": "106",
+      "secao": "32"
+    },
+    {
+      "uf": "MG",
+      "municipio": "ENTRE RIOS DE MINAS",
+      "zona": "106",
+      "secao": "147"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "344"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "172"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JANUÁRIA",
+      "zona": "148",
+      "secao": "362"
+    },
+    {
+      "uf": "MG",
+      "municipio": "JOÃO PINHEIRO",
+      "zona": "151",
+      "secao": "88"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MANHUAÇU",
+      "zona": "167",
+      "secao": "156"
+    },
+    {
+      "uf": "MG",
+      "municipio": "MANHUAÇU",
+      "zona": "167",
+      "secao": "279"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "120"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "129"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "137"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "140"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "146"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "11"
+    },
+    {
+      "uf": "PA",
+      "municipio": "ALMEIRIM",
+      "zona": "55",
+      "secao": "101"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "zona": "13",
+      "secao": "131"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "zona": "13",
+      "secao": "232"
+    },
+    {
+      "uf": "PI",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "zona": "13",
+      "secao": "265"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": []
+}
