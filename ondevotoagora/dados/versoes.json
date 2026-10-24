@@ -1,6 +1,23 @@
 {
-  "currentVersionId": "2026-10-22-1527-4056050e",
+  "currentVersionId": "2026-10-24-1127-da5085e2",
   "versions": [
+    {
+      "id": "2026-10-24-1127-da5085e2",
+      "label": "TSE · 24/10/2026 às 11h27 · 362 seções",
+      "records": 362,
+      "csv": "dados/versoes/2026-10-24-1127-da5085e2/secoes.csv",
+      "comparison": "dados/versoes/2026-10-24-1127-da5085e2/comparacao.json",
+      "sourceCapture": "dados/versoes/2026-10-24-1127-da5085e2/fonte-tse.json",
+      "reconciliation": "dados/versoes/2026-10-24-1127-da5085e2/reconciliacao-2026-10-22-1527-4056050e.json",
+      "reconcilesWith": "2026-10-22-1527-4056050e",
+      "panelUpdatedAt": "2026-10-24T11:27:00-03:00",
+      "capturedAt": "2026-10-24T17:56:23.688Z",
+      "sourceUrl": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
+      "sourceSha256": "97eacd27a1b2e7d761a6b128e39bebe07386e796f0c8512a208592977318cd47",
+      "csvSha256": "da5085e22648909d6001482cdc110f943a44288c39d7596c272624eeabbae1a4",
+      "resultsZipSha256": "2d42006d0f6c6e00bad83f5c23cd3d78cd3e3182dbc1ad6718222b6b132c23e1",
+      "note": "CSV fornecido pela usuária e conferido com a contagem, os filtros e a atualização do painel oficial. Ausências entre versões são diferenças entre capturas, não confirmação de cancelamento."
+    },
     {
       "id": "2026-10-22-1527-4056050e",
       "label": "TSE · 22/10/2026 às 15h27 · 308 seções",

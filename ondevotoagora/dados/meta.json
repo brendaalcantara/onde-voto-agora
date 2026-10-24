@@ -1,38 +1,36 @@
 {
-  "id": "2026-10-22-1527-4056050e",
+  "id": "2026-10-24-1127-da5085e2",
   "eleicao": 2026,
   "turnoInicial": 1,
   "turnoFinal": 2,
-  "siteAtualizadoEm": "2026-10-22",
-  "dadosConsultadosEm": "2026-10-22T18:59:32.936Z",
-  "registrosBase": 308,
-  "arquivoFonte": "dados/versoes/2026-10-22-1527-4056050e/secoes.csv",
-  "sha256ArquivoCsv": "4056050e1c4cdd6d69ef582234262c486984217f89d253e36920595408f3a756",
-  "dataArquivoNoZip": "2026-10-22T15:55:00",
-  "sha256ArquivoZip": "024d8ab573db522f3aa51b03d0e55759e3960a1e848f1c8e4c427a997829740f",
-  "arquivoZip": "dados/versoes/2026-10-22-1527-4056050e/origem.zip",
+  "siteAtualizadoEm": "2026-10-24",
+  "dadosConsultadosEm": "2026-10-24T17:56:23.688Z",
+  "registrosBase": 362,
+  "arquivoFonte": "dados/versoes/2026-10-24-1127-da5085e2/secoes.csv",
+  "sha256ArquivoCsv": "da5085e22648909d6001482cdc110f943a44288c39d7596c272624eeabbae1a4",
   "fonteOficialAtual": {
     "url": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/se%C3%A7%C3%B5es-alteradas",
-    "arquivoCaptura": "dados/versoes/2026-10-22-1527-4056050e/fonte-tse.json",
-    "sha256ArquivoCaptura": "1ea3199a4a7426124ee5fcc997b02e77cd3c36e6d7351d2d09b0b17de7632d4b",
-    "sha256Csv": "4056050e1c4cdd6d69ef582234262c486984217f89d253e36920595408f3a756",
-    "formato": "CSV oficial integral baixado do recurso Arquivos gerados do painel de Capilaridade do TSE",
-    "capturadaEm": "2026-10-22T18:59:32.936Z",
-    "painelAtualizacaoInformada": "2026-10-22T15:27:00-03:00",
-    "painelRegistrosInformados": 308,
-    "registros": 308,
+    "arquivoCaptura": "dados/versoes/2026-10-24-1127-da5085e2/fonte-tse.json",
+    "sha256ArquivoCaptura": "97eacd27a1b2e7d761a6b128e39bebe07386e796f0c8512a208592977318cd47",
+    "sha256Csv": "da5085e22648909d6001482cdc110f943a44288c39d7596c272624eeabbae1a4",
+    "formato": "CSV fornecido pela usuária e validado contra os filtros, a contagem e a atualização informados no painel oficial do TSE",
+    "capturadaEm": "2026-10-24T17:56:23.688Z",
+    "painelAtualizacaoInformada": "2026-10-24T11:27:00-03:00",
+    "painelRegistrosInformados": 362,
+    "registros": 362,
     "filtros": {
       "electionYear": 2026,
-      "country": "Brasil",
+      "country": "Todos",
       "region": "Todas",
       "state": "Todas",
       "municipality": "Todos",
       "zone": "Todas",
       "votingPlace": "Todos"
     },
-    "sha256ArquivoZip": "024d8ab573db522f3aa51b03d0e55759e3960a1e848f1c8e4c427a997829740f",
-    "paginasConferidas": null,
-    "metodo": "Arquivo ZIP oficial: 308 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 20 UFs com registros."
+    "nomeArquivoFornecido": "secoes_eleitorais_alteradas_2t-pais_2026-6.csv",
+    "bytesArquivoFornecido": 37712,
+    "sha256ArquivoFornecido": "da5085e22648909d6001482cdc110f943a44288c39d7596c272624eeabbae1a4",
+    "metodo": "CSV fornecido pela usuária: 362 linhas válidas, 0 erros estruturais e 0 chaves duplicadas; 22 UFs com registros. A contagem e os filtros coincidem com o painel oficial."
   },
   "fonte": {
     "nome": "TSE — Estatísticas do eleitorado — Capilaridade — Seções alteradas",
@@ -40,6 +38,6 @@
     "painel": "https://sig.tse.jus.br/ords/dwapr/r/seai/sig-eleicao-eleitorado/painel-capilaridade",
     "noticiaUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
   },
-  "mensagemParaEleitor": "Lista do TSE: 308 seções. Painel atualizado em 22/10/2026 às 15h27; consulta feita em 22/10/2026 às 15h59.",
-  "observacao": "A lista foi extraída do ZIP oficial integral do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
+  "mensagemParaEleitor": "Lista do TSE: 362 seções. Painel atualizado em 24/10/2026 às 11h27; consulta feita em 24/10/2026 às 14h56.",
+  "observacao": "O CSV foi fornecido pela usuária e validado contra o painel oficial do TSE. Cada atualização válida é preservada como versão, sem interpretar ausências entre capturas como cancelamentos."
 }

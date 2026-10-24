@@ -1,0 +1,3328 @@
+{
+  "geradoEm": "2026-10-24T17:57:10.590Z",
+  "chaveDeComparacao": "eleição + UF + município normalizado + zona + seção",
+  "versaoAnterior": {
+    "arquivo": "dados/versoes/2026-10-22-1527-4056050e/secoes.csv",
+    "registros": 308,
+    "sha256": "4056050e1c4cdd6d69ef582234262c486984217f89d253e36920595408f3a756"
+  },
+  "versaoAtual": {
+    "arquivo": "dados/versoes/2026-10-24-1127-da5085e2/secoes.csv",
+    "registros": 362,
+    "sha256": "da5085e22648909d6001482cdc110f943a44288c39d7596c272624eeabbae1a4"
+  },
+  "reconciliacao": {
+    "chavesCompartilhadas": 307,
+    "apenasNaVersaoAnterior": 1,
+    "apenasNaVersaoAtual": 55,
+    "registrosCompartilhadosComCamposAlterados": 211,
+    "totalCamposDiferentesNosRegistrosCompartilhados": 211,
+    "camposDiferentesPorTipo": {
+      "país": 0,
+      "UF": 0,
+      "município": 0,
+      "zona": 0,
+      "local anterior": 0,
+      "seção": 0,
+      "local novo": 0,
+      "eleitorado": 211
+    },
+    "observacao": "Diferenças entre duas exportações não provam exclusão ou cancelamento de seções. Ausência em uma captura significa apenas que a chave não aparece naquela versão."
+  },
+  "apenasNaVersaoAnterior": [
+    {
+      "uf": "MG",
+      "municipio": "INHAPIM",
+      "zona": "128",
+      "secao": "139"
+    }
+  ],
+  "apenasNaVersaoAtual": [
+    {
+      "uf": "AM",
+      "municipio": "URUCURITUBA",
+      "zona": "3",
+      "secao": "245"
+    },
+    {
+      "uf": "AM",
+      "municipio": "URUCURITUBA",
+      "zona": "3",
+      "secao": "246"
+    },
+    {
+      "uf": "AM",
+      "municipio": "URUCURITUBA",
+      "zona": "3",
+      "secao": "247"
+    },
+    {
+      "uf": "AM",
+      "municipio": "URUCURITUBA",
+      "zona": "3",
+      "secao": "248"
+    },
+    {
+      "uf": "AM",
+      "municipio": "URUCURITUBA",
+      "zona": "3",
+      "secao": "301"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "49"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "153"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "154"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "155"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "232"
+    },
+    {
+      "uf": "CE",
+      "municipio": "QUIXERAMOBIM",
+      "zona": "11",
+      "secao": "236"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ORIZONA",
+      "zona": "27",
+      "secao": "92"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ORIZONA",
+      "zona": "27",
+      "secao": "93"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ORIZONA",
+      "zona": "27",
+      "secao": "94"
+    },
+    {
+      "uf": "GO",
+      "municipio": "ORIZONA",
+      "zona": "27",
+      "secao": "143"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "59"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "63"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "70"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "97"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "106"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "109"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "112"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "116"
+    },
+    {
+      "uf": "MT",
+      "municipio": "ALTO ARAGUAIA",
+      "zona": "8",
+      "secao": "118"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "19"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "20"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "21"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "22"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "23"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "24"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "25"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "26"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "27"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "28"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "167"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "7"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "8"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "9"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "101"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "102"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "107"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "115"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "118"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "119"
+    },
+    {
+      "uf": "PA",
+      "municipio": "TUCUMÃ",
+      "zona": "74",
+      "secao": "135"
+    },
+    {
+      "uf": "PE",
+      "municipio": "LIMOEIRO",
+      "zona": "24",
+      "secao": "111"
+    },
+    {
+      "uf": "PE",
+      "municipio": "LIMOEIRO",
+      "zona": "24",
+      "secao": "115"
+    },
+    {
+      "uf": "PE",
+      "municipio": "LIMOEIRO",
+      "zona": "24",
+      "secao": "118"
+    },
+    {
+      "uf": "PE",
+      "municipio": "LIMOEIRO",
+      "zona": "24",
+      "secao": "121"
+    },
+    {
+      "uf": "PI",
+      "municipio": "REDENÇÃO DO GURGUÉIA",
+      "zona": "15",
+      "secao": "39"
+    },
+    {
+      "uf": "PI",
+      "municipio": "REDENÇÃO DO GURGUÉIA",
+      "zona": "15",
+      "secao": "122"
+    },
+    {
+      "uf": "RO",
+      "municipio": "CACAULÂNDIA",
+      "zona": "26",
+      "secao": "158"
+    },
+    {
+      "uf": "RO",
+      "municipio": "CACAULÂNDIA",
+      "zona": "26",
+      "secao": "172"
+    },
+    {
+      "uf": "SC",
+      "municipio": "LUZERNA",
+      "zona": "18",
+      "secao": "159"
+    },
+    {
+      "uf": "SC",
+      "municipio": "LUZERNA",
+      "zona": "18",
+      "secao": "208"
+    }
+  ],
+  "registrosCompartilhadosComCamposAlterados": [
+    {
+      "chave": "AM/BARREIRINHA/26/13",
+      "municipio": "BARREIRINHA",
+      "uf": "AM",
+      "zona": "26",
+      "secao": "13",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "371",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "AM/BARREIRINHA/26/19",
+      "municipio": "BARREIRINHA",
+      "uf": "AM",
+      "zona": "26",
+      "secao": "19",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "373",
+          "atual": "371"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/749",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "749",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/771",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "771",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "369"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/799",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "799",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "370",
+          "atual": "366"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/827",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "827",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "371",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/851",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "851",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "369",
+          "atual": "367"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/882",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "882",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "371",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/906",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "906",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "371",
+          "atual": "369"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/935",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "935",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "367"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/963",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "963",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "371"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/998",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "998",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "367",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/58/1023",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "58",
+      "secao": "1023",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "363",
+          "atual": "372"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/63/550",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "63",
+      "secao": "550",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "388"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/63/591",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "63",
+      "secao": "591",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "390"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/63/649",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "63",
+      "secao": "649",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "393",
+          "atual": "392"
+        }
+      ]
+    },
+    {
+      "chave": "AM/MANAUS/63/709",
+      "municipio": "MANAUS",
+      "uf": "AM",
+      "zona": "63",
+      "secao": "709",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "378",
+          "atual": "376"
+        }
+      ]
+    },
+    {
+      "chave": "AM/TABATINGA/36/82",
+      "municipio": "TABATINGA",
+      "uf": "AM",
+      "zona": "36",
+      "secao": "82",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "396",
+          "atual": "400"
+        }
+      ]
+    },
+    {
+      "chave": "AM/TABATINGA/36/109",
+      "municipio": "TABATINGA",
+      "uf": "AM",
+      "zona": "36",
+      "secao": "109",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "398",
+          "atual": "399"
+        }
+      ]
+    },
+    {
+      "chave": "AP/MACAPA/10/115",
+      "municipio": "MACAPÁ",
+      "uf": "AP",
+      "zona": "10",
+      "secao": "115",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "346",
+          "atual": "344"
+        }
+      ]
+    },
+    {
+      "chave": "AP/MACAPA/10/130",
+      "municipio": "MACAPÁ",
+      "uf": "AP",
+      "zona": "10",
+      "secao": "130",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "341",
+          "atual": "338"
+        }
+      ]
+    },
+    {
+      "chave": "AP/MACAPA/10/298",
+      "municipio": "MACAPÁ",
+      "uf": "AP",
+      "zona": "10",
+      "secao": "298",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "344",
+          "atual": "347"
+        }
+      ]
+    },
+    {
+      "chave": "AP/MACAPA/10/330",
+      "municipio": "MACAPÁ",
+      "uf": "AP",
+      "zona": "10",
+      "secao": "330",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "341",
+          "atual": "340"
+        }
+      ]
+    },
+    {
+      "chave": "AP/MACAPA/10/357",
+      "municipio": "MACAPÁ",
+      "uf": "AP",
+      "zona": "10",
+      "secao": "357",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "344",
+          "atual": "341"
+        }
+      ]
+    },
+    {
+      "chave": "BA/CONCEICAO DO ALMEIDA/184/50",
+      "municipio": "CONCEIÇÃO DO ALMEIDA",
+      "uf": "BA",
+      "zona": "184",
+      "secao": "50",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "340",
+          "atual": "337"
+        }
+      ]
+    },
+    {
+      "chave": "BA/CONCEICAO DO ALMEIDA/184/51",
+      "municipio": "CONCEIÇÃO DO ALMEIDA",
+      "uf": "BA",
+      "zona": "184",
+      "secao": "51",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "338",
+          "atual": "337"
+        }
+      ]
+    },
+    {
+      "chave": "BA/LAGOA REAL/63/64",
+      "municipio": "LAGOA REAL",
+      "uf": "BA",
+      "zona": "63",
+      "secao": "64",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "353",
+          "atual": "354"
+        }
+      ]
+    },
+    {
+      "chave": "BA/LAGOA REAL/63/65",
+      "municipio": "LAGOA REAL",
+      "uf": "BA",
+      "zona": "63",
+      "secao": "65",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "352",
+          "atual": "353"
+        }
+      ]
+    },
+    {
+      "chave": "CE/FORTALEZA/117/194",
+      "municipio": "FORTALEZA",
+      "uf": "CE",
+      "zona": "117",
+      "secao": "194",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "356",
+          "atual": "355"
+        }
+      ]
+    },
+    {
+      "chave": "CE/JARDIM/119/352",
+      "municipio": "JARDIM",
+      "uf": "CE",
+      "zona": "119",
+      "secao": "352",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "186",
+          "atual": "300"
+        }
+      ]
+    },
+    {
+      "chave": "CE/PALMACIA/4/170",
+      "municipio": "PALMÁCIA",
+      "uf": "CE",
+      "zona": "4",
+      "secao": "170",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "299",
+          "atual": "298"
+        }
+      ]
+    },
+    {
+      "chave": "CE/PALMACIA/4/396",
+      "municipio": "PALMÁCIA",
+      "uf": "CE",
+      "zona": "4",
+      "secao": "396",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "300",
+          "atual": "299"
+        }
+      ]
+    },
+    {
+      "chave": "CE/PALMACIA/4/606",
+      "municipio": "PALMÁCIA",
+      "uf": "CE",
+      "zona": "4",
+      "secao": "606",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "320",
+          "atual": "319"
+        }
+      ]
+    },
+    {
+      "chave": "CE/QUIXADA/6/183",
+      "municipio": "QUIXADÁ",
+      "uf": "CE",
+      "zona": "6",
+      "secao": "183",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "182",
+          "atual": "359"
+        }
+      ]
+    },
+    {
+      "chave": "CE/SANTANA DO CARIRI/53/58",
+      "municipio": "SANTANA DO CARIRI",
+      "uf": "CE",
+      "zona": "53",
+      "secao": "58",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "278",
+          "atual": "277"
+        }
+      ]
+    },
+    {
+      "chave": "CE/SANTANA DO CARIRI/53/77",
+      "municipio": "SANTANA DO CARIRI",
+      "uf": "CE",
+      "zona": "53",
+      "secao": "77",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "282"
+        }
+      ]
+    },
+    {
+      "chave": "ES/IBATIBA/10/69",
+      "municipio": "IBATIBA",
+      "uf": "ES",
+      "zona": "10",
+      "secao": "69",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "301",
+          "atual": "299"
+        }
+      ]
+    },
+    {
+      "chave": "ES/IBITIRAMA/18/158",
+      "municipio": "IBITIRAMA",
+      "uf": "ES",
+      "zona": "18",
+      "secao": "158",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "272",
+          "atual": "271"
+        }
+      ]
+    },
+    {
+      "chave": "ES/IBITIRAMA/18/159",
+      "municipio": "IBITIRAMA",
+      "uf": "ES",
+      "zona": "18",
+      "secao": "159",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "271",
+          "atual": "275"
+        }
+      ]
+    },
+    {
+      "chave": "ES/IBITIRAMA/18/162",
+      "municipio": "IBITIRAMA",
+      "uf": "ES",
+      "zona": "18",
+      "secao": "162",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "273",
+          "atual": "272"
+        }
+      ]
+    },
+    {
+      "chave": "ES/IBITIRAMA/18/163",
+      "municipio": "IBITIRAMA",
+      "uf": "ES",
+      "zona": "18",
+      "secao": "163",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "273",
+          "atual": "275"
+        }
+      ]
+    },
+    {
+      "chave": "ES/ITAGUACU/16/18",
+      "municipio": "ITAGUAÇU",
+      "uf": "ES",
+      "zona": "16",
+      "secao": "18",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "280"
+        }
+      ]
+    },
+    {
+      "chave": "ES/ITAGUACU/16/19",
+      "municipio": "ITAGUAÇU",
+      "uf": "ES",
+      "zona": "16",
+      "secao": "19",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "293",
+          "atual": "292"
+        }
+      ]
+    },
+    {
+      "chave": "ES/MANTENOPOLIS/36/169",
+      "municipio": "MANTENÓPOLIS",
+      "uf": "ES",
+      "zona": "36",
+      "secao": "169",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "112",
+          "atual": "342"
+        }
+      ]
+    },
+    {
+      "chave": "ES/MANTENOPOLIS/36/172",
+      "municipio": "MANTENÓPOLIS",
+      "uf": "ES",
+      "zona": "36",
+      "secao": "172",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "113",
+          "atual": "227"
+        }
+      ]
+    },
+    {
+      "chave": "MA/GRACA ARANHA/108/76",
+      "municipio": "GRAÇA ARANHA",
+      "uf": "MA",
+      "zona": "108",
+      "secao": "76",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "278",
+          "atual": "274"
+        }
+      ]
+    },
+    {
+      "chave": "MA/GRACA ARANHA/108/173",
+      "municipio": "GRAÇA ARANHA",
+      "uf": "MA",
+      "zona": "108",
+      "secao": "173",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "275",
+          "atual": "268"
+        }
+      ]
+    },
+    {
+      "chave": "MA/LIMA CAMPOS/67/102",
+      "municipio": "LIMA CAMPOS",
+      "uf": "MA",
+      "zona": "67",
+      "secao": "102",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "191",
+          "atual": "380"
+        }
+      ]
+    },
+    {
+      "chave": "MA/ROSARIO/18/213",
+      "municipio": "ROSÁRIO",
+      "uf": "MA",
+      "zona": "18",
+      "secao": "213",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "60",
+          "atual": "59"
+        }
+      ]
+    },
+    {
+      "chave": "MA/SAO MATEUS DO MARANHAO/84/9",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "uf": "MA",
+      "zona": "84",
+      "secao": "9",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "112",
+          "atual": "232"
+        }
+      ]
+    },
+    {
+      "chave": "MA/SAO MATEUS DO MARANHAO/84/42",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "uf": "MA",
+      "zona": "84",
+      "secao": "42",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "110",
+          "atual": "332"
+        }
+      ]
+    },
+    {
+      "chave": "MA/SAO MATEUS DO MARANHAO/84/59",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "uf": "MA",
+      "zona": "84",
+      "secao": "59",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "111",
+          "atual": "334"
+        }
+      ]
+    },
+    {
+      "chave": "MA/SAO MATEUS DO MARANHAO/84/89",
+      "municipio": "SÃO MATEUS DO MARANHÃO",
+      "uf": "MA",
+      "zona": "84",
+      "secao": "89",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "111",
+          "atual": "332"
+        }
+      ]
+    },
+    {
+      "chave": "MA/TUTOIA/40/92",
+      "municipio": "TUTÓIA",
+      "uf": "MA",
+      "zona": "40",
+      "secao": "92",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "302",
+          "atual": "301"
+        }
+      ]
+    },
+    {
+      "chave": "MA/TUTOIA/40/270",
+      "municipio": "TUTÓIA",
+      "uf": "MA",
+      "zona": "40",
+      "secao": "270",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "296",
+          "atual": "294"
+        }
+      ]
+    },
+    {
+      "chave": "MG/ARINOS/320/31",
+      "municipio": "ARINOS",
+      "uf": "MG",
+      "zona": "320",
+      "secao": "31",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "260",
+          "atual": "258"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CAPITAO ANDRADE/138/33",
+      "municipio": "CAPITÃO ANDRADE",
+      "uf": "MG",
+      "zona": "138",
+      "secao": "33",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "271",
+          "atual": "390"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CAPITAO ANDRADE/138/37",
+      "municipio": "CAPITÃO ANDRADE",
+      "uf": "MG",
+      "zona": "138",
+      "secao": "37",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "246",
+          "atual": "244"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CARMO DA MATA/197/177",
+      "municipio": "CARMO DA MATA",
+      "uf": "MG",
+      "zona": "197",
+      "secao": "177",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "296",
+          "atual": "298"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CARMO DA MATA/197/178",
+      "municipio": "CARMO DA MATA",
+      "uf": "MG",
+      "zona": "197",
+      "secao": "178",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "296",
+          "atual": "294"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CHAPADA GAUCHA/320/194",
+      "municipio": "CHAPADA GAÚCHA",
+      "uf": "MG",
+      "zona": "320",
+      "secao": "194",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "393",
+          "atual": "391"
+        }
+      ]
+    },
+    {
+      "chave": "MG/CHAPADA GAUCHA/320/209",
+      "municipio": "CHAPADA GAÚCHA",
+      "uf": "MG",
+      "zona": "320",
+      "secao": "209",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "396",
+          "atual": "395"
+        }
+      ]
+    },
+    {
+      "chave": "MG/ENTRE RIOS DE MINAS/106/32",
+      "municipio": "ENTRE RIOS DE MINAS",
+      "uf": "MG",
+      "zona": "106",
+      "secao": "32",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "364",
+          "atual": "363"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/344",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "344",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "196",
+          "atual": "197"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/172",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "172",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "254",
+          "atual": "255"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JANUARIA/148/362",
+      "municipio": "JANUÁRIA",
+      "uf": "MG",
+      "zona": "148",
+      "secao": "362",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "252",
+          "atual": "251"
+        }
+      ]
+    },
+    {
+      "chave": "MG/JOAO PINHEIRO/151/88",
+      "municipio": "JOÃO PINHEIRO",
+      "uf": "MG",
+      "zona": "151",
+      "secao": "88",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "130",
+          "atual": "262"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MANHUACU/167/156",
+      "municipio": "MANHUAÇU",
+      "uf": "MG",
+      "zona": "167",
+      "secao": "156",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "253",
+          "atual": "254"
+        }
+      ]
+    },
+    {
+      "chave": "MG/MARIANA/171/68",
+      "municipio": "MARIANA",
+      "uf": "MG",
+      "zona": "171",
+      "secao": "68",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "350",
+          "atual": "351"
+        }
+      ]
+    },
+    {
+      "chave": "MG/NOVA ERA/193/44",
+      "municipio": "NOVA ERA",
+      "uf": "MG",
+      "zona": "193",
+      "secao": "44",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "241",
+          "atual": "240"
+        }
+      ]
+    },
+    {
+      "chave": "MG/NOVA ERA/193/47",
+      "municipio": "NOVA ERA",
+      "uf": "MG",
+      "zona": "193",
+      "secao": "47",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "245",
+          "atual": "244"
+        }
+      ]
+    },
+    {
+      "chave": "MG/NOVA ERA/193/85",
+      "municipio": "NOVA ERA",
+      "uf": "MG",
+      "zona": "193",
+      "secao": "85",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "246",
+          "atual": "247"
+        }
+      ]
+    },
+    {
+      "chave": "MG/PARACATU/203/146",
+      "municipio": "PARACATU",
+      "uf": "MG",
+      "zona": "203",
+      "secao": "146",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "341",
+          "atual": "340"
+        }
+      ]
+    },
+    {
+      "chave": "MG/PARACATU/203/218",
+      "municipio": "PARACATU",
+      "uf": "MG",
+      "zona": "203",
+      "secao": "218",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "341",
+          "atual": "343"
+        }
+      ]
+    },
+    {
+      "chave": "MG/RIO PIRACICABA/150/216",
+      "municipio": "RIO PIRACICABA",
+      "uf": "MG",
+      "zona": "150",
+      "secao": "216",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "266",
+          "atual": "267"
+        }
+      ]
+    },
+    {
+      "chave": "MG/RIO PIRACICABA/150/217",
+      "municipio": "RIO PIRACICABA",
+      "uf": "MG",
+      "zona": "150",
+      "secao": "217",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "268",
+          "atual": "267"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/105",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "105",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "324",
+          "atual": "323"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/107",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "107",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "320",
+          "atual": "321"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/108",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "108",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "326",
+          "atual": "323"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/109",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "109",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "381",
+          "atual": "382"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/329",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "329",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "391",
+          "atual": "389"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/330",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "330",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "392",
+          "atual": "391"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UBA/275/402",
+      "municipio": "UBÁ",
+      "uf": "MG",
+      "zona": "275",
+      "secao": "402",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "327",
+          "atual": "325"
+        }
+      ]
+    },
+    {
+      "chave": "MG/UNAI/280/213",
+      "municipio": "UNAÍ",
+      "uf": "MG",
+      "zona": "280",
+      "secao": "213",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "164",
+          "atual": "171"
+        }
+      ]
+    },
+    {
+      "chave": "MS/MARACAJU/16/56",
+      "municipio": "MARACAJU",
+      "uf": "MS",
+      "zona": "16",
+      "secao": "56",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "70",
+          "atual": "72"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CONFRESA/28/126",
+      "municipio": "CONFRESA",
+      "uf": "MT",
+      "zona": "28",
+      "secao": "126",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "379",
+          "atual": "381"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CONFRESA/28/224",
+      "municipio": "CONFRESA",
+      "uf": "MT",
+      "zona": "28",
+      "secao": "224",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "196",
+          "atual": "197"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CUIABA/1/1010",
+      "municipio": "CUIABÁ",
+      "uf": "MT",
+      "zona": "1",
+      "secao": "1010",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "314",
+          "atual": "312"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CUIABA/1/1011",
+      "municipio": "CUIABÁ",
+      "uf": "MT",
+      "zona": "1",
+      "secao": "1011",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "309",
+          "atual": "308"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CUIABA/1/1012",
+      "municipio": "CUIABÁ",
+      "uf": "MT",
+      "zona": "1",
+      "secao": "1012",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "310",
+          "atual": "307"
+        }
+      ]
+    },
+    {
+      "chave": "MT/CUIABA/1/1013",
+      "municipio": "CUIABÁ",
+      "uf": "MT",
+      "zona": "1",
+      "secao": "1013",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "313",
+          "atual": "310"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ALMEIRIM/55/137",
+      "municipio": "ALMEIRIM",
+      "uf": "PA",
+      "zona": "55",
+      "secao": "137",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "327",
+          "atual": "326"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ALMEIRIM/55/11",
+      "municipio": "ALMEIRIM",
+      "uf": "PA",
+      "zona": "55",
+      "secao": "11",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "214",
+          "atual": "213"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/1",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "1",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "314",
+          "atual": "313"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/2",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "2",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "305",
+          "atual": "301"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/3",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "3",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "306",
+          "atual": "305"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/4",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "4",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "308",
+          "atual": "305"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/47",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "47",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "301",
+          "atual": "298"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/53",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "53",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "308",
+          "atual": "306"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/62",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "62",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "307",
+          "atual": "301"
+        }
+      ]
+    },
+    {
+      "chave": "PA/ANAJAS/90/70",
+      "municipio": "ANAJÁS",
+      "uf": "PA",
+      "zona": "90",
+      "secao": "70",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "314",
+          "atual": "312"
+        }
+      ]
+    },
+    {
+      "chave": "PA/BREVES/15/50",
+      "municipio": "BREVES",
+      "uf": "PA",
+      "zona": "15",
+      "secao": "50",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "366",
+          "atual": "367"
+        }
+      ]
+    },
+    {
+      "chave": "PA/BREVES/15/154",
+      "municipio": "BREVES",
+      "uf": "PA",
+      "zona": "15",
+      "secao": "154",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "367",
+          "atual": "369"
+        }
+      ]
+    },
+    {
+      "chave": "PA/BREVES/15/264",
+      "municipio": "BREVES",
+      "uf": "PA",
+      "zona": "15",
+      "secao": "264",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "367",
+          "atual": "368"
+        }
+      ]
+    },
+    {
+      "chave": "PA/BREVES/15/308",
+      "municipio": "BREVES",
+      "uf": "PA",
+      "zona": "15",
+      "secao": "308",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "363",
+          "atual": "364"
+        }
+      ]
+    },
+    {
+      "chave": "PA/CASTANHAL/50/345",
+      "municipio": "CASTANHAL",
+      "uf": "PA",
+      "zona": "50",
+      "secao": "345",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "362",
+          "atual": "360"
+        }
+      ]
+    },
+    {
+      "chave": "PA/CASTANHAL/50/347",
+      "municipio": "CASTANHAL",
+      "uf": "PA",
+      "zona": "50",
+      "secao": "347",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "360",
+          "atual": "359"
+        }
+      ]
+    },
+    {
+      "chave": "PA/CASTANHAL/50/348",
+      "municipio": "CASTANHAL",
+      "uf": "PA",
+      "zona": "50",
+      "secao": "348",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "359",
+          "atual": "355"
+        }
+      ]
+    },
+    {
+      "chave": "PA/MARACANA/31/17",
+      "municipio": "MARACANÃ",
+      "uf": "PA",
+      "zona": "31",
+      "secao": "17",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "99",
+          "atual": "294"
+        }
+      ]
+    },
+    {
+      "chave": "PA/SANTAREM/83/270",
+      "municipio": "SANTARÉM",
+      "uf": "PA",
+      "zona": "83",
+      "secao": "270",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "364",
+          "atual": "362"
+        }
+      ]
+    },
+    {
+      "chave": "PA/SANTAREM/83/272",
+      "municipio": "SANTARÉM",
+      "uf": "PA",
+      "zona": "83",
+      "secao": "272",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "367",
+          "atual": "365"
+        }
+      ]
+    },
+    {
+      "chave": "PA/VIGIA/8/234",
+      "municipio": "VIGIA",
+      "uf": "PA",
+      "zona": "8",
+      "secao": "234",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "315",
+          "atual": "314"
+        }
+      ]
+    },
+    {
+      "chave": "PB/SAO BENTO/69/136",
+      "municipio": "SÃO BENTO",
+      "uf": "PB",
+      "zona": "69",
+      "secao": "136",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "196",
+          "atual": "198"
+        }
+      ]
+    },
+    {
+      "chave": "PB/UIRAUNA/53/2",
+      "municipio": "UIRAÚNA",
+      "uf": "PB",
+      "zona": "53",
+      "secao": "2",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "319",
+          "atual": "314"
+        }
+      ]
+    },
+    {
+      "chave": "PB/UIRAUNA/53/64",
+      "municipio": "UIRAÚNA",
+      "uf": "PB",
+      "zona": "53",
+      "secao": "64",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "257",
+          "atual": "256"
+        }
+      ]
+    },
+    {
+      "chave": "PB/VIEIROPOLIS/53/110",
+      "municipio": "VIEIRÓPOLIS",
+      "uf": "PB",
+      "zona": "53",
+      "secao": "110",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "209",
+          "atual": "413"
+        }
+      ]
+    },
+    {
+      "chave": "PE/BUIQUE/60/5",
+      "municipio": "BUÍQUE",
+      "uf": "PE",
+      "zona": "60",
+      "secao": "5",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "378",
+          "atual": "376"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/68",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "68",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "392",
+          "atual": "387"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/91",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "91",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "390",
+          "atual": "387"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/121",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "121",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "390",
+          "atual": "388"
+        }
+      ]
+    },
+    {
+      "chave": "PE/FLORESTA/72/123",
+      "municipio": "FLORESTA",
+      "uf": "PE",
+      "zona": "72",
+      "secao": "123",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "395",
+          "atual": "394"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BARRAS/6/131",
+      "municipio": "BARRAS",
+      "uf": "PI",
+      "zona": "6",
+      "secao": "131",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "295",
+          "atual": "296"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BARRAS/6/136",
+      "municipio": "BARRAS",
+      "uf": "PI",
+      "zona": "6",
+      "secao": "136",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "294",
+          "atual": "295"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BARRAS/6/157",
+      "municipio": "BARRAS",
+      "uf": "PI",
+      "zona": "6",
+      "secao": "157",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "293",
+          "atual": "292"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BARRAS/6/164",
+      "municipio": "BARRAS",
+      "uf": "PI",
+      "zona": "6",
+      "secao": "164",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "294",
+          "atual": "293"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BARRAS/6/171",
+      "municipio": "BARRAS",
+      "uf": "PI",
+      "zona": "6",
+      "secao": "171",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "292",
+          "atual": "290"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BOM JESUS/15/111",
+      "municipio": "BOM JESUS",
+      "uf": "PI",
+      "zona": "15",
+      "secao": "111",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "263",
+          "atual": "262"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BOM JESUS/15/118",
+      "municipio": "BOM JESUS",
+      "uf": "PI",
+      "zona": "15",
+      "secao": "118",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "214",
+          "atual": "213"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BOM JESUS/15/129",
+      "municipio": "BOM JESUS",
+      "uf": "PI",
+      "zona": "15",
+      "secao": "129",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "220",
+          "atual": "216"
+        }
+      ]
+    },
+    {
+      "chave": "PI/BOM JESUS/15/132",
+      "municipio": "BOM JESUS",
+      "uf": "PI",
+      "zona": "15",
+      "secao": "132",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "219",
+          "atual": "217"
+        }
+      ]
+    },
+    {
+      "chave": "PI/CAMPINAS DO PIAUI/90/101",
+      "municipio": "CAMPINAS DO PIAUÍ",
+      "uf": "PI",
+      "zona": "90",
+      "secao": "101",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "181",
+          "atual": "361"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/9",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "9",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "282"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/10",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "10",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "284",
+          "atual": "281"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/33",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "33",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "282",
+          "atual": "283"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/38",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "38",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "282",
+          "atual": "281"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/40",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "40",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "276",
+          "atual": "272"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/61",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "61",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "282"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/7",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "7",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "246",
+          "atual": "250"
+        }
+      ]
+    },
+    {
+      "chave": "PI/GUADALUPE/46/8",
+      "municipio": "GUADALUPE",
+      "uf": "PI",
+      "zona": "46",
+      "secao": "8",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "245",
+          "atual": "243"
+        }
+      ]
+    },
+    {
+      "chave": "PI/SAO RAIMUNDO NONATO/13/131",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "uf": "PI",
+      "zona": "13",
+      "secao": "131",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "253",
+          "atual": "252"
+        }
+      ]
+    },
+    {
+      "chave": "PI/SAO RAIMUNDO NONATO/13/232",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "uf": "PI",
+      "zona": "13",
+      "secao": "232",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "177",
+          "atual": "298"
+        }
+      ]
+    },
+    {
+      "chave": "PI/SAO RAIMUNDO NONATO/13/265",
+      "municipio": "SÃO RAIMUNDO NONATO",
+      "uf": "PI",
+      "zona": "13",
+      "secao": "265",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "130",
+          "atual": "252"
+        }
+      ]
+    },
+    {
+      "chave": "PR/CANDOI/203/214",
+      "municipio": "CANDÓI",
+      "uf": "PR",
+      "zona": "203",
+      "secao": "214",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "278",
+          "atual": "279"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/2",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "2",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "308",
+          "atual": "305"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/3",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "3",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "317",
+          "atual": "313"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/4",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "4",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "325",
+          "atual": "319"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/5",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "5",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "325",
+          "atual": "318"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/6",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "6",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "316",
+          "atual": "315"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/123",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "123",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "315",
+          "atual": "311"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/154",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "154",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "316",
+          "atual": "311"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/189",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "189",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "321",
+          "atual": "316"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/210",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "210",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "320",
+          "atual": "313"
+        }
+      ]
+    },
+    {
+      "chave": "PR/LARANJEIRAS DO SUL/45/245",
+      "municipio": "LARANJEIRAS DO SUL",
+      "uf": "PR",
+      "zona": "45",
+      "secao": "245",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "305",
+          "atual": "301"
+        }
+      ]
+    },
+    {
+      "chave": "PR/SANTO ANTONIO DO SUDOESTE/83/34",
+      "municipio": "SANTO ANTÔNIO DO SUDOESTE",
+      "uf": "PR",
+      "zona": "83",
+      "secao": "34",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "216",
+          "atual": "219"
+        }
+      ]
+    },
+    {
+      "chave": "RJ/RIO DE JANEIRO/188/124",
+      "municipio": "RIO DE JANEIRO",
+      "uf": "RJ",
+      "zona": "188",
+      "secao": "124",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "386",
+          "atual": "383"
+        }
+      ]
+    },
+    {
+      "chave": "RJ/RIO DE JANEIRO/188/125",
+      "municipio": "RIO DE JANEIRO",
+      "uf": "RJ",
+      "zona": "188",
+      "secao": "125",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "373",
+          "atual": "371"
+        }
+      ]
+    },
+    {
+      "chave": "RN/BODO/20/188",
+      "municipio": "BODÓ",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "188",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "380",
+          "atual": "379"
+        }
+      ]
+    },
+    {
+      "chave": "RN/BODO/20/190",
+      "municipio": "BODÓ",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "190",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "377",
+          "atual": "375"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/7",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "7",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "284",
+          "atual": "280"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/28",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "28",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "286",
+          "atual": "284"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/41",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "41",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "282",
+          "atual": "279"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/3",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "3",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "277"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/5",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "5",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "283",
+          "atual": "280"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CARAUBAS/36/6",
+      "municipio": "CARAÚBAS",
+      "uf": "RN",
+      "zona": "36",
+      "secao": "6",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "281",
+          "atual": "278"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CURRAIS NOVOS/20/128",
+      "municipio": "CURRAIS NOVOS",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "128",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "296",
+          "atual": "293"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CURRAIS NOVOS/20/144",
+      "municipio": "CURRAIS NOVOS",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "144",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "295",
+          "atual": "292"
+        }
+      ]
+    },
+    {
+      "chave": "RN/CURRAIS NOVOS/20/147",
+      "municipio": "CURRAIS NOVOS",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "147",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "298",
+          "atual": "297"
+        }
+      ]
+    },
+    {
+      "chave": "RN/DOUTOR SEVERIANO/43/10",
+      "municipio": "DOUTOR SEVERIANO",
+      "uf": "RN",
+      "zona": "43",
+      "secao": "10",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "176",
+          "atual": "351"
+        }
+      ]
+    },
+    {
+      "chave": "RN/DOUTOR SEVERIANO/43/66",
+      "municipio": "DOUTOR SEVERIANO",
+      "uf": "RN",
+      "zona": "43",
+      "secao": "66",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "175",
+          "atual": "345"
+        }
+      ]
+    },
+    {
+      "chave": "RN/DOUTOR SEVERIANO/43/82",
+      "municipio": "DOUTOR SEVERIANO",
+      "uf": "RN",
+      "zona": "43",
+      "secao": "82",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "176",
+          "atual": "356"
+        }
+      ]
+    },
+    {
+      "chave": "RN/LAGOA NOVA/20/161",
+      "municipio": "LAGOA NOVA",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "161",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "326",
+          "atual": "323"
+        }
+      ]
+    },
+    {
+      "chave": "RN/LAGOA NOVA/20/185",
+      "municipio": "LAGOA NOVA",
+      "uf": "RN",
+      "zona": "20",
+      "secao": "185",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "326",
+          "atual": "325"
+        }
+      ]
+    },
+    {
+      "chave": "RN/UPANEMA/49/32",
+      "municipio": "UPANEMA",
+      "uf": "RN",
+      "zona": "49",
+      "secao": "32",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "385",
+          "atual": "391"
+        }
+      ]
+    },
+    {
+      "chave": "RO/GUAJARA-MIRIM/1/191",
+      "municipio": "GUAJARÁ-MIRIM",
+      "uf": "RO",
+      "zona": "1",
+      "secao": "191",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "262",
+          "atual": "266"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/381",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "381",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "308",
+          "atual": "305"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/382",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "382",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "309",
+          "atual": "305"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/383",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "383",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "312",
+          "atual": "308"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/384",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "384",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "311",
+          "atual": "309"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/385",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "385",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "311",
+          "atual": "303"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/386",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "386",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "308",
+          "atual": "301"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/387",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "387",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "305",
+          "atual": "311"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/388",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "388",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "306",
+          "atual": "299"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/389",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "389",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "307",
+          "atual": "303"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PORTO VELHO/2/542",
+      "municipio": "PORTO VELHO",
+      "uf": "RO",
+      "zona": "2",
+      "secao": "542",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "303",
+          "atual": "311"
+        }
+      ]
+    },
+    {
+      "chave": "RO/PRESIDENTE MEDICI/3/323",
+      "municipio": "PRESIDENTE MÉDICI",
+      "uf": "RO",
+      "zona": "3",
+      "secao": "323",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "216",
+          "atual": "221"
+        }
+      ]
+    },
+    {
+      "chave": "RS/MANOEL VIANA/79/62",
+      "municipio": "MANOEL VIANA",
+      "uf": "RS",
+      "zona": "79",
+      "secao": "62",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "296",
+          "atual": "297"
+        }
+      ]
+    },
+    {
+      "chave": "RS/PAROBE/55/278",
+      "municipio": "PAROBÉ",
+      "uf": "RS",
+      "zona": "55",
+      "secao": "278",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "229",
+          "atual": "230"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SANTA MARIA/135/3",
+      "municipio": "SANTA MARIA",
+      "uf": "RS",
+      "zona": "135",
+      "secao": "3",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "414",
+          "atual": "415"
+        }
+      ]
+    },
+    {
+      "chave": "RS/SANTA MARIA/135/290",
+      "municipio": "SANTA MARIA",
+      "uf": "RS",
+      "zona": "135",
+      "secao": "290",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "390",
+          "atual": "387"
+        }
+      ]
+    },
+    {
+      "chave": "RS/URUGUAIANA/57/97",
+      "municipio": "URUGUAIANA",
+      "uf": "RS",
+      "zona": "57",
+      "secao": "97",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "358",
+          "atual": "354"
+        }
+      ]
+    },
+    {
+      "chave": "RS/URUGUAIANA/57/185",
+      "municipio": "URUGUAIANA",
+      "uf": "RS",
+      "zona": "57",
+      "secao": "185",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "357",
+          "atual": "356"
+        }
+      ]
+    },
+    {
+      "chave": "SE/NOSSA SENHORA DO SOCORRO/34/371",
+      "municipio": "NOSSA SENHORA DO SOCORRO",
+      "uf": "SE",
+      "zona": "34",
+      "secao": "371",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "374",
+          "atual": "372"
+        }
+      ]
+    },
+    {
+      "chave": "SP/IBITINGA/49/39",
+      "municipio": "IBITINGA",
+      "uf": "SP",
+      "zona": "49",
+      "secao": "39",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "250",
+          "atual": "249"
+        }
+      ]
+    },
+    {
+      "chave": "SP/IBITINGA/49/40",
+      "municipio": "IBITINGA",
+      "uf": "SP",
+      "zona": "49",
+      "secao": "40",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "250",
+          "atual": "249"
+        }
+      ]
+    },
+    {
+      "chave": "SP/IBITINGA/49/41",
+      "municipio": "IBITINGA",
+      "uf": "SP",
+      "zona": "49",
+      "secao": "41",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "255",
+          "atual": "253"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO JOAO DA BOA VISTA/122/156",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "uf": "SP",
+      "zona": "122",
+      "secao": "156",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "370"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO JOAO DA BOA VISTA/122/211",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "uf": "SP",
+      "zona": "122",
+      "secao": "211",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "376",
+          "atual": "374"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO JOAO DA BOA VISTA/122/215",
+      "municipio": "SÃO JOÃO DA BOA VISTA",
+      "uf": "SP",
+      "zona": "122",
+      "secao": "215",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "372",
+          "atual": "371"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/185",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "185",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "387",
+          "atual": "388"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/186",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "186",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "384",
+          "atual": "382"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/187",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "187",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "392",
+          "atual": "390"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/188",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "188",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "391",
+          "atual": "392"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/189",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "189",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "388",
+          "atual": "386"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/190",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "190",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "387",
+          "atual": "385"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/239",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "239",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "388"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/257",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "257",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "387"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/306",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "306",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "386"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/339",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "339",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "389",
+          "atual": "387"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/256/432",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "256",
+      "secao": "432",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "391",
+          "atual": "389"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/320/357",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "320",
+      "secao": "357",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "182",
+          "atual": "184"
+        }
+      ]
+    },
+    {
+      "chave": "SP/SAO PAULO/320/366",
+      "municipio": "SÃO PAULO",
+      "uf": "SP",
+      "zona": "320",
+      "secao": "366",
+      "campos": [
+        {
+          "campo": "eleitorado",
+          "anterior": "180",
+          "atual": "185"
+        }
+      ]
+    }
+  ]
+}
