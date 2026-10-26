@@ -89,6 +89,18 @@ button, input, select { font: inherit; }
 .edition { color: #d6eeeb; font-size: 0.95rem; font-weight: 700; text-align: right; }
 
 .page-shell { padding-block: 1.25rem 2rem; }
+.election-closed-notice {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  color: #5b3428;
+  background: #fff6dc;
+  border: 1px solid #bc822b;
+  border-left-width: 5px;
+  border-radius: 8px;
+}
+.election-closed-notice p { margin: 0; }
+.election-closed-notice strong { color: #513413; }
+.election-closed-notice a { font-weight: 750; }
 .intro { padding-block: 0.75rem 1rem; }
 .eyebrow { margin: 0 0 0.3rem; color: #2f6672; font-size: 0.94rem; font-weight: 800; }
 h1, h2, h3, p { margin-top: 0; }

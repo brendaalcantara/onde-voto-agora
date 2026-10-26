@@ -1,6 +1,6 @@
 const CANONICAL_SITE_URL = "https://ondevotoagora.com.br/";
 const SHARE_TITLE = "OndeVotoAgora";
-const SHARE_TEXT = "Consulte se sua seção mudou de local para o 2º turno.";
+const SHARE_TEXT = "Consulte o registro histórico de mudanças de local nas Eleições 2026.";
 
 const status = document.querySelector("[data-share-status]");
 const copyButton = document.querySelector("[data-copy-site-link]");
